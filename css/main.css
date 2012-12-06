@@ -11,7 +11,15 @@ body {
 	-o-font-feature-settings:"onum" 1;
 	-webkit-font-feature-settings:"onum" 1;
 	font-feature-settings:"onum" 1; 
-}   
+}
+
+.wf-loading header, .wf-loading section, .wf-loading footer {
+    opacity: 0;
+}
+
+header, section, footer {
+    transition:opacity 0.5s;
+}
 
 h1, h2 ,h3 {
 	font-family: "Karmina Sans Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
@@ -62,18 +70,6 @@ body {
 	margin: 0;
 	text-align: center;
 }
-
-/* This is mental but quite cool 
-
-body {
-	-webkit-transition: all 0.3s ease-out;  
-	-moz-transition: all 0.3s ease-out;  
-	-o-transition: all 0.3s ease-out; 
-    transition: all 0.3s ease-out;  
-}
-
-*/
-
 
 a { color: #FFF064 }
 

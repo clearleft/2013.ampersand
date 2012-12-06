@@ -8,7 +8,28 @@
 		<meta name="viewport" content="width=device-width; initial-scale=1">
 		<noscript>
 		<link rel="stylesheet" href="//f.fontdeck.com/s/css/zyDGxBT76l/hw9h5tPDD/DiwhiQ/ampersandconf.com/27064.css" type="text/css" />
-		</noscript>
+        </noscript>
+        
+        <script>
+            var htmlEl = document.getElementsByTagName('html')[0];
+            var htmlClass = ' js wf-loading'
+            if (document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")) {
+                htmlClass += ' svg';
+            }
+            htmlEl.className += htmlClass;
+            setTimeout(function() {
+                htmlEl.className = htmlEl.className.replace(' wf-loading', '');
+            }, 5000);
+            (function() {
+                WebFontConfig = { fontdeck: { id: 27064 } }
+                var wf = document.createElement('script');
+                wf.src = 'http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'
+                wf.async = 'true';
+                var s = document.getElementsByTagName('head')[0];
+                s.appendChild(wf);
+            })();
+        </script>		
+		
 		<link rel="stylesheet" href="css/main.css">
 		<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 		<!--[if (gte IE 8)&(lt IE 9)]><script src="js/css3-media-queries.js"></script><![endif]-->
@@ -17,8 +38,8 @@
 		
 
 	   <header class="header">
-	   		<h1 >Ampersand</h1>
-	   		<h2 >The Web Typography Conference</h2>
+	   		<h1>Ampersand</h1>
+	   		<h2>The Web Typography Conference</h2>
 	   </header>
 	   
 	   <section class="vevent brighton">
@@ -42,20 +63,6 @@
 		<footer class="clearleft">
 			<p>Presented by <a href="http://clearleft.co.uk">Clearleft</a>, a user experience design consultancy based in Brighton,&nbsp;UK</p>
 		</footer>
-		
-		<script type="text/javascript">
-        WebFontConfig = { fontdeck: { id: '27064' } };
-        
-        (function() {
-          var wf = document.createElement('script');
-          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-          wf.type = 'text/javascript';
-          wf.async = 'true';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(wf, s);
-        })();
-        </script>
 		
 	</body>
 
