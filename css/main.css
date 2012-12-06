@@ -1,10 +1,9 @@
-
 /* ==========================================================================
    Ampersand 2013  -  @bevan7
    ========================================================================== */
    
 body {
-	font-family: "Karmina Regular", Cambria, "Times New Roman", serif;
+	font-family: "Karmina Regular", Cambria, Palatino, "Times New Roman", serif;
 	-moz-font-feature-settings:"onum" 1;
 	-moz-font-feature-settings:"onum=1";
 	-ms-font-feature-settings:"onum" 1;
@@ -21,32 +20,59 @@ header, section, footer {
     transition:opacity 0.5s;
 }
 
-h1, h2 ,h3 {
-	font-family: "Karmina Sans Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+h1,
+h2,
+h3 {
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Avenir Next", sans-serif;
 	font-weight: bold;
+}
+
+.wf-active h1,
+.wf-active h2,
+.wf-active h3 {
+	font-family: "Karmina Sans Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Avenir Next", sans-serif;
 }
 
 .brighton,
 .header h2 {
-	font-family: 'Karmina Sans Regular', Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Avenir Next", sans-serif;
 	font-weight: normal;
 }
 
-.brighton h1, .clearleft a {
-	font-family: "Karmina Bold", Cambria, "Times New Roman", serif;
+.wf-active .brighton,
+.wf-active .header h2 {
+	font-family: 'Karmina Sans Regular', Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Avenir Next", sans-serif;
+}
+
+.brighton h1,
+.clearleft a {
+	font-family: Cambria, Palatino, "Times New Roman", serif;
 	font-weight: bold;
+}
+
+.wf-active .brighton h1,
+.wf-active .clearleft a {
+	font-family: "Karmina Bold", Cambria, Palatino, "Times New Roman", serif;
 }
 
 .brighton .button {
-	font-family:"Karmina Bold Italic", Cambria, "Times New Roman", serif;
+	font-family:Cambria, Palatino, "Times New Roman", serif;
 	font-weight: bold;
 	font-style: italic;
 }
 
+.wf-active .brighton .button {
+	font-family:"Karmina Bold Italic", Cambria, Palatino, "Times New Roman", serif;
+}
+
 .new-york .button {
-	font-family: "Karmina Sans Bold Italic", Corbel, "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-family: Corbel, "Lucida Sans Unicode", "Lucida Sans", "Avenir Next", sans-serif;
 	font-style: italic;
 	font-weight: bold;
+}
+
+.wf-active .new-york .button {
+	font-family: "Karmina Sans Bold Italic", Corbel, "Lucida Sans Unicode", "Lucida Sans", "Avenir Next", sans-serif;
 }
 
 html {
@@ -233,7 +259,6 @@ h1 {
 
 
 @media only screen and (min-width: 35em) {
-
 
 	html {
 		height: 100%;
