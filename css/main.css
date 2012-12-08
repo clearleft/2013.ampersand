@@ -69,6 +69,7 @@ body {
 	background-size: 200%;
 	margin: 0;
 	text-align: center;
+	-webkit-font-smoothing: antialiased;
 }
 
 a { color: #FFF064 }
