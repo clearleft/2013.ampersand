@@ -128,14 +128,16 @@ h1 {
 }
 
 .vevent .details {
-	display: block;
+	display: inline;
 	margin-bottom: 0.7em;
+	padding-right: 10px;
 }
 
 .vevent a.lanyrd {
 	position: relative;
-	display: inline;
+	display: inline-block;
 	margin-left: 28px;
+	text-indent: -9999px;
 }
 
 .vevent a.lanyrd:before {
@@ -146,7 +148,7 @@ h1 {
 	width: 21px;
 	height: 21px;
 	left: -28px;
-	top:0px;
+	top:2px;
 }
 
 .vevent.new-york a.lanyrd:before {
@@ -331,6 +333,15 @@ h1 {
 		float: left;
 	}
 	
+	.vevent .details {
+		display: block;
+		padding-right:0px;
+	}
+	
+	.vevent a.lanyrd {
+		text-indent: 0;
+	}
+	
 	.new-york .info {
 		height: 100%;
 		padding:  2em 5%;
@@ -444,23 +455,21 @@ h1 {
 }
 
 
-
-
-@media only screen and (min-height: 28em) {
+@media only screen and (min-width: 35em) and (min-height: 32em) {
 
 	.vevent a.button {
-		margin-top: 15em;
+		margin-top: 16em;
 	}
 }
 
-@media only screen and (min-height: 35em) {
+@media only screen and (min-width: 35em) and (min-height: 40em) {
 
 	.vevent a.button {
-		margin-top: 19em;
+		margin-top: 20em;
 	}
 }
 
-@media only screen and (min-height: 40em) {
+@media only screen and (min-height: 42em) {
 
 	.vevent a.button {
 		margin-top: 23em;
