@@ -48,15 +48,15 @@
 	<section class="section social">
 		<h3>Keep Updated with the latest Ampersand activity</h3>
 		<ul>
-			<li id="twitter"><a href="#"></li>
-			<li id="rss"><a href="#"></li>
-			<li id="lanyrd"><a href="#"></li>
-			<li id="ical"><a href="#"></li>
+			<li><a  id="twitter" href="http://twitter.com/ampersandconf">Follow</a></li>
+			<li><a id="rss" href="http://feeds.feedburner.com/clearleftevents">Subscribe</a></li>
+			<li><a id="lanyrd" href="http://lanyrd.com/2011/ampersand/">Lanyrd</a></li>
+			<li><a id="ical" href="webcal://h2vx.com/ics/ampersandconf.com/schedule">+&nbsp;iCal</a></li>
 		</ul>
 		
-		<p>Follow Ampersand on Twitter <a href="http://twitter.com/ampersandconf">@ampersandconf</a> <a href="https://twitter.com/#!/search/realtime/ampconf">#ampconf</a> 
+		<!-- ><p>Follow Ampersand on Twitter <a href="http://twitter.com/ampersandconf">@ampersandconf</a> <a href="https://twitter.com/#!/search/realtime/ampconf">#ampconf</a> 
 		&amp; track who's attending on the social conference directory <a href="http://lanyrd.com/2012/ampersand/">Lanyrd.</a></p>
-	</section> 
+	</section>   -->
 
 	<!-- CLEARLEFT FOOTER -->
 	<footer >
@@ -65,7 +65,7 @@
 			<p>Presented by <a href="http://clearleft.com" title="Clearleft" >Clearleft</a>, a user experience design consultancy based in Brighton, UK.
 			Email us on <a href="mailto:ampersand@clearleft.com" title="ampersand@clearleft.com">ampersand@clearleft.com</a>
 			</p>
-			<small>Ampersand &copy; 2011 Clearleft Ltd. All rights reserved. Set in flavours of <a href="http://fontdeck.com/typefaces/all/tags/superfamily:trilogy">Trilogy</a> 
+			<small>Ampersand &copy; 2011 Clearleft Ltd. All rights reserved. Set in flavours of <a href="http://fontdeck.com/typeface/karmina">Karmina</a> and <a href="http://fontdeck.com/typeface/karmina"> Karmina Sans </a>
 			served by <a href="http://fontdeck.com/">Fontdeck.</a></small>
 			
 		</div>
