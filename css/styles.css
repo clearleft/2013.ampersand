@@ -65,12 +65,12 @@ div { font-family:"Karmina Regular", Georgia, serif; font-size-adjust:0.463; fon
 
 html {
 	background: #1a6259; /* Old browsers */
-	background: -moz-linear-gradient(left,  #1a6259 0%, #1f445a 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1a6259), color-stop(100%,#1f445a)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #1a6259 0%,#1f445a 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #1a6259 0%,#1f445a 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #1a6259 0%,#1f445a 100%); /* IE10+ */
-	background: linear-gradient(to right,  #1a6259 0%,#1f445a 100%); /* W3C */
+	background: -moz-linear-gradient(left,  #1a6259 0%, #193749 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1a6259), color-stop(100%,#193749)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1a6259 0%,#193749 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1a6259 0%,#193749 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1a6259 0%,#193749 100%); /* IE10+ */
+	background: linear-gradient(to right,  #1a6259 0%,#193749 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a6259', endColorstr='#1f445a',GradientType=1 ); /* IE6-9 */
 }
 
@@ -92,7 +92,7 @@ h5 {
 	font-style:normal; 
 	letter-spacing:.08em; 
 	font-size:1em; 
-	margin:34px 0 14px;  
+	margin:34px 0 0 0;  
 	color:#fff064;
 }
 	
@@ -101,7 +101,6 @@ a{ color:#fff064; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 header { width:100%; padding: 12px 0 0 0; text-align: center;}
-.ampersand-logo img{ max-width: 25%;}
 .conf-title {color:#ffffff; font-size:2.2em; letter-spacing: .1em; }
 .description { 
 	font-family:"Karmina Sans Light", sans-serif; 
@@ -114,7 +113,9 @@ header { width:100%; padding: 12px 0 0 0; text-align: center;}
 	text-transform: uppercase; 
 	color:#ffffff;
 }
-.location { color:#fff064; letter-spacing: .1em; font-size:.8em; margin:27px 0 31px; }
+.loc-date { color:#fff064; letter-spacing: .1em; font-size:.8em; margin:27px 0 31px; }
+
+.tickets a:hover { text-decoration: none; }
 .price { 
 	color: #000000;
 	border-radius: 3px;
@@ -136,6 +137,7 @@ header { width:100%; padding: 12px 0 0 0; text-align: center;}
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff59e', endColorstr='#fff064',GradientType=0 ); /* IE6-9 */
 }
 
+.price:hover { opacity: 0.9; }
 
 
 .price:after {
@@ -194,10 +196,29 @@ header { width:100%; padding: 12px 0 0 0; text-align: center;}
 
 /* Navigation */
 
-nav { display:none;}
-
-
-
+.menu-toggle img{ float: right; margin:0 10px 0 0; }
+.ampersand-logo { clear:both; }
+.ampersand-logo img{ max-width: 25%; margin-top:-25px;}
+nav.main-nav { background: rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255, 255, 255, 0.3); border-top: 1px solid rgba(255, 255, 255, 0.3);}
+nav.main-nav ul li a{ 
+	float:left; 
+	border-top: 1px solid rgba(255, 255, 255, 0.3);  
+	padding:15px 0 12px; 
+	text-align:center; 
+	width: 50%; 
+	text-transform: uppercase; 
+	color: #ffffff;
+	font-family:"Karmina Sans Light", sans-serif; 
+	font-size-adjust:0.47; 
+	font-weight:200; 
+	font-style:normal; 
+	letter-spacing:.35em; 
+	font-size:.7em; 
+}
+nav.main-nav ul li a.home {border-right: 1px solid rgba(255, 255, 255, 0.3); border-top: none; width: 49.7%;}
+nav.main-nav ul li a.workshops {border-right: 1px solid rgba(255, 255, 255, 0.3); width: 49.7%; }
+nav.main-nav ul li a.location {border-right: 1px solid rgba(255, 255, 255, 0.3); width: 49.7%; }
+nav.main-nav ul li a.schedule { border-top: none;} 
 /* MAIN CONTENT */
 
 .main-content { position: relative; top:60px; padding: 3px 0 60px 0; }
@@ -251,9 +272,9 @@ nav { display:none;}
 .sponsors{ margin:100px 0 0 0; }
 .sponsors img { margin:12px; }
 
-.social { position:relative; background-color: rgba(0,0,0, 0.3); padding:23px 0 0 0; }
-.social h3 {color:#ffffff; font-size: 1.2em; letter-spacing:.07em;}
-.social ul { width: 300px; margin: 0 auto 10px; overflow:hidden;}
+.social { position:relative; background-color: rgba(0,0,0, 0.3); padding:23px 0 12px 0; }
+.social h3 {color:#ffffff; font-size: .9em; letter-spacing:.07em;}
+.social ul { width: 300px; margin: 8px auto 0; overflow:hidden;}
 .social ul li a{ float:left; margin:12px 5%; text-indent:-99999px; }
 .social #twitter { background:url('../images/icon-twitter.png') 0 0 no-repeat; width:43px; height:43px; }
 .social #rss { background:url('../images/icon-rss.png') 0 0 no-repeat; width:43px; height:43px; }
@@ -274,6 +295,15 @@ footer {
 footer img.clearleft {  }	
 footer a{color:#7EA107;}
 
-
+.footer-nav { background: rgba(0,0,0, 0.5); width:100%; text-align: center; padding:18px 0 0 0;}
+.footer-nav ul li { 
+	font-family:"Karmina Sans Light", sans-serif; 
+	font-size-adjust:0.47; 
+	font-weight:200;
+	margin: 0 0 18px 0; 
+	font-style:normal; 
+	letter-spacing:.15em; 
+	font-size:.8em; 
+	}
 
 

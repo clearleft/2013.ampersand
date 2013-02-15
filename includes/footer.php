@@ -32,11 +32,34 @@
 		</div>
 	</section>
 	
+	<!-- Main NAV -->
+	<nav class="main-nav clearfix" id="menu" name="menu">
+		<ul>
+			<li><a class="home " href="/" title="Home">Home</a></li>
+			<li><a class="schedule " href="/schedule" title="Schedule">Schedule</a></li>
+			<li><a class="workshops " href="/workshops" title="location">Workshops</a></li>
+			<li><a class="exhibition " href="/exhibition" title="location">Exhibition</a></li>
+			<li><a class="location " href="/location" title="location">Location</a></li>
+			<li><a class="sponsors-link " href="/sponsors" title="Sponsors">Sponsors</a></li>
+		</ul>
+	</nav>
+	
+	<!-- SOCIAL -->
+	<section class="section social">
+		<h3>Keep updated with the latest Ampersand activity</h3>
+		<ul>
+			<li><a  id="twitter" href="http://twitter.com/ampersandconf">Follow</a></li>
+			<li><a id="rss" href="http://feeds.feedburner.com/clearleftevents">Subscribe</a></li>
+			<li><a id="lanyrd" href="http://lanyrd.com/2011/ampersand/">Lanyrd</a></li>
+			<li><a id="ical" href="webcal://h2vx.com/ics/ampersandconf.com/schedule">+&nbsp;iCal</a></li>
+		</ul>
+	</section>   
+
 	<!-- FOOTER NAV -->
-	<div class="section">
+	<div class="section" >
 		<nav class="footer-nav clearfix" >
 			<ul>
-				<li ><a class="privacy" href="/privacy" title="Privacy Policy">Privacy</a></li>
+				<li><a class="privacy" href="/privacy" title="Privacy Policy">Privacy</a></li>
 				<li><a class="terms" href="/terms" title="Terms and Conditions">Terms &amp; Conditions</a></li>
 				<li><a class="accessibilty" href="/accessibilty" title="accessibilty">Accessibilty</a></li>
 			</ul>
@@ -44,20 +67,6 @@
 		
 	</div>
 	
-	<!-- SOCIAL -->
-	<section class="section social">
-		<h3>Keep Updated with the latest Ampersand activity</h3>
-		<ul>
-			<li><a  id="twitter" href="http://twitter.com/ampersandconf">Follow</a></li>
-			<li><a id="rss" href="http://feeds.feedburner.com/clearleftevents">Subscribe</a></li>
-			<li><a id="lanyrd" href="http://lanyrd.com/2011/ampersand/">Lanyrd</a></li>
-			<li><a id="ical" href="webcal://h2vx.com/ics/ampersandconf.com/schedule">+&nbsp;iCal</a></li>
-		</ul>
-		
-		<!-- ><p>Follow Ampersand on Twitter <a href="http://twitter.com/ampersandconf">@ampersandconf</a> <a href="https://twitter.com/#!/search/realtime/ampconf">#ampconf</a> 
-		&amp; track who's attending on the social conference directory <a href="http://lanyrd.com/2012/ampersand/">Lanyrd.</a></p>
-	</section>   -->
-
 	<!-- CLEARLEFT FOOTER -->
 	<footer >
 		<div class="section">
