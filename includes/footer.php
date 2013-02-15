@@ -1,26 +1,33 @@
 	<!-- SPONSORS -->
 	<section class="sponsors">
 		<div class="section clearfix">
-			<span class="texture-mask">
-				<h2>Our Generous Sponsors</h2>
-			</span>
+			<h2>Our Generous Sponsors</h2>
+
 			<div class="premiere">
 				<h5><span>Premiere Sponsors</span></h5>
-				<img class="fontdeck" alt="Fontdeck" src="img/sponsors/fontdeck.png" />
+				<img src="../images/sponsors-fontdeck.png" width="144" height="96" alt="Sponsors Fontdeck">
+				<img src="../images/sponsors-typekit.png" width="195" height="96" alt="Sponsors Typekit">
+				
 			</div>
 			<div class="grass-roots">
 				<h5><span>Grass Roots Sponsors</span></h5>
-				<img class="8faces" alt="8 Faces" src="img/sponsors/8faces.png" />
+				<img src="../images/sponsors-8faces.png" width="86" height="96" alt="Sponsors 8faces">
+				<img src="../images/sponsors-mapalong.png" width="220" height="96" alt="Sponsors Mapalong">
+				<img src="../images/sponsors-myfonts.png" width="195" height="96" alt="Sponsors Myfonts">
+				<img src="../images/sponsors-webtype.png" width="204" height="96" alt="Sponsors Webtype">
 			</div>
 			<div class="executive">
 				<h5><span>Executive Sponsors</span></h5>
-				<img class="typekit" alt="Typekit" src="img/sponsors/typekit.png" />
-				<img class="webtype" alt="Webtype" src="img/sponsors/webtype.png"  />
-				<img class="heart-internet" alt="Heart Internet" src="img/sponsors/heartinternet.png" />
+				<img src="../images/sponsors-dtc.png" width="110" height="96" alt="Sponsors Dtc">
+				<img src="../images/sponsors-hoefler-frere-jones.png" width="227" height="96" alt="Sponsors Hoefler Frere Jones">
+				<img src="../images/sponsors-lls.png" width="207" height="96" alt="Sponsors Lls">
+				<img src="../images/sponsors-type-together.png" width="147" height="96" alt="Sponsors Type Together">
 			</div>
 			<div class="media-partners">
 				<h5><span>Media Partners</span></h5>
-				<img class="eye" alt="Eye Magazine" src="img/sponsors/eye.png" />
+				<img src="../images/sponsors-eye.png" width="89" height="96" alt="Sponsors Eye">
+				<img src="../images/sponsors-wiley.png" width="183" height="96" alt="Sponsors Wiley">
+				
 			</div>
 		</div>
 	</section>
@@ -34,8 +41,22 @@
 				<li><a class="accessibilty" href="/accessibilty" title="accessibilty">Accessibilty</a></li>
 			</ul>
 		</nav>
-		<img src="img/footer-nav-fleuron.png"  />
+		
 	</div>
+	
+	<!-- SOCIAL -->
+	<section class="section social">
+		<h3>Keep Updated with the latest Ampersand activity</h3>
+		<ul>
+			<li id="twitter"><a href="#"></li>
+			<li id="rss"><a href="#"></li>
+			<li id="lanyrd"><a href="#"></li>
+			<li id="ical"><a href="#"></li>
+		</ul>
+		
+		<p>Follow Ampersand on Twitter <a href="http://twitter.com/ampersandconf">@ampersandconf</a> <a href="https://twitter.com/#!/search/realtime/ampconf">#ampconf</a> 
+		&amp; track who's attending on the social conference directory <a href="http://lanyrd.com/2012/ampersand/">Lanyrd.</a></p>
+	</section> 
 
 	<!-- CLEARLEFT FOOTER -->
 	<footer >
@@ -50,8 +71,6 @@
 		</div>
 	</footer>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 	<script src="js/plugins.js"></script>
 	<script src="js/script.js"></script>
 
