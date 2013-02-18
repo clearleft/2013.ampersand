@@ -12,7 +12,7 @@
 	<div class="tickets clearfix">
 		<a href="#">
 			<p class="price">&pound;<strong>125</strong><span class="vat">+VAT</span>
-				<span class="buy">Register Now ></span>
+				<span class="buy">Register Now </span> <img src="../images/cta-arrow.png" width="11" height="16" alt="Cta Arrow">
 			</p>
 		</a>
 	</div>

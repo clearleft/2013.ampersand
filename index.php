@@ -20,15 +20,17 @@
 	 <section class="section speakers">
 		<h1>Speakers & Sessions</h1>
 		<ul class="speakers">
-			<li><a href="/#">Vincent Connare</a></li>
-			<li><a href="/#">Jason Santa Maria</a></li>
-			<li><a href="/#">Jon Tan</a></li>
-			<li><a href="/#">Jonathan Hoefler</a></li>
-			<li><a href="/#">David Berlow</a></li>
-			<li><a href="/#">John Daggett</a></li>
-			<li><a href="/#">Tim Brown</a></li>
-			<li><a href="/#">Mark Boulton</a></li>			
+			<li id="speaker1"><a href="/#">Vincent Connare</a></li>
+			<li id="speaker2"><a href="/#">Jason Santa Maria</a></li>
+			<li id="speaker3"><a href="/#">Jon Tan</a></li>
+			<li id="speaker4"><a href="/#">Jonathan Hoefler</a></li>
+			<li id="speaker5"><a href="/#">David Berlow</a></li>
+			<li id="speaker6"><a href="/#">John Daggett</a></li>
+			<li id="speaker7"><a href="/#">Tim Brown</a></li>
+			<li id="speaker8"><a href="/#">Mark Boulton</a></li>	
+			<li id="speaker9"><a href="/#">Yves Peters</a></li>			
 		</ul>
+		<div class="clearfix">
 	</section>
 	
 </div>
