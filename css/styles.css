@@ -287,10 +287,9 @@ footer {
 	font-family:"Karmina Sans Light", sans-serif; 
 	font-size-adjust:0.47;
 	overflow:hidden;
-	padding:4%;
+	padding:2% 4% 4% 4%;
 	}
 
-footer img.clearleft {  }	
 footer a{color:#7EA107;}
 
 .footer-nav { background: rgba(0,0,0, 0.5); width:100%; text-align: center; padding:18px 0 0 0;}
@@ -379,18 +378,15 @@ footer a{color:#7EA107;}
 	.menu-toggle { display:none;}
 	.social ul { width: 95%; }
 	.social ul li{ width:25%; float:left;}
-	.social ul li a{ margin:12px 5%; text-indent:60px; width:190px;}
+	.social ul li a{ margin:12px 5%; text-indent:60px; width:190px; padding:12px 0 0 0;}
 		
 	.footer-nav { padding: 18px 0;}
 	.footer-nav ul li { display: inline; margin: 0 15px; }
-	.social-subtext {
-		color: #ffffff;
-		font-size: 65%;
-		text-indent: 60px;
-		display: block;
-		width: 210px;
-		text-align: left;
-	}
+	
+	
+	footer { padding:4% 2%;  }
+	footer.section {width: 95%;}
+	footer img.clearleft { float:right;}
 }
 
 
@@ -425,6 +421,18 @@ footer a{color:#7EA107;}
 	 .sponsors { text-align: left; width: 1056px; margin:14	0px auto 0;}
 	 
 	 .social ul { width: 1056px; }
+	 .social h3 {color:#ffffff; font-size: 1.1em; letter-spacing:.07em;}
+	 .social ul li a{ margin:12px 5%; text-indent:60px; width:190px; padding:2px 0 0 0;}
+ 	.social-subtext {
+ 		color: #ffffff;
+ 		font-size: 65%;
+ 		text-indent: 60px;
+ 		display: block;
+ 		width: 220px;
+ 		text-align: left;
+ 	}
 	 .tickets {width: 1056px; background:url('../images/deco-nav-shadow.png') 0 0 no-repeat; height: 8px; z-index:-90; margin: 0 auto;}
+	 
+	 footer .section { width: 1056px; margin: 0 auto;}
  }   
    
