@@ -48,10 +48,10 @@
 	<section class="section social">
 		<h3>Keep updated with the latest Ampersand activity</h3>
 		<ul>
-			<li><a  id="twitter" href="http://twitter.com/ampersandconf">Follow</a></li>
-			<li><a id="rss" href="http://feeds.feedburner.com/clearleftevents">Subscribe</a></li>
-			<li><a id="lanyrd" href="http://lanyrd.com/2011/ampersand/">Lanyrd</a></li>
-			<li><a id="ical" href="webcal://h2vx.com/ics/ampersandconf.com/schedule">+&nbsp;iCal</a></li>
+			<li><a  id="twitter" href="http://twitter.com/ampersandconf">Follow <br/><span class="social-subtext">@ampersandconf #ampconf</span></a></li>
+			<li><a id="rss" href="http://feeds.feedburner.com/clearleftevents">Subscribe <br/><span class="social-subtext">to the Clearleft events feed</span></a></li>
+			<li><a id="lanyrd" href="http://lanyrd.com/2011/ampersand/">Lanyrd <br/><span class="social-subtext">Check out Ampersand on Lanyrd</span></a></li>
+			<li><a id="ical" href="webcal://h2vx.com/ics/ampersandconf.com/schedule">+&nbsp;iCal <br/><span class="social-subtext">Add this to your calendar</span></a></li>
 		</ul>
 	</section>   
 
