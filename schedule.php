@@ -6,8 +6,10 @@
 <meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 15 June 2012." />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="stylesheet" href="//f.fontdeck.com/s/css/LSsx2VsR+cQAUcx8l3RhWuftOaQ/ampersand2013.site/29643.css" type="text/css" />
 <link rel="stylesheet" href="css/styles.css">
+
+
+
 </head>
 
 <body id="wrapper" class="vevent home">
@@ -30,7 +32,7 @@
                     <th class="time"><time class="dtstart" title="2012-06-14T19:30:00">Thurs 19.30</time></th>
                     <td>
                     	<h3 class="summary">Pre-Party Hosted by MyFonts</h3>
-                    	<p><a href="location" class="fn url">The Basement</a><br/>(Screening: Linotype the Film)</p>
+                    	<p><a href="location" class="fn url vcard">The Basement</a><br/>(Screening: Linotype the Film)</p>
                     </td>
                 </tr>
 				
@@ -83,16 +85,16 @@
                 	<td>
 						<h3 class="summary">Lunch <span>(not provided)</span></h3>
                 		<p class="summary">Screening: Linotype the Film</p>
-                	<td>
+                	</td>
                 </tr>
 
                 <tr class="vevent type-in-20">
                     <th class="time"><time class="dtstart" title="2012-06-15T14:45:00">14.45</time> &ndash; <time class="dtend" title="2012-06-15T15:45:00">15.45</time></th>
                     <td>
                    		<h3 class="summary">Type in 20</h3>
-                		<p><a href="douglas-wilson" class="fn url">Douglas Wilson </a><br/>Linotype the Film Q&A</p>
-                		<p><a href="jason-smith" class="fn url">Jason Smith </a><br/>Designing Fonts For Screens</p>
-                		<p><a href="laurence-penney" class="fn url">Laurence Penney </a><br/>CSS font stack hackery</p>
+                		<p><a class="vcard" href="douglas-wilson" class="fn url">Douglas Wilson </a><br/>Linotype the Film Q&A</p>
+                		<p><a class="vcard" href="jason-smith" class="fn url">Jason Smith </a><br/>Designing Fonts For Screens</p>
+                		<p><a class="vcard" href="laurence-penney" class="fn url">Laurence Penney </a><br/>CSS font stack hackery</p>
                     </td>
                 </tr>
 

@@ -57,9 +57,11 @@ table {
 /* div { font-family:"Karmina Sans Bold", sans-serif;  font-weight:bold; font-style:normal; }
 div { font-family:"Karmina Sans Regular Italic", sans-serif;  font-weight:normal; font-style:italic; }
 div { font-family:"Karmina Italic", Georgia, serif;  font-weight:normal; font-style:italic; }
-div { font-family:"Karmina Bold", Georgia, serif; font-size-ajust:0.473; font-weight:bold; font-style:normal; }
+div { font-family:"Karmina Bold", Georgia, serif; font-weight:bold; font-style:normal; }
 div { font-family:"Karmina Sans Regular", sans-serif;  font-weight:normal; font-style:normal; }
-div { font-family:"Karmina Regular", Georgia, serif; font-size-ajust:0.463; font-weight:normal; font-style:normal; } */
+div { font-family:"Karmina Regular", Georgia, serif; font-weight:normal; font-style:normal; } 
+font-family:"Karmina Sans Semi Bold", sans-serif; font-weight:600; font-style:normal;
+*/
 
 /* Default Mobile View Styles */
 
@@ -270,16 +272,17 @@ nav.main-nav ul li a.schedule { border-top: none;}
 /* ############# SCHEDULE PAGE ############### */
 .schedule { padding:0; letter-spacing: 0.06em; text-align:left; }
 .schedule h1 { text-align:center;}
-.schedule h2, .schedule-change {font-family:"Karmina Regular", Georgia, serif; font-size-ajust:0.463; font-weight:normal; font-style:normal; font-size:.9em; text-align:center; padding:0 10%;  }
-.schedule .time { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; color: #ffffff; text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
-.schedule h3.summary { font-family:"Karmina Sans Bold", sans-serif;  font-weight:bold; font-style:normal; font-size:0.8em; color: #ffffff;  margin-left:12px; }
+.schedule h2, .schedule-change {font-family:"Karmina Sans Light", sans-serif; font-weight:normal; font-style:normal; font-size:.9em; text-align:center; padding:0 10%; line-height:1.2em; }
+.schedule .time { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
+.schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #ffffff;  margin-left:12px; }
 .schedule-table {margin:60px 0 0 0; width: 100%;}
 .schedule-table td {padding:25px 0}
 .schedule-table .first td{ padding-top:0px;}
 .schedule-table .last td{ padding-bottom:0px;}
+.vevent td { font-size:.8em; }
 .vevent td p {  color:#ffffff; margin-left:12px;}
-.vevent td p a{ font-size:1.5em; }
-.break { background: rgba(0,0,0,0.3); padding}
+.vevent td .vcard{ font-size:1.7em; }
+.break { background: rgba(0,0,0,0.15); padding}
 .type-in-20 p { margin-bottom:9px; }
 .schedule-change{ color:#ffffff; margin:35px; }
 
@@ -338,10 +341,10 @@ footer a{color:#7EA107;}
  /* iPads (portrait and landscape) ----------- */
  @media only screen and (min-width : 768px) {
 	 
-	/* HEADER */.main-content { width: 75%; margin:0 auto; padding:  2% 10% 5%;  }
+	/* HEADER */.main-content { width: 95%; margin:0 auto; padding:  2% 0 5%;  }
  	.conf-title {color:#ffffff; font-size:4.2em; letter-spacing: .05em; }
  	.ampersand-logo img { max-width: 25%; margin-top: 15px; }
-	 
+	.main-content h1 { font-size:1.7em;  } 
 	/* HOME PAGE */
 	.speakers li a{ 
 		-webkit-transition: background .3s ease-in;
@@ -375,20 +378,20 @@ footer a{color:#7EA107;}
 	
 	
 	/* ############# SCHEDULE PAGE ############### */
-	.schedule { padding:0; letter-spacing: 0.06em; text-align:left; }
-	.schedule h1 { text-align:center;}
-	.schedule h2, .schedule-change {font-family:"Karmina Regular", Georgia, serif; font-size-ajust:0.463; font-weight:normal; font-style:normal; font-size:.9em; text-align:center; padding:0 10%;  }
-	.schedule .time { width: 42%;  }
-	.schedule h3.summary { font-family:"Karmina Sans Bold", sans-serif;  font-weight:bold; font-style:normal; font-size:0.8em; color: #ffffff;  margin-left:12px; }
-	.schedule-table {margin:60px 0 0 0; width: 100%;}
-	.schedule-table td {padding:25px 0}
-	.schedule-table .first td{ padding-top:0px;}
-	.schedule-table .last td{ padding-bottom:0px;}
-	.vevent td p {  color:#ffffff; margin-left:12px;}
-	.vevent td p a{ font-size:1.5em; }
-	.break { background: none; border-top: 1px solid rgba(255,255,255,0.2); border-bottom: 1px solid rgba(255,255,255,0.2);}
-	.type-in-20 p { margin-bottom:9px; }
-	.schedule-change{ color:#ffffff; margin:35px; }
+	.schedule .time { 
+		width: 42%; 
+		padding:0 22px 0 0; 
+		background: url('../images/deco-li.png') top right no-repeat;
+		background-position-x: 430px;
+		background-position-y: 29px;  
+		font-size: .9em;
+	}	
+	.schedule .first .time { background-position-y: 0px; }
+	.break {  border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05);}
+	.schedule-table td { padding:35px 0 35px 12px ; background:url('../images/deco-li.png')-14px 29px no-repeat; font-size:.9em;}
+	.schedule-table .first td { background-position-y: 0px; padding-top: 8px; }
+	.schedule h2, .schedule-change, .schedule h3.summary  { font-size:.9em; }
+	
 	
 	
 	/* NAVIGATION */
@@ -433,6 +436,7 @@ footer a{color:#7EA107;}
  @media only screen and (min-width : 1024px){
 	 
 	.main-content { width: 1056px; padding: 2% 0% 5%; margin-top: 100px; }
+	.main-content h1 { font-size:2em;} 
 	
 	nav.main-nav {  }
 	nav.main-nav ul {  width: 1056px; margin: 0 auto; }
