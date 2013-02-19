@@ -2,81 +2,149 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Ampersand 2012 &middot; The Web Typography Conference</title>
+<title>Ampersand 2013 &middot; The Web Typography Conference</title>
 <meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 15 June 2012." />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="stylesheet" href="http://f.fontdeck.com/s/css/uYeecfgxZsRY9yoFdZP/14nD1k8/2012.ampersandconf.dev/11761.css" type="text/css" />
+<link rel="stylesheet" href="//f.fontdeck.com/s/css/LSsx2VsR+cQAUcx8l3RhWuftOaQ/ampersand2013.site/29643.css" type="text/css" />
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body id="wrapper" class="vevent schedule">
+<body id="wrapper" class="vevent home">
 
 	<?php include("includes/header.php"); ?>
 
+	<!-- SPEAKERS -->
+<div class="main-content">
+
+
 	<!-- SCHEDULE -->
 	<article class="section schedule">
-		
+		<h1>Schedule</h1>	
 		<h2>Ampersand will be a fabulous day of nitty gritty details from experts in font design &amp; development, typesetting & font usage, 
 			browser implementations, and with glimpses of a bright typographic future.</h2>
 			
-			<table class="thursday" summary="Ampersand schedule for 16 June 2011">
-                        
-                <tr class="vevent break last">
-                    <th class="time"><time class="dtstart" title="2011-06-16T19:30:00">Thursday 19.30</time></th>
-                    <td ><div><h3 class="summary">Pre-Party <span>sponsored by MyFonts</span></h3>
-                    <p class="vcard"><a href="location" class="fn url">The Basement</a></p></div></td>
+			<table class="schedule-table" summary="Ampersand schedule for 15 June 2012">
+                
+                <tr class="vevent first">
+                    <th class="time"><time class="dtstart" title="2012-06-14T19:30:00">Thurs 19.30</time></th>
+                    <td>
+                    	<h3 class="summary">Pre-Party Hosted by MyFonts</h3>
+                    	<p><a href="location" class="fn url">The Basement</a><br/>(Screening: Linotype the Film)</p>
+                    </td>
                 </tr>
-            </table>
-            <table class="friday" summary="Ampersand schedule for 17 June 2011">
-                <tr class="vevent break">
-                    <th class="time"><time class="dtstart" title="2011-06-17T09:00:00">Friday 09.00</time></th>
-                    <td ><div><h3 class="summary">Registration</h3></div></td>
+				
+				<tr class="vevent break">
+                    <th class="time"><time class="dtstart" title="2012-06-15T09:00:00">Friday 09.00</time></th>
+                    <td>
+                   		<h3 class="summary">Registration</h3>
+                    </td>
                 </tr>
 
                 <tr class="vevent">
-                    <th class="time"><time class="dtstart" title="2011-06-17T09:50:00">9.50</time> &ndash; <time class="dtend" title="2011-06-17T10:00:00">10.00</time></th>
-                    <td >
-                    	<div>
-                    		<h3 class="summary">Opening Remarks</h3>
-                   			<p class="vcard"><span class="fn">Richard Rutter</span></p>
-                   		</div>
+                    <th class="time"><time class="dtstart" title="2012-06-15T09:50:00">9.50</time> &ndash; <time class="dtend" title="2012-06-15T10:00:00">10.00</time></th>
+                    <td>
+                   		<h3 class="summary">Opening Remarks</h3>
+              			<p class="vcard">With Richard Rutter</p>
                    	</td>
                 </tr>
+				
                 <tr class="vevent">
-                    <th class="time"><time class="dtstart" title="2011-06-17T10:00:00">10.00</time> &ndash; <time class="dtend" title="2011-06-17T10:45:00">10.45</time></th>
-                    <td >
-                    	<div>
-                    		<h3 class="vcard"><a href="vincent-connare" class="fn url">Vincent Connare</a></h3>
-                    		<p class="summary">Keynote: From the Dark Side… Speak to Me</p>
-                    	</div>
+                    <th class="time"><time class="dtstart" title="2012-06-15T10:00:00">10.00</time> &ndash; <time class="dtend" title="2012-06-15T10:45:00">10.45</time></th>
+                    <td>
+                    	<h3 class="summary">Keynote</h3>
+                    	<p class="vcard"><a href="phil-baines" class="phil-baines fn" >Phil Baines</a></p>
                     </td>
-                </tr>                  
+                </tr>
+				
+                <tr class="vevent break">
+                    <th class="time"><time class="dtstart" title="2012-06-15T10:45:00">10.45</time> &ndash; <time class="dtend" title="2012-06-15T11:15:00">11.15</time></th>
+                    <td>
+               			<h3 class="summary">Break</h3>
+                   	</td>
+                </tr>
+				
+               <tr class="vevent">
+                    <th class="time"><time class="dtstart" title="2012-06-15T11:15:00">11.15</time> &ndash; <time class="dtend" title="2012-06-15T12:00:00">12.00</time></th>
+                    <td>
+						<h3 class="summary">Detail in Web Typography</h3>
+                    	<p class="vcard"><a href="yves-peters" class="fn url">Yves Peters</a></p>
+					</td>
+                </tr>
+                 <tr class="vevent">
+                    <th class="time"><time class="dtstart" title="2012-06-15T12:00:00">12.00</time> &ndash; <time class="dtend" title="2012-06-15T12:45:00">12.45</time></th>
+                    <td>
+						<h3 class="summary">Typographic Matchmaking</h3>
+                    	<p class="vcard"><a href="jose-scaglione-and-veronika-burian" class="veronika-burian fn" ><em class="char1">Veronika Burian</a> &amp; <a href="jose-scaglione-and-veronika-burian" class="fn url">Jos<strong class="jose-e-fix">&eacute;</strong>&nbsp;Scaglione</a></p>
+                    </td>
+                </tr>
+                 <tr class="vevent break">
+                	<th class="time"><time class="dtstart" title="2012-06-15T12:45:00">12.45</time> &ndash; <time class="dtend" title="2012-06-15T14:45:00">14.45</time></th>
+                	<td>
+						<h3 class="summary">Lunch <span>(not provided)</span></h3>
+                		<p class="summary">Screening: Linotype the Film</p>
+                	<td>
+                </tr>
+
+                <tr class="vevent type-in-20">
+                    <th class="time"><time class="dtstart" title="2012-06-15T14:45:00">14.45</time> &ndash; <time class="dtend" title="2012-06-15T15:45:00">15.45</time></th>
+                    <td>
+                   		<h3 class="summary">Type in 20</h3>
+                		<p><a href="douglas-wilson" class="fn url">Douglas Wilson </a><br/>Linotype the Film Q&A</p>
+                		<p><a href="jason-smith" class="fn url">Jason Smith </a><br/>Designing Fonts For Screens</p>
+                		<p><a href="laurence-penney" class="fn url">Laurence Penney </a><br/>CSS font stack hackery</p>
+                    </td>
+                </tr>
+
                 <tr class="vevent">
-                    	<th class="time"><time class="dtstart" title="2011-06-17T10:45:00">10.45</time> &ndash; <time class="dtend" title="2011-06-17T11:30:00">11.30</time></th>
-                    	<td >
-                    		<div>
-                    			<h3 class="vcard"><a href="jason-santa-maria">Jason Santa Maria</a></h3>
-                   				<p class="summary">On Web Typography</p>
-                   			</div>
-                    	<td >
+                    <th class="time"><time class="dtstart" title="2012-06-15T15:45:00">15.45</time> &ndash; <time class="dtend" title="2012-06-15T16:30:00">16.30</time></th>
+                    <td>
+                    	<h3 class="summary">On Hinting</h3>
+                    	<p class="vcard"><a href="lucas-de-groot" class="fn url">Luc(as) de Groot</a></p>
+                    </td>
                 </tr>
 
                 <tr class="vevent break">
-                    <th class="time"><time class="dtstart" title="2011-06-17T11:30:00">11.30</time> &ndash; <time class="dtend" title="2011-06-17T12:00:00">12.00</time></th>
-                    <td >
-                    	<div>
-                    		<h3 class="summary">Break <span>(refreshments courtesy Hoefler &amp; Frere-Jones)</span></h3>
-                    	</div>
-                    </td>
-                </tr>     
+                    <th class="time"><time class="dtstart" title="2012-06-15T10:45:00">10.45</time> &ndash; <time class="dtend" title="2012-06-15T11:15:00">11.15</time></th>
+                    <td>
+               			<h3 class="summary">Break</h3>
+                   	</td>
+                </tr>
                 
-                            
-                           </table>
-            <p>Schedule is subject to change.</p>
+                <tr class="vevent">
+                    <th class="time"><time class="dtstart" title="2012-06-15T17:00:00">17.00</time> &ndash; <time class="dtend" title="2012-06-15T17:45:00">17.45</time></th>
+                    <td>
+						<h3 class="summary">In your @font-face</h3>
+                    	<p class="vcard"><a href="jake-archibald" class="fn url">Jake Archibald</a></p>
+                    </td>
+                </tr>
+                 <tr class="vevent">
+                    <th class="time"><time class="dtstart" title="2012-06-15T17:45:00">17.45</time> &ndash; <time class="dtend" title="2012-06-15T18:30:00">18.30</time></th>
+                    <td>
+						<h3 class="summary">Enhancing the Future</h3>
+                    	<p class="vcard"><a href="elliot-jay-stocks" class="fn url">Elliot Jay Stocks</a></p>
+                    </td>
+                </tr>
+				<tr class="vevent">
+                    <th class="time"><time class="dtstart" title="2012-06-15T18:30:00">18.30</time> &ndash; <time class="dtend" title="2012-06-15T18:45:00">18.45</time></th>
+                    <td>
+						<h3 class="summary">Closing Remarks</h3>
+                   	</td>
+                </tr>
+                <tr class="vevent after-party last">
+                    <th class="time"><time class="dtstart" title="2012-06-15T19:30:00">19.30</time> &ndash; <time class="dtend" >Late</time></th>
+                    <td>
+                    	<h3 class="summary">After-Party<span>Hosted by Typekit</span></h3>
+                    	<p class="vcard"><a href="location" class="fn url">Above Audio</a></p>
+                   	</td>
+                </tr>
+            </table>
+			
+            <p class="schedule-change">Schedule is subject to change.</p>
 		
 	</article>
 	
+</div><!-- END MAIN CONTENT -->
 	
 		
 	<?php include("includes/footer.php"); ?>

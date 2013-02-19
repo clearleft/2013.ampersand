@@ -6,7 +6,7 @@
 <meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 15 June 2012." />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="stylesheet" href="//f.fontdeck.com/s/css/LSsx2VsR+cQAUcx8l3RhWuftOaQ/DOMAIN_NAME/29643.css" type="text/css" />
+<link rel="stylesheet" href="//f.fontdeck.com/s/css/LSsx2VsR+cQAUcx8l3RhWuftOaQ/ampersand2013.site/29643.css" type="text/css" />
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
