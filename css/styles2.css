@@ -124,7 +124,6 @@ header { width:100%; padding: 42px 0 0 0; text-align: center;}
 	width: 180px;	
 	position:relative;
 	margin: 0 auto;
-	z-index:500;
 	line-height: 1.6em;
 	padding: 15px 0px 10px;
 	background: #fff59e; /* Old browsers */
@@ -198,9 +197,9 @@ header { width:100%; padding: 42px 0 0 0; text-align: center;}
 .ampersand-logo img{ max-width: 25%; margin-top:-25px;}
 
 /* =Navigation */
-nav#main-nav { margin: 0 -1em; }
-nav#main-nav ul { margin-bottom: 0;  }
-nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; background: rgba(0,0,0,0.9); }
+nav { margin: 0 -1em; }
+nav ul { margin-bottom: 0;  }
+nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; background: rgba(0,0,0,0.9); }
 
 #nav a { font-weight: bold; }
 #nav { margin: 0; outline: 0; font-size: .7857em; /* 11/14 */ }
@@ -462,7 +461,7 @@ footer a{color:#7EA107;}
 	
 	#jump { display: none;}
 	
-	body:not(:target) #nav { position: absolute; top:350px; z-index: 20;}
+	body:not(:target) #nav { position: absolute; top:350px;}
 	
 	body:not(:target) #nav a {
 		border-bottom-width: 0;
@@ -490,10 +489,35 @@ footer a{color:#7EA107;}
 	body:not(:target) #nav .location-link { border:none;  width: 5%; top:-35px; left:235px; }
 	body:not(:target) #nav .sponsors-link { border: none; width: 5%; top:-50px; left:325px }
 	
-
+	/*#main-nav { position:absolute; top:30px; index.php}
+	#main-nav #nav{ position: relative; width:95%; margin:0 auto;}
+	#main-nav a { background: none; padding: 12px; }
+	#main-nav .home-link { border:none; width: 5%; position:absolute; left:0px; }
+	body:not(:target) #nav .schedule-link { border:none; width: 5%; position:absolute; left:80px;  }
+	body:not(:target) #nav .workshops-link { border: none;width: 5%; position:absolute;  left:190px;} 
+	body:not(:target) #nav .exhibition-link { border:none;  width: 5%; position:absolute; left:380px;  }
+	body:not(:target) #nav .location-link { border:none;  width: 5%; position:absolute; left:479px; }
+	body:not(:target) #nav .sponsors-link { border: none; width: 5%; position:absolute;left:567px }*/
 	
 	#back { display: none;}
-
+/*	nav.main-nav { background: none; border: none; position: absolute; top:365px; width:100%;}
+	nav.main-nav ul { position: relative;  width: 560px; margin: 0 auto;}
+	nav.main-nav ul li a{ 
+		float:left; 
+		border:none; 
+		padding:15px 0 12px; 
+		text-align:center; 
+		width: 5%; 
+		letter-spacing:0.2em;
+		text-transform: uppercase; 
+		font-size:.75em; 
+	}
+	nav.main-nav ul li a.home-link { border:none; width: 5%; position:absolute; left:-80px; }
+	nav.main-nav ul li a.schedule-link { border:none; width: 5%; position:absolute; left:-8px;  }
+	nav.main-nav ul li a.workshops-link { border: none;width: 5%; position:absolute;  left:90px;} 
+	nav.main-nav ul li a.exhibition-link { border:none;  width: 5%; position:absolute; left:380px;  }
+	nav.main-nav ul li a.location-link { border:none;  width: 5%; position:absolute; left:479px; }
+	nav.main-nav ul li a.sponsors-link { border: none; width: 5%; position:absolute;left:567px } */
 	
 	.menu-toggle { display:none;}
 	

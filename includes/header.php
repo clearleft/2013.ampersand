@@ -1,5 +1,6 @@
-<header class="section clearfix" >
-	<div class="menu-toggle"><a href="#menu"><img src="../images/menu-btn.png" width="34" height="31" alt="Menu Btn"></a></div>
+<header id="top" class="section clearfix" >
+	<a id="jump" href="#nav">Main Navigation</a>
+	
 	<div class="ampersand-logo">
 		<img src="images/ampersand-logo.png" alt="ampersand-logo" />
 	</div>
@@ -19,3 +20,4 @@
 		
 	
 </header>
+

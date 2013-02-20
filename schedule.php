@@ -16,11 +16,10 @@
 
 	<?php include("includes/header.php"); ?>
 
-	<!-- SPEAKERS -->
+	
+<!-- SCHEDULE -->
+
 <div class="main-content">
-
-
-	<!-- SCHEDULE -->
 	<article class="section schedule">
 		<h1>Schedule</h1>	
 		<h2>Ampersand will be a fabulous day of nitty gritty details from experts in font design &amp; development, typesetting & font usage, 

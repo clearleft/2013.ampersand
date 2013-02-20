@@ -14,9 +14,10 @@
 
 	<?php include("includes/header.php"); ?>
 
-	<!-- LOCATION -->
+<!-- LOCATION -->
+<div class="main-content">
 	<article class="section location clearfix">
-		
+				<h1>Location</h1>
 		<h2>Brighton is one of the most vibrant, colourful and creative cities in Europe. It has a rich typographic history, including being the <a href="">birthplace of Eric Gill.</a></h2>
 		
 		<div class="map">
@@ -77,7 +78,7 @@
 		</address>
 					
 	</article>
-	
+</div>	
 	
 		
 	<?php include("includes/footer.php"); ?>
