@@ -84,6 +84,7 @@ body {
 	font-weight:normal; 
 	font-style:normal;
 	text-align:center;
+	color:#ffffff;
 }
 
 h1, h2 { font-family:"Karmina Bold", Georgia, serif; font-size-ajust:0.473; font-weight:bold; font-style:normal; color: #ffffff; font-size:1.5em; letter-spacing: 0.1em;}
@@ -102,7 +103,7 @@ a{ color:#fff064; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 header { width:100%; padding: 42px 0 0 0; text-align: center;}
-.conf-title {color:#ffffff; font-size:2.2em; letter-spacing: .1em; }
+.conf-title { font-size:2.2em; letter-spacing: .1em; }
 .description { 
 	font-family:"Karmina Sans Light", sans-serif; 
 	 
@@ -112,7 +113,7 @@ header { width:100%; padding: 42px 0 0 0; text-align: center;}
 	font-size:.7em; 
 	margin:4px 0 0 0; 
 	text-transform: uppercase; 
-	color:#ffffff;
+	
 }
 .loc-date { color:#fff064; letter-spacing: .1em; font-size:.8em; margin:27px 0 31px; }
 
@@ -253,10 +254,11 @@ body:not(:target) #nav:target a {
 	z-index: 1;
 	font-family:"Karmina Sans Light", sans-serif; 
 	font-weight:200; 
-	font-style:normal; 
+	font-style:normal;
+	color:#ffffff; 
 	letter-spacing:.08em; 
 	text-transform:uppercase;
-	color:#ffffff;
+	
 	-moz-transition: height .25s, line-height .25s;
 	-ms-transition: height .25s, line-height .25s;
 	-o-transition: height .25s, line-height .25s;
@@ -344,18 +346,40 @@ body:not(:target) #nav:target #back {
 .schedule-table .first td{ padding-top:0px;}
 .schedule-table .last td{ padding-bottom:0px;}
 .vevent td { font-size:.8em; }
-.vevent td p {  color:#ffffff; margin-left:12px;}
+.vevent td p {   margin-left:12px;}
 .vevent td .vcard{ font-size:1.7em; }
 .break { background: rgba(0,0,0,0.15); padding}
 .type-in-20 p { margin-bottom:9px; }
-.schedule-change{ color:#ffffff; margin:35px; }
+.schedule-change{  margin:35px; }
 
+/* ############# LOCATION PAGE ############### */
+#conf-location { border-bottom: 1px solid rgba(255,255,255,1); width: 85%; margin: 0 auto;}
+#conf-location h3{ font-size:1.2em; margin:0 0 7px 0; }
+#conf-location address { font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal;   font-size:0.8em; color: #cccccc;}
+#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#ffffff;}
+#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:45px; padding:50px 0 0 0; }
+#conf-location .location-a { background:url('../images/deco-location-pre.png') 50% 7px no-repeat;}
+#conf-location .location-b { background:url('../images/deco-location-conf.png') 50% 7px no-repeat;}
+#conf-location .location-c { background:url('../images/deco-location-post.png') 50% 7px no-repeat;}
+
+#city-info { width: 85%; margin: 0 auto; text-align: left; padding:40px 0 0 0;}
+#city-info h2, #city-info p { font-family:"Karmina Sans Light", sans-serif; font-weight:200; letter-spacing:.03em; margin:0px 0 40px;  }
+#city-info h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; }
+
+.map iframe{ width:100%; height:320px; }	
+
+#sleep-food-net { text-align: left; width: 85%; margin: 0 auto; font-family:"Karmina Sans Light", sans-serif; font-weight:200; letter-spacing:.03em;}
+#sleep-food-net h4 { font-size:1.2em; font-family:"Karmina Regular", Georgia, serif; font-weight:normal; font-style:normal; margin: 40px 0 20px; }	
+#sleep-food-net address { font-size:0.9em; margin: 0 0 30px 0; }
+#sleep-food-net address p { color: rgba(255,255,255,0.6);}	
+	
+	
 /* FOOTER SECTION */
 .sponsors{ margin:100px 0 0 0; }
 .sponsors img { margin:12px; }
 
 .social { position:relative; background-color: rgba(0,0,0, 0.3); padding:23px 0 12px 0; }
-.social h3 {color:#ffffff; font-size: .9em; letter-spacing:.07em;}
+.social h3 { font-size: .9em; letter-spacing:.07em;}
 .social ul { width: 300px; margin: 8px auto 0; overflow:hidden;}
 .social ul li a{ float:left; margin:12px 5%; text-indent:-99999px; }
 .social #twitter { background:url('../images/icon-twitter.png') 0 0 no-repeat; width:43px; height:43px; }
@@ -370,7 +394,7 @@ footer {
 	text-align: left; 
 	font-size: 0.8em;
 	font-family:"Karmina Sans Light", sans-serif; 
-	
+	color:#555555;
 	overflow:hidden;
 	padding:2% 4% 4% 4%;
 	}
@@ -380,7 +404,6 @@ footer a{color:#7EA107;}
 .footer-nav { background: rgba(0,0,0, 0.5); width:100%; text-align: center; padding:18px 0 0 0;}
 .footer-nav ul li { 
 	font-family:"Karmina Sans Light", sans-serif; 
-	 
 	font-weight:200;
 	margin: 0 0 18px 0; 
 	font-style:normal; 
@@ -406,7 +429,7 @@ footer a{color:#7EA107;}
  @media only screen and (min-width : 768px) {
 	 
 	/* HEADER */.main-content { width: 95%; margin:0 auto; padding:  2% 0 5%;  }
- 	.conf-title {color:#ffffff; font-size:4.2em; letter-spacing: .05em; }
+ 	.conf-title { font-size:4.2em; letter-spacing: .05em; }
  	.ampersand-logo img { max-width: 25%; margin-top: 15px; }
 	.main-content h1 { font-size:1.7em;  } 
 	/* HOME PAGE */
@@ -477,7 +500,7 @@ footer a{color:#7EA107;}
 		font-size:0.9em;
 		letter-spacing:.08em; 
 		text-transform:uppercase;
-		color:#ffffff;
+		color:#ffffff; 
 		background: none;
 		display:inline;
 		position:relative;
@@ -532,7 +555,7 @@ footer a{color:#7EA107;}
 		font-size:1.1em;
 		letter-spacing:.08em; 
 		text-transform:uppercase;
-		color:#ffffff;
+		color:#ffffff; 
 		background: none;
 		display:inline;
 		position:relative;
@@ -560,7 +583,7 @@ footer a{color:#7EA107;}
 	 .sponsors { text-align: left; width: 1056px; margin:14	0px auto 0;}
 	 
 	 .social ul { width: 1056px; }
-	 .social h3 {color:#ffffff; font-size: 1.1em; letter-spacing:.07em;}
+	 .social h3 { font-size: 1.1em; letter-spacing:.07em;}
 	 .social ul li a{ margin:12px 5%; text-indent:60px; width:190px; padding:2px 0 0 0;}
  	.social-subtext {
  		color: #ffffff;
