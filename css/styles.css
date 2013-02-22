@@ -126,7 +126,7 @@ header { width:100%; padding: 42px 0 0 0; text-align: center;}
 	position:relative;
 	margin: 0 auto;
 	z-index:500;
-	line-height: 1.6em;
+	line-height: 1.2em;
 	padding: 15px 0px 10px;
 	background: #fff59e; /* Old browsers */
 	background: -moz-linear-gradient(top,  #fff59e 0%, #fff064 100%); /* FF3.6+ */
@@ -147,7 +147,6 @@ header { width:100%; padding: 42px 0 0 0; text-align: center;}
 	height: 22px;
 	position: absolute;
 	border-bottom: none;
-	border-radius: 0 0 3px 3px;
 	z-index: 0;
 	right: 0;
 	left:0px;
@@ -167,7 +166,6 @@ header { width:100%; padding: 42px 0 0 0; text-align: center;}
 	height: 14px;
 	position: absolute;
 	border-bottom: none;
-	border-radius: 0 0 3px 3px;
 	z-index: 0;
 	right: 0;
 	left:0px;
@@ -181,12 +179,12 @@ header { width:100%; padding: 42px 0 0 0; text-align: center;}
     backface-visibility: hidden;	
 }
 
-.price {font-size: 3em;	letter-spacing: .07em; }
+.price {font-size: 2em;	letter-spacing: .07em; }
 
 .vat { font-size:1em; letter-spacing: 0em; }
 
 .registering { 
-	font-size:1em; 
+	font-size:0.8em; 
 	text-transform: uppercase; 
 	margin: 6px 0; 
 	font-family:"Karmina Italic", Georgia, serif;  
@@ -446,7 +444,9 @@ footer a{color:#7EA107;}
 	}
 
 
+/* ######################################################################## */ 
 /* ####################### MEDIA QUERIES YAY!!!! ########################## */
+/* ######################################################################## */
    
    
   /* Smartphones (portrait) ----------- */
@@ -466,6 +466,9 @@ footer a{color:#7EA107;}
  	.conf-title { font-size:4.2em; letter-spacing: .05em; }
  	.ampersand-logo img { max-width: 25%; margin-top: 15px; }
 	.main-content h1 { font-size:1.7em;  } 
+	.cta { line-height: 1.6em; }
+	.price {font-size: 3em;	letter-spacing: .07em; }
+	.registering { font-size:1em; }
 	/* HOME PAGE */
 	.speakers li a{ 
 		-webkit-transition: background .3s ease-in;
