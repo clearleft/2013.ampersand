@@ -201,7 +201,7 @@ header { width:100%; padding: 42px 0 0 0; text-align: center;}
 /* =Navigation */
 nav#main-nav { margin: 0 -1em; }
 nav#main-nav ul { margin-bottom: 0;  }
-nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; background: rgba(0,0,0,0.9); }
+nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; background: rgba(0,0,0,0.7); }
 
 #nav a { font-weight: bold; }
 #nav { margin: 0; outline: 0; font-size: .7857em; /* 11/14 */ }
@@ -284,8 +284,6 @@ body:not(:target) #nav:target #back {
 } 
 		  
 
-
-
 /* MAIN CONTENT */
 .main-content { position: relative; top:60px; padding: 3px 0 60px 0; }
 .main-content:after {
@@ -338,8 +336,8 @@ body:not(:target) #nav:target #back {
 /* ############# SCHEDULE PAGE ############### */
 .schedule { padding:0; letter-spacing: 0.06em; text-align:left; }
 .schedule h1 { text-align:center;}
-.schedule h2, .schedule-change {font-family:"Karmina Sans Light", sans-serif; font-weight:normal; font-style:normal; font-size:.9em; text-align:center; padding:0 10%; line-height:1.2em; }
-.schedule .time { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
+.schedule h2, .schedule-change {font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal; font-size:.9em; text-align:center; padding:0 10%; line-height:1.2em; }
+.schedule .time { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
 .schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #ffffff;  margin-left:12px; }
 .schedule-table {margin:60px 0 0 0; width: 100%;}
 .schedule-table td {padding:25px 0}
@@ -363,8 +361,8 @@ body:not(:target) #nav:target #back {
 #conf-location .location-c { background:url('../images/deco-location-post.png') 50% 7px no-repeat;}
 
 #city-info { width: 85%; margin: 0 auto; text-align: left; padding:40px 0 0 0;}
-#city-info h2, #city-info p { font-family:"Karmina Sans Light", sans-serif; font-weight:200; letter-spacing:.03em; margin:0px 0 40px;  }
-#city-info h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; }
+#city-info h2, #city-info p { font-family:"Karmina Sans Light", sans-serif; font-weight:200; letter-spacing:.03em; margin:0px 0 40px;  color: rgba(255,255,255, 0.9);}
+#city-info h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1);}
 
 .map iframe{ width:100%; height:320px; }	
 
@@ -372,8 +370,43 @@ body:not(:target) #nav:target #back {
 #sleep-food-net h4 { font-size:1.2em; font-family:"Karmina Regular", Georgia, serif; font-weight:normal; font-style:normal; margin: 40px 0 20px; }	
 #sleep-food-net address { font-size:0.9em; margin: 0 0 30px 0; }
 #sleep-food-net address p { color: rgba(255,255,255,0.6);}	
-	
-	
+
+/* #################  SPONSORS PAGE ###################### */
+.main-content .sponsors-page h2 { 
+	font-family:"Karmina Sans Light", sans-serif; 
+	font-weight: 200;
+	letter-spacing:0em; 
+	padding:0 6%; 
+	line-height:1.2em; 
+	color: rgba(255,255,255, 0.9);
+	text-align: left; 
+	font-size:1.1em;
+	padding:12px 0 0 0;
+	margin: 0 6%;
+}
+.main-content .sponsors-page  p {  
+	font-family:"Karmina Sans Light", sans-serif; 
+	font-weight: 200; 
+	text-align: left; 
+	margin: 0 6% 25px; 
+	font-size: .85em;
+	line-height: 1.5em; 
+	padding: 11px 0 0 0; 
+}
+.main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
+.main-content .sponsors-page h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
+.sponsorship-pack { margin: 32px 15%; font-family:"Karmina Sans Light", sans-serif; font-weight: 200; }	
+.sponsorship-pack .button { background: rgba(0,0,0,0.5) url('../images/deco-downlad-icon.png') 16px 13px no-repeat;
+border-radius: 6px;
+border: 1px solid rgba(255,255,255,.3);
+padding: 18px 0 18px 75px;
+text-align: left;
+}
+.sponsorship-pack .button small {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal;}	
+.sponsorship-pack .button span{  margin: 18px 0 0 0px; display:block;}
+
+.sponsorship-pack .button { background: rgba(0,0,0,0.5) url('../images/deco-downlad-icon.png') center 13px no-repeat; padding: 66px 0 13px 0; text-align: center; }
+		
 /* FOOTER SECTION */
 .sponsors{ margin:100px 0 0 0; }
 .sponsors img { margin:12px; }
@@ -394,6 +427,7 @@ footer {
 	text-align: left; 
 	font-size: 0.8em;
 	font-family:"Karmina Sans Light", sans-serif; 
+	font-weight: 200;
 	color:#555555;
 	overflow:hidden;
 	padding:2% 4% 4% 4%;
@@ -464,6 +498,8 @@ footer a{color:#7EA107;}
 	.sponsors { text-align: left; width: 95%; margin:140px auto 0;}
 	
 	
+	
+	
 	/* ############# SCHEDULE PAGE ############### */
 	.schedule .time { 
 		width: 42%; 
@@ -479,6 +515,39 @@ footer a{color:#7EA107;}
 	.schedule-table .first td { background-position-y: 0px; padding-top: 8px; }
 	.schedule h2, .schedule-change, .schedule h3.summary  { font-size:.9em; }
 	
+	
+	/* ############# LOCATION PAGE ############### */
+	#conf-location { width: 45%; text-align:left; float: left; margin: 0 0 0 2%; border-bottom: none;}
+	#conf-location h3{ font-size:1.5em; margin:0 0 7px 0; }
+	#conf-location address { font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal;   font-size:0.9em; color: #cccccc;}
+	#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#ffffff;}
+	
+	#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:50px 0 0 52px; }
+	#conf-location .location-a { background:url('../images/deco-location-pre.png') 0 47px no-repeat;}
+	#conf-location .location-b { background:url('../images/deco-location-conf.png') 0 47px no-repeat;}
+	#conf-location .location-c { background:url('../images/deco-location-post.png') 0 47px no-repeat;}
+	
+	#city-info { 
+		background:url('../images/deco-brighton-pic.png')0 0 no-repeat; 
+		width: 367px; 
+		text-align:left; 
+		float: right;
+		margin: 40px 2% 0 0; 
+		padding: 195px 0 0 0;
+	}
+	
+	.map iframe{ width:100%; height:350px; }	
+	
+	#accommodation, #eating, #wifi { width: 30%; float: left;}
+	#eating, #wifi { margin: 0 0 0 5%;}
+	
+	/* #################  SPONSORS PAGE ###################### */
+	
+	.main-content .sponsors-page  p { font-size:1em;}
+	
+	.main-content .sponsors-page h2 { text-align: center; font-size:1.2em; }
+	
+	.sponsorship-pack {	margin: 32px 24%; }
 	
 	
 	/* NAVIGATION */
@@ -542,6 +611,10 @@ footer a{color:#7EA107;}
 	.main-content { width: 1056px; padding: 2% 0% 5%; margin-top: 100px; }
 	.main-content h1 { font-size:2em;} 
 	
+	#conf-location {margin: 0 0 0 9%; }
+	#city-info { margin: 40px 9% 0 0; }
+	.map iframe{ width:100%; height:450px; }	
+	
 	body:not(:target) #nav a {
 		border-bottom-width: 0;
 		font-weight: bold;
@@ -567,7 +640,15 @@ footer a{color:#7EA107;}
 	body:not(:target) #nav .location-link { border:none;  width: 5%; top:-35px; left:305px; }
 	body:not(:target) #nav .sponsors-link { border: none; width: 5%; top:-50px; left:425px }
  	
-	
+	/* ############ SPONSORSHIP PACK ############### */
+	.sponsorship-pack { margin: 52px 7%; width: 300px; float: right; }
+	.sponsorship-pack .button {
+		background: rgba(0,0,0,0.5) url('../images/deco-downlad-icon.png') center 31px no-repeat;
+		padding: 87px 0 30px 0;
+		text-align: center;
+	}
+	.main-content .sponsors-page p { margin-top: 37px; }
+	.main-content .sponsors-page h2 { font-size:1.3em; }
 	
 	.speakers { width: 847px; margin: 0 auto; }
  	.speakers li a:hover { text-decoration:none; background:rgba(0,0,0,0); }

@@ -10,32 +10,33 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body id="wrapper" class="vevent sponsors">
+<body id="wrapper" class="vevent sponsors-page">
 
 	<?php include("includes/header.php"); ?>
 
-	<!-- SPONSORS -->
-	<article class="section sponsors clearfix">
-		
+<!-- sponsors-page -->
+<div class="main-content">
+	<article class="section sponsors-page clearfix">
 		<h1>Sponsors</h1>
-		
-		<h2>Get your message to a creative, knowledgeable, and tech-savvy audience including everyone from creative directors and heads of design, 
+		<h2><span>Get your message</span> to a creative, knowledgeable, and tech-savvy audience including everyone from creative directors and heads of design, 
 		to freelance web designers, front-end developers, illustrators and type designers.</h2>
 		
 		<section class="sponsorship-pack">
-			<p>
-				For more information on the benefits, sponsorship options and pricing, download the 
-				<span class="button">
-					<a href="#">Sponsors Information Pack <small>(0.6Mb PDF)</small></a>  or <a href="/contact">contact us.</a> 
-				</span>
-			</p>
+			<a href="#">
+				<div class="button">Sponsors Information Pack <br/><small>(0.6Mb PDF)</small></div>
+			</a>				
+			
+			<br/>
+			<span>or </span><a href="/contact">just contact us.</a> 
 		</section>
 		
-		<p>Ampersand has plenty of sponsorship options and opportunities providing you the flexibility to showcase your services and demonstrate your commitment to the web design and typography community in a way that best fits your needs.                                  
-We’ve also introduced a special low cost grassroots sponsorship option especially for individuals or very small up-and-coming businesses.                                    </p>
+		<p><span>Ampersand</span> has plenty of sponsorship options and opportunities providing you the flexibility to showcase your services and demonstrate your commitment to the web design and typography community in a way that best fits your needs.</p>
+		<p>We’ve also introduced a special low cost grassroots sponsorship option especially for individuals or very small up-and-coming businesses.</p>
 		
 		
 	</article>
+		
+</div><!-- END MAIN CONTENT -->	
 	
 		
 	<?php include("includes/footer.php"); ?>
