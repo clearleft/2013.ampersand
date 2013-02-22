@@ -395,7 +395,7 @@ body:not(:target) #nav:target #back {
 }
 .main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
 .main-content .sponsors-page h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
-.sponsorship-pack { margin: 32px 15%; font-family:"Karmina Sans Light", sans-serif; font-weight: 200; }	
+.sponsorship-pack { margin: 32px 6%; font-family:"Karmina Sans Light", sans-serif; font-weight: 200; }	
 .sponsorship-pack .button { background: rgba(0,0,0,0.5) url('../images/deco-downlad-icon.png') 16px 13px no-repeat;
 border-radius: 6px;
 border: 1px solid rgba(255,255,255,.3);
@@ -543,12 +543,19 @@ footer a{color:#7EA107;}
 	
 	/* #################  SPONSORS PAGE ###################### */
 	
-	.main-content .sponsors-page  p { font-size:1em;}
-	
+	.main-content .sponsors-page p {
+	font-family: "Karmina Sans Light", sans-serif;
+	font-weight: 200;
+	text-align: left;
+	margin: 50px 6% 25px;
+	font-size: .9em;
+	line-height: 1.5em;
+	padding: 0px 0 0 0;
+}
 	.main-content .sponsors-page h2 { text-align: center; font-size:1.2em; }
 	
-	.sponsorship-pack {	margin: 32px 24%; }
-	
+	.sponsorship-pack {	margin: 56px 6% 60px; float: right; }
+	.sponsorship-pack .button {	padding: 66px 24px 13px; }
 	
 	/* NAVIGATION */
 	
@@ -647,8 +654,9 @@ footer a{color:#7EA107;}
 		padding: 87px 0 30px 0;
 		text-align: center;
 	}
-	.main-content .sponsors-page p { margin-top: 37px; }
-	.main-content .sponsors-page h2 { font-size:1.3em; }
+	.main-content .sponsors-page p { margin-top: 47px; font-size:1.1em; }
+	
+	.main-content .sponsors-page h2 { font-size:1.4em; }
 	
 	.speakers { width: 847px; margin: 0 auto; }
  	.speakers li a:hover { text-decoration:none; background:rgba(0,0,0,0); }
