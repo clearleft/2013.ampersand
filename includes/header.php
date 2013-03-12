@@ -1,5 +1,5 @@
 <header id="top" class="section clearfix" >
-	<a id="jump" href="#nav">Main Navigation</a>
+	<a id="jump" href="#nav">menu</a>
 	
 	<div class="ampersand-logo">
 		<img src="images/ampersand-logo.png" alt="ampersand-logo" />
@@ -7,14 +7,13 @@
 	<h1 class="conf-title">Ampersand 2013</h1>
 	<div class="event-info">
 		<h2 class="description">The Web Typography Conference</h2>
-		<p class="loc-date">Brighton UK,<time datetime="2013-06-28" class="dtstart"> 28th June 2013,</time></p>
 	</div>
 			
 	<div class="tickets clearfix">
-		<a href="#">
-			<p class="cta"><strong class="price">&pound;125</strong><span class="vat">+VAT</span>
-				<span class="registering">Register Now </span> <img src="../images/cta-arrow.png" width="11" height="16" alt="Cta Arrow">
-			</p>
+		<p class="loc-date">Brighton<time datetime="2013-06-28" class="dtstart"> 28 Jun 2013,</time></p>
+		<a href="#" class="cta">
+			<span class="price">&pound;125</span><span class="vat">+VAT</span>
+			<span class="registering">Register Now <img src="../images/cta-arrow.png" alt="Cta Arrow"></span> 
 		</a>
 	</div>
 		
