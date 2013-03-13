@@ -27,11 +27,11 @@
 			
 			<table class="schedule-table" summary="Ampersand schedule for 15 June 2012">
                 
-                <tr class="vevent first">
-                    <th class="time"><time class="dtstart" title="2012-06-14T19:30:00">Thurs 19.30</time></th>
+                <tr class="vevent">
+                    <th class="time"><time class="dtstart" title="2012-06-14T19:30:00">Thurs 19.30</time> </th>
                     <td>
                     	<h3 class="summary">Pre-Party Hosted by MyFonts</h3>
-                    	<p><a href="location" class="fn url vcard">The Basement</a><br/>(Screening: Linotype the Film)</p>
+                    	<p class="vcard"><a href="phil-baines" class="phil-baines fn" >The Basement</a></p>
                     </td>
                 </tr>
 				
