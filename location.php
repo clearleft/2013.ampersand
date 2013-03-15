@@ -48,23 +48,16 @@
 			
 			
 		<div id="loc-container">
-			
 			<div class="map">
-				<iframe frameBorder='0' src='http://a.tiles.mapbox.com/v3/mhjallan.map-dcw2v1k0.html#17/50.82414000000001/-0.13871999999999177'></iframe>
-			<!-- ><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?source=embed&amp;hl=en&amp;ie=UTF8&amp;q=corn+exchange,+brighton&amp;fb=1&amp;hq=corn+exchange,&amp;hnear=Brighton,+East+Sussex,+UK&amp;view=map&amp;cid=2326185885725850547&amp;t=m&amp;ll=50.824563,-0.138917&amp;spn=0.009488,0.034332&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe> -->
-			</div>
+					<iframe frameBorder='0' src='http://a.tiles.mapbox.com/v3/mhjallan.map-dcw2v1k0.html#17/50.82414000000001/-0.13871999999999177'></iframe>
+			</div>			
+		</div><!-- END #conf-Location -->
 		
-			<div id="city-info">
-				<h2><span>Brighton</span> is one of the most vibrant, colourful and creative cities in Europe. It has a rich typographic history, including being the birthplace of<a href="http://en.wikipedia.org/wiki/Eric_Gill"> Eric Gill.</a></h2>
-				<p>Cosmopolitan, compact, energetic, unique, fun, lively, historic, young, exotic and free-spirited, Brighton is a city like no other. 
-					Why not spend the weekend here after the conference! More information is available from <a href="#">visitbrighton.com</a></p>
-			</div><!-- END #city-info -->
-		</div>
-		
-		
-		
-		
-					
+		<div id="city-info">
+			<h2><span>Brighton</span> is one of the most vibrant, colourful and creative cities in Europe. It has a rich typographic history, including being the birthplace of<a href="http://en.wikipedia.org/wiki/Eric_Gill"> Eric Gill.</a></h2>
+			<p>Cosmopolitan, compact, energetic, unique, fun, lively, historic, young, exotic and free-spirited, Brighton is a city like no other. 
+				Why not spend the weekend here after the conference! More information is available from <a href="#">visitbrighton.com</a></p>
+		</div><!-- END #city-info -->			
 
 		<div id="sleep-food-net">
 			<div id="accommodation">

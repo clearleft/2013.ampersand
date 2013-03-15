@@ -21,8 +21,7 @@
 	 
 	 <section class="section sessions">
 		
-	 	<div class="speaker-session">
-		
+ 		<div class="speaker-session">
 	 		<h1>The Future of CSS Typography</h1>
 	 		<p class="talk">This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
 	 		<p class="talk">These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
@@ -34,16 +33,32 @@
 	 		<p>Before that he was Design Director at Wieden & Kennedy London.</p>
 	 		<p>In 2010 Ben won the Graphics category in the Design Museum’s Designs	Of The Year Awards.</p>
 	 	</div>	<!-- END SPEAKER-BIO -->
+		
+ 		<div class="bio-more">
+ 	 		<h3>More Info</h3>
+ 	 		<ul>
+ 	 			<li><a href="#">@ben_terret on Twitter</a></li>
+ 	 			<li><a href="#">www.benterrett.com</a></li>
+ 	 			<li><a href="#">Article, “Type Today”</a></li>
+ 	 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
+ 	 		</ul>
+ 	 	</div><!-- END MORE-BIO -->
+		
+		<div class="speaker-nav">
+			<h2>Speakers & Sessions</h2>
+			<ul>
+				<li>>> Ben Terrett</li>
+				<li><a href="#">Mark Boulton</a></li>
+				<li><a href="#">Jenn Lukas</a></li>
+				<li><a href="#">Kutlu Çanlıoğlu</a></li>
+				<li><a href="#">Erik Spiekerman</a></li>
+				<li><a href="#">Gerry Leonidas</a></li>
+				<li><a href="#">Nina Stössinger</a></li>
+				<li><a href="#">Richard Rutter</a></li>
+			</ul>
+		</div>
 	 	
-		<div class="bio-more">
-	 		<h3>More Info</h3>
-	 		<ul>
-	 			<li><a href="#">@ben_terret on Twitter</a></li>
-	 			<li><a href="#">www.benterrett.com</a></li>
-	 			<li><a href="#">Article, “Type Today”</a></li>
-	 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
-	 		</ul>
-	 	</div><!-- END MORE-BIO -->
+		
 	 			
 		
 		<div class="clearfix">
