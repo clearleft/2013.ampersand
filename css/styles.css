@@ -89,7 +89,7 @@ body {
 
 img {max-width:100%;}
 
-h1, h2 { font-family:"Karmina Bold", Georgia, serif; font-size-ajust:0.473; font-weight:bold; font-style:normal; color: #ffffff; font-size:1.5em; letter-spacing: 0.1em;}
+h1, h2 { font-family:"Karmina Bold", Georgia, serif; font-size-ajust:0.473; font-weight:bold; font-style:normal; color: #ffffff; font-size:1.8em; letter-spacing: 0.06em;}
 h5 {
 	font-family:"Karmina Sans Light", sans-serif; 
 	font-weight:200; 
@@ -99,7 +99,6 @@ h5 {
 	margin:34px 0 0 0;  
 	color:#fff064;
 }
-	
 	
 a{ color:#fff064; text-decoration: none; }
 
@@ -122,7 +121,7 @@ header { width:90%; padding: 0 5%;}
 
 .tickets a:hover { text-decoration: none; }
 
-.loc-date { color:#fff064; letter-spacing: .1em; font-size:.8em; margin:34px 0 12px; }
+.loc-date { color:#fff064; letter-spacing: .1em; margin:34px 0 12px; }
 	
 .cta, .cta-speakers {
 	color: #000000;
@@ -163,12 +162,11 @@ header { width:90%; padding: 0 5%;}
 
 .registering img {position: absolute; margin: 0 0 1px 12px; top: -5px; display:inline;}
 
-	
-	
 	@media only screen and (min-width : 570px) {
-		.tickets{ position: absolute; top: 0; right:2.5%; width:35%; max-width: 255px; }
-		.tickets .loc-date { position: absolute; margin: 121px 0 0 18%; }
-		.cta{ padding:7% 4%; border-radius: 0; line-height: .6em;}
+		
+		.tickets{ position: absolute; top: 0; right:5%; width:220px; max-width: 310px; }
+		.tickets .loc-date { position: absolute; margin: 121px 0 0 22px; }
+		.cta { padding: 12% 4% 6%; border-radius: 0; line-height: .6em;	}
 		.cta:after {
 			content: '';
 			width: 100%;
@@ -212,16 +210,18 @@ header { width:90%; padding: 0 5%;}
 		.registering { background: none; font-size:.6; padding:0;}
 	}	
 	@media only screen and (min-width : 720px) {
+		
 		header { width: 86%; padding: 0 7%; }
-		.conf-title { font-size: 3em; }
+		.conf-title { font-size: 2.5em; }
 		.description { font-size: .28em; }
 		.cta:hover { opacity: 0.9; }
 		
 		.tickets { right: 7%;}
-		.tickets .loc-date { position: absolute; margin: 121px 0 0 22%; }
+		.tickets .loc-date { position: absolute; margin-top: 136px; }
 	}
 	@media only screen and (min-width : 1024px) {
 		header#top { margin-top: 16px;}
+		.conf-title { font-size: 3em; }
 	}	
 
 
@@ -244,7 +244,7 @@ nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; ba
 	display: block;
 	padding: 16px 0 0 0;
 	height: 53px;
-	width: 52px;
+	width: 44px;
 	text-indent: -2.2em;
 	font-family:"Karmina Sans Light", sans-serif; 
 	font-weight:200; 
@@ -253,8 +253,8 @@ nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; ba
 	letter-spacing: .1em;
 	color: #fff;
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 5%;
+	top: 1%;
 	z-index: 1001;
 }
 
@@ -263,7 +263,7 @@ nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; ba
 body:not(:target) #nav {
     outline: 0;
     margin: 0;
-    padding-top: 39px;
+    padding-top: 50px;
     position: absolute;
     top: 0;
     right: 0;
@@ -327,7 +327,7 @@ body:not(:target) #nav:target #back {
 		  	body:not(:target) #nav { 
 				position: absolute; 
 				top:205px; 
-				width:95%; 
+				width:90%; 
 				margin: 0 auto; 
 				z-index: 20; 
 				border-top: 1px solid rgba(255,255,255,0.3); 
@@ -365,14 +365,20 @@ body:not(:target) #nav:target #back {
 		
 	}
 	@media only screen and (min-width : 720px) {
-		body:not(:target) #nav { top: 231px; width: 86%; padding: 23px 0;}
-	  	body:not(:target) #nav a { font-size:1em; }
-		body:not(:target) #nav li { padding: 0; width:16%;}
+		body:not(:target) #nav { top: 231px; width: 86%; }
 	}
-	
+	@media only screen and (min-width : 860px) {
+		
+	  	body:not(:target) #nav a { font-size:1em; }
+		body:not(:target) #nav li { width:16%;}
+	}	
 	@media only screen and (min-width : 1024px) {
 		body:not(:target) #nav { top: 260px;}
+		body:not(:target) #nav a { font-size:1.2em; }
 	}	
+	@media only screen and (min-width : 1200px) {
+		body:not(:target) #nav a { font-size:1.3em; }
+	}		
 
 
 
@@ -400,7 +406,6 @@ body:not(:target) #nav:target #back {
 	-moz-transform: skew(0deg,-2deg);
 	clear:both;
 }
-
 .main-content:before {
 	content: '';
 
@@ -419,19 +424,75 @@ body:not(:target) #nav:target #back {
 	-moz-transform: skew(0deg,2deg);
 }
 
-.main-content h1 { margin: 23px 0;  }
-.main-content p { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; font-weight: 200; line-height:1.4em; letter-spacing:.1em; }
-/* ############# HOME PAGE ############### */
-.speakers { margin:37px 0 0 0;}
-.speakers li { font-size: 1.2em; letter-spacing: 0.06em; padding-bottom:12px; }
+.main-content h1 { margin: 23px 0 6px;  }
+.main-content p { font-family:"Karmina Sans Light", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
+.main-content  .presentation-title{ font-size: 0.7em; }
+	@media only screen and (min-width : 570px) {
+	
+		.main-content { top:190px;  }
+	}
+	@media only screen and (min-width : 720px) {
+	
+		.main-content { padding: 15px 7% 60px;}
+	}
+
+/* #################################################################################################################################### */ 
+/* #############  HOME PAGE SPEAKER SECTION  ############################################################################################################# */
+/* #################################################################################################################################### */
+
+.speakers li { font-size: 1.5em; }
 .speakers li a img {display: none;}
 
+	@media only screen and (min-width : 570px) {
+	
+		.speakers { margin:52px 0 0 0;}
+		
+		.speakers li { 
+			float: left; 
+			margin: 0 0 4% 0;
+			width: 48%;
+			background-size: contain;
+			padding: 22% 0 0 0; 
+		}
 
-.presentation-title p{ font-size: 0.6em; }
-.reg-link { border:4px solid #fff064; text-align:center; margin-top:38px; }
+		#speaker1 { background:url('../images/speakers-ben-terrett.jpg')  0 0 no-repeat; }
+		#speaker2 { background:url('../images/speakers-mark-boulton.jpg')  0 0 no-repeat; }
+		#speaker3 { background:url('../images/speakers-jenn-lukas.jpg')  0 0 no-repeat; }
+		#speaker4 { background:url('../images/speakers-kutlu-canlioglu.jpg')  0 0 no-repeat; }
+		#speaker5 { background:url('../images/speakers-erik-spiekermann.jpg')  0 0 no-repeat; }
+		#speaker6 { background:url('../images/speakers-gerry-leonidas.jpg')  0 0 no-repeat; }
+		#speaker7 { background:url('../images/speakers-nina-stossinger.jpg')  0 0 no-repeat; }
+		#speaker8 { background:url('../images/speakers-richard-rutter.jpg')  0 0 no-repeat; }
+		
+		#speaker1, #speaker3, #speaker5, #speaker7 { margin-right:4%; }
+		
+	}
+	
+	@media only screen and (min-width : 820px) {	
+		.speakers li { padding: 23% 0 0 0; }
+	}
+	
+	@media only screen and (min-width : 1024px) {	
+		.speakers li { padding: 24% 0 0 0; }
+	}
+	
+	@media only screen and (min-width : 1150px) {	
+		.speakers li { width: 32%; padding: 15% 0 0 0;  }
+		#speaker1, #speaker2, #speaker4, #speaker5, #speaker7, #speaker8  { margin-right:2%; }
+		#speaker3, #speaker6, #speaker9{ margin-right:0; }
+	}
+	@media only screen and (min-width : 1220px) {	
+		.speakers li { width: 32%; padding: 15.5% 0 0 0;  }
+	}	
+
+
+
+
 
 
 .map{ width: 100%; padding: 0; 	 }
+
+
 
 
 
@@ -602,21 +663,10 @@ footer a{color:#7EA107;}
   	
 	.sponsors-link { padding-right: 0!important;}
 		
-	.main-content {	position: relative;	top: 172px; padding: 3px 0 60px; }
+	
   	
 	
-	.sessions { padding: 0 2.5%;}		
-	.sessions p { width: 60%; }
-
-  	
-
-	.speakers { margin:37px 0 0 0;}
-	.speakers li { float: left; width: 49%; }
-	.speakers li a img {display: inline;}
 	
-	.speakers li#speaker1, .speakers li#speaker3, .speakers li#speaker5, .speakers li#speaker7, .speakers li#speaker9 { margin-right: 2%; }
-	
-	.social ul li a{ margin: 12px 8%; }
 
    }  
 
@@ -630,13 +680,7 @@ footer a{color:#7EA107;}
 	
 
  
-	
-	
 
-	
-	
-	.main-content {	top: 147px; padding: 17px 0 60px;}
-	.sessions { padding: 0 5%;}		
 	
 	
 	
@@ -725,28 +769,13 @@ footer a{color:#7EA107;}
  }
 
 
-@media only screen and (min-width : 1024px){
-
-	.social ul li a{ margin: 12px 9.5%;}
-	.main-content h1 { font-size: 2.5em;}
-	
- 
- }
 
 
  @media only screen and (min-width : 1224px){
 	 
- 	.speakers { margin:37px 0 0 0;}
- 	.speakers li { float: left; width: 28%; margin-bottom: 2%; }
- 	.speakers li a img {
-	}
-	.speakers li a img:hover { opacity:.6; }
+ 
 	
-	.speakers li#speaker3, .speakers li#speaker6, .speakers li#speaker9 { margin-right: 0;}
- 	.speakers li#speaker1, .speakers li#speaker2, .speakers li#speaker4, .speakers li#speaker5, .speakers li#speaker7, .speakers li#speaker8 { margin-right: 8%; }
-	
-	
-	.main-content { top: 174px; padding: 2% 0 0 0; }
+
 	
 	.main-content:after {
 		content: '';
