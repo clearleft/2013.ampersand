@@ -472,6 +472,29 @@ footer a{color:#7EA107;}
 	letter-spacing:.15em; 
 	font-size:.8em; 
 	}
+	
+	
+/* ############ Speakers page #################### */
+
+.speaker-session { margin: 35px 0 0 0; }
+/*.speaker-session { background:url('../images/speakers-ben-terrett.jpg') 0 0 no-repeat; background-size: contain; padding: 53%  0 0 0; margin: 35px 0 0 0; }*/
+
+.speaker-session h2{ margin:39px 0 17px 0; }
+.speaker-session p{ margin:0 0 17px 0;}
+.bio-more {margin:10px 0 30px;}
+.speaker-session h1 { font-size: 2.2em; line-height: .9em;}
+.speaker-session h1 .speaker-title {font-family:"Karmina Sans Light", sans-serif; 
+	font-weight: 200; font-size:.6em; letter-spacing:.1em;}
+.speaker-session .talk {font-size:1em; line-height:1.4em; }
+.speaker-bio {font-size:.7em; }
+
+.bio-more { font-family:"Karmina Sans Light", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;}
+.bio-more h3 { font-size:1.3em; margin:39px 0 17px 0;}	
+
+/*.speaker-img {float:left; margin-right:2%;}*/
+
+
+	
 
 /* ######################################################################## */ 
 /* ######################################################################## */ 
