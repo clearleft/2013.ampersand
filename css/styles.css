@@ -304,7 +304,7 @@ body:not(:target) #nav:target #back {
 		  
 
 /* MAIN CONTENT */
-.main-content { position: relative; top:60px; padding: 3px 2.5% 60px; }
+.main-content { position: relative; top:60px; padding: 3px 5% 60px; }
 .main-content:after {
 	content: '';
 
@@ -354,14 +354,14 @@ body:not(:target) #nav:target #back {
 .reg-link { border:4px solid #fff064; text-align:center; margin-top:38px; }
 
 
-
+.map{ width: 100%; padding: 0; 	 }
 
 
 
 /* ############# SCHEDULE PAGE ############### */
 .schedule { padding:0; letter-spacing: 0.06em; text-align:left; }
-.schedule h1 { text-align:center;}
-.schedule h2, .schedule-change {font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal; font-size:.8em; text-align:center; padding:0 10%; line-height:1.2em; }
+.schedule h1 { padding:0; }
+.schedule h2, .schedule-change {font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal; font-size:.8em; padding:0 20% 0 0; line-height:1.2em; }
 .schedule .time { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
 .schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #ffffff;  margin-left:12px; }
 .schedule-table {margin:60px 0 0 0; width: 100%;}
@@ -376,23 +376,24 @@ body:not(:target) #nav:target #back {
 .schedule-change{  margin:35px; }
 
 /* ############# LOCATION PAGE ############### */
+.location { padding: 0;}
 .location header h2 {font-size:0.9em;}
-#conf-location { border-bottom: 1px solid rgba(255,255,255,1); width: 85%; margin: 0 auto;}
+#conf-location { border-bottom: 1px solid rgba(255,255,255,1); width: 100%; margin: 0 auto;}
 #conf-location h3{ font-size:1.2em; margin:0 0 7px 0; }
 #conf-location address { font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal;   font-size:0.8em; color: #cccccc;}
 #conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#ffffff;}
 #conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:45px; padding:50px 0 0 0; }
-#conf-location .location-a { background:url('../images/deco-location-pre.png') 50% 7px no-repeat;}
-#conf-location .location-b { background:url('../images/deco-location-conf.png') 50% 7px no-repeat;}
-#conf-location .location-c { background:url('../images/deco-location-post.png') 50% 7px no-repeat;}
+#conf-location .location-a { background:url('../images/deco-location-pre.png') 0 7px no-repeat;}
+#conf-location .location-b { background:url('../images/deco-location-conf.png') 0 7px no-repeat;}
+#conf-location .location-c { background:url('../images/deco-location-post.png') 0 7px no-repeat;}
 
-#city-info { width: 85%; margin: 0 auto; text-align: left; padding:40px 0 0 0;}
+#city-info { width: 100%; margin: 0 auto; text-align: left; padding:40px 0 0 0;}
 #city-info h2, #city-info p { font-family:"Karmina Sans Light", sans-serif; font-weight:200; letter-spacing:.03em; margin:0px 0 40px;  color: rgba(255,255,255, 0.9);}
 #city-info h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1);}
 
 .map iframe{ width:100%; height:320px; }	
 
-#sleep-food-net { text-align: left; width: 85%; margin: 0 auto; font-family:"Karmina Sans Light", sans-serif; font-weight:200; letter-spacing:.03em;}
+#sleep-food-net { text-align: left; width: 100%; margin: 0 auto; font-family:"Karmina Sans Light", sans-serif; font-weight:200; letter-spacing:.03em;}
 #sleep-food-net h4 { font-size:1.2em; font-family:"Karmina Regular", Georgia, serif; font-weight:normal; font-style:normal; margin: 40px 0 20px; }	
 #sleep-food-net address { font-size:0.9em; margin: 0 0 30px 0; }
 #sleep-food-net address p { color: rgba(255,255,255,0.6);}	
@@ -474,27 +475,24 @@ footer a{color:#7EA107;}
 	}
 	
 	
-/* ############ Speakers page #################### */
+	/* ############ Speakers page #################### */
 
-.speaker-session { margin: 35px 0 0 0; }
-/*.speaker-session { background:url('../images/speakers-ben-terrett.jpg') 0 0 no-repeat; background-size: contain; padding: 53%  0 0 0; margin: 35px 0 0 0; }*/
+	.speaker-session { margin: 35px 0 0 0; }
+	/*.speaker-session { background:url('../images/speakers-ben-terrett.jpg') 0 0 no-repeat; background-size: contain; padding: 53%  0 0 0; margin: 35px 0 0 0; }*/
 
-.speaker-session h2{ margin:39px 0 17px 0; }
-.speaker-session p{ margin:0 0 17px 0;}
-.bio-more {margin:10px 0 30px;}
-.speaker-session h1 { font-size: 2.2em; line-height: .9em;}
-.speaker-session h1 .speaker-title {font-family:"Karmina Sans Light", sans-serif; 
-	font-weight: 200; font-size:.6em; letter-spacing:.1em;}
-.speaker-session .talk {font-size:1em; line-height:1.4em; }
-.speaker-bio {font-size:.7em; }
+	.speaker-session h2{ margin:39px 0 17px 0; }
+	.speaker-session p{ margin:0 0 17px 0;}
+	.bio-more {margin:10px 0 30px;}
+	.speaker-session h1 { font-size: 2.2em; line-height: .9em;}
+	.speaker-session h1 .speaker-title {font-family:"Karmina Sans Light", sans-serif; 
+		font-weight: 200; font-size:.6em; letter-spacing:.1em;}
+	.speaker-session .talk {font-size:1em; line-height:1.4em; }
+	.speaker-bio {font-size:.7em; }
 
-.bio-more { font-family:"Karmina Sans Light", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;}
-.bio-more h3 { font-size:1.3em; margin:39px 0 17px 0;}	
+	.bio-more { font-family:"Karmina Sans Light", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;}
+	.bio-more h3 { font-size:1.3em; margin:39px 0 17px 0;}	
 
-/*.speaker-img {float:left; margin-right:2%;}*/
-
-
-	
+	/*.speaker-img {float:left; margin-right:2%;}*/
 
 /* ######################################################################## */ 
 /* ######################################################################## */ 
@@ -603,7 +601,7 @@ footer a{color:#7EA107;}
  
 	.conf-title { font-size: 3em; letter-spacing: .1em; }
 	
-  	body:not(:target) #nav { top:230px; width:90%; padding: 23px 0; }
+  	body:not(:target) #nav { top:260px; width:90%; padding: 23px 0; }
   	body:not(:target) #nav a { font-size:1em; }
 	body:not(:target) #nav li { padding: 0; width:16%;}
 	.description { font-size: 0.8em;}
@@ -630,11 +628,12 @@ footer a{color:#7EA107;}
 	.break {  border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05);}
 	.schedule-table td { padding:35px 0 35px 12px ; font-size:.9em;}
 	.schedule-table .first td { background-position-y: 0px; padding-top: 8px; }
-	.schedule h2, .schedule-change, .schedule h3.summary  { font-size:.9em; padding: 0 21%; }
-	
+	.schedule-change, .schedule h3.summary  { font-size:.9em; padding: 0 0; }
 	
 	/* ############# LOCATION PAGE ############### */
-	#conf-location { width: 45%; text-align:left; float: left; margin: 0 0 0 2%; border-bottom: none;}
+	
+	.location header { padding: 0;}
+	#conf-location { width: 45%; text-align:left; float: left; margin: 0; border-bottom: none;}
 	#conf-location h3{ font-size:1.5em; margin:0 0 7px 0; }
 	#conf-location address { font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal;   font-size:0.9em; color: #cccccc;}
 	#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#ffffff;}
@@ -649,8 +648,11 @@ footer a{color:#7EA107;}
 		width: 357px; 
 		text-align:left; 
 		float: right;
-		margin: 40px 2% 0 0; 
+		margin: 40px 0 0 0; 
 		padding: 195px 0 0 0;
+		position: absolute;
+		top: 45px;
+		right: 5%;
 	}
 	
 	.map iframe{ width:100%; height:350px; }	
@@ -689,10 +691,18 @@ footer a{color:#7EA107;}
 	footer img.clearleft { float:right;}
 }
 
+ @media only screen and (min-width : 770px) { 
+ 	.conf-title { font-size: 4em; letter-spacing: .1em; }
+ 	
+ 
+ }
+
 
 @media only screen and (min-width : 1024px){
 	 body:not(:target) #nav li { }
 	.social ul li a{ margin: 12px 9.5%;}
+	
+	.main-content h1 { font-size: 2.5em;}
 	
  
  }
@@ -701,16 +711,16 @@ footer a{color:#7EA107;}
  @media only screen and (min-width : 1224px){
 	 
  	.speakers { margin:37px 0 0 0;}
- 	.speakers li { float: left; width: 32%; margin-bottom: 2%; }
+ 	.speakers li { float: left; width: 28%; margin-bottom: 2%; }
  	.speakers li a img {
 	}
 	.speakers li a img:hover { opacity:.6; }
 	
 	.speakers li#speaker3, .speakers li#speaker6, .speakers li#speaker9 { margin-right: 0;}
- 	.speakers li#speaker1, .speakers li#speaker2, .speakers li#speaker4, .speakers li#speaker5, .speakers li#speaker7, .speakers li#speaker8 { margin-right: 2%; }
+ 	.speakers li#speaker1, .speakers li#speaker2, .speakers li#speaker4, .speakers li#speaker5, .speakers li#speaker7, .speakers li#speaker8 { margin-right: 8%; }
 	
 	
-	.main-content { top: 174px; }
+	.main-content { top: 174px; padding: 2% 0 0 0; }
 	
 	.main-content:after {
 		content: '';
@@ -724,7 +734,6 @@ footer a{color:#7EA107;}
 
 	.main-content:before {
 		content: '';
-
 		-ms-transform: skew(0deg,1deg); 
 		-webkit-transform: skew(0deg,1deg); 
 		-o-transform: skew(0deg,1deg); 
@@ -737,32 +746,47 @@ footer a{color:#7EA107;}
 	.social ul li a{ margin: 12px 10.5%;}
 	
 	/* LOCATION */
-	.location header { padding: 0 5%;}
+	.location header { padding: 0;}
+	
+	#loc-container { padding:0 357px 0 0; }
+	
+	.map{ float:left; position:relative; margin:0;}
+	.map iframe { height: 481px; }
+	
 	#conf-location { 
-		width:90%; 
-		margin: 0 5%; 
-		clear: both;
+		margin: 0 0 40px 0; 
+		width:100%; 
+		padding: 0;  
 		border-top: 1px solid rgba(255,255,255,0.3); 
 		border-bottom: 1px solid rgba(255,255,255,0.3); 
 		-webkit-box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
         box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
-	  }
+	}
+	#conf-location .location-a { float: left; margin-right:2%; width: 27%; }
+	#conf-location .location-b { float: left; margin-right:2%; width: 27%; }
+	#conf-location .location-c { float: left; margin-right:0; width: 27%; }
+		
+	#city-info { 
+		margin:0 -357px 0 0; 
+		position:relative;
+		top: 0;
+		right: 0;
+	}
 	
+	.map { width: 98%; padding: 0; }
 	
-	
-	
-	#conf-location .location-a { float:left; width:30%; }
-	#conf-location .location-b { float:left; width:30%; }
-	#conf-location .location-c { float:left; width:30%; }
-	
-	#loc-container { overflow:hidden; padding:0 5%; }
-	.map{ width: 70%; overflow: hidden; float: left; }
-	.map iframe { height: 436px; }
-	#city-info { float: right; margin:0; }
-	
-	
-	
-	
+	#sleep-food-net {
+		clear: both;
+		overflow: hidden; 
+		width: 100%;
+		margin: 40px 0 100px; 
+		border-top: 1px solid rgba(255,255,255,0.3); 
+		border-bottom: 1px solid rgba(255,255,255,0.3); 
+		-webkit-box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
+        box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
+	}
+	#accommodation, #eating, #wifi { width: 27%; float: left; }
+
   }
 
 

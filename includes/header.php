@@ -13,7 +13,7 @@
 		<p class="loc-date">Brighton<time datetime="2013-06-28" class="dtstart"> 28 Jun 2013,</time></p>
 		<a href="#" class="cta">
 			<span class="price">&pound;125</span><span class="vat">+VAT</span>
-			<span class="registering">Register Now <img src="../images/cta-arrow.png" alt="Cta Arrow"></span> 
+			<span class="registering">Register Now <img src="images/cta-arrow.png" alt="Cta Arrow"></span> 
 		</a>
 	</div>
 		

@@ -7,28 +7,28 @@
 
 				<div class="premiere">
 					<h5><span>Premiere Sponsors</span></h5>
-					<img src="../images/sponsors-fontdeck.png" width="144" height="96" alt="Sponsors Fontdeck">
-					<img src="../images/sponsors-typekit.png" width="195" height="96" alt="Sponsors Typekit">
+					<img src="images/sponsors-fontdeck.png" width="144" height="96" alt="Sponsors Fontdeck">
+					<img src="images/sponsors-typekit.png" width="195" height="96" alt="Sponsors Typekit">
 				
 				</div>
 				<div class="grass-roots">
 					<h5><span>Grass Roots Sponsors</span></h5>
-					<img src="../images/sponsors-8faces.png" width="86" height="96" alt="Sponsors 8faces">
-					<img src="../images/sponsors-mapalong.png" width="220" height="96" alt="Sponsors Mapalong">
-					<img src="../images/sponsors-myfonts.png" width="195" height="96" alt="Sponsors Myfonts">
-					<img src="../images/sponsors-webtype.png" width="204" height="96" alt="Sponsors Webtype">
+					<img src="images/sponsors-8faces.png" width="86" height="96" alt="Sponsors 8faces">
+					<img src="images/sponsors-mapalong.png" width="220" height="96" alt="Sponsors Mapalong">
+					<img src="images/sponsors-myfonts.png" width="195" height="96" alt="Sponsors Myfonts">
+					<img src="images/sponsors-webtype.png" width="204" height="96" alt="Sponsors Webtype">
 				</div>
 				<div class="executive">
 					<h5><span>Executive Sponsors</span></h5>
-					<img src="../images/sponsors-dtc.png" width="110" height="96" alt="Sponsors Dtc">
-					<img src="../images/sponsors-hoefler-frere-jones.png" width="227" height="96" alt="Sponsors Hoefler Frere Jones">
-					<img src="../images/sponsors-lls.png" width="207" height="96" alt="Sponsors Lls">
-					<img src="../images/sponsors-type-together.png" width="147" height="96" alt="Sponsors Type Together">
+					<img src="images/sponsors-dtc.png" width="110" height="96" alt="Sponsors Dtc">
+					<img src="images/sponsors-hoefler-frere-jones.png" width="227" height="96" alt="Sponsors Hoefler Frere Jones">
+					<img src="images/sponsors-lls.png" width="207" height="96" alt="Sponsors Lls">
+					<img src="images/sponsors-type-together.png" width="147" height="96" alt="Sponsors Type Together">
 				</div>
 				<div class="media-partners">
 					<h5><span>Media Partners</span></h5>
-					<img src="../images/sponsors-eye.png" width="89" height="96" alt="Sponsors Eye">
-					<img src="../images/sponsors-wiley.png" width="183" height="96" alt="Sponsors Wiley">
+					<img src="images/sponsors-eye.png" width="89" height="96" alt="Sponsors Eye">
+					<img src="images/sponsors-wiley.png" width="183" height="96" alt="Sponsors Wiley">
 				
 				</div>
 			</div>
