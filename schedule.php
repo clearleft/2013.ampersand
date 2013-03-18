@@ -22,8 +22,8 @@
 <div class="main-content">
 	<article class="section schedule">
 		<h1>Schedule</h1>	
-		<h2>Ampersand will be a fabulous day of nitty gritty details from experts in font design &amp; development, typesetting & font usage, 
-			browser implementations, and with glimpses of a bright typographic future.</h2>
+		<p>Ampersand will be a fabulous day of nitty gritty details from experts in font design &amp; development, typesetting & font usage, 
+			browser implementations, and with glimpses of a bright typographic future.</p>
 			
 			<table class="schedule-table" summary="Ampersand schedule for 15 June 2012">
                 

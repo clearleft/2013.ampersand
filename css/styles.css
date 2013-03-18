@@ -89,7 +89,7 @@ body {
 
 img {max-width:100%;}
 
-h1, h2 { font-family:"Karmina Bold", Georgia, serif; font-size-ajust:0.473; font-weight:bold; font-style:normal; color: #ffffff; font-size:2.2em; letter-spacing: 0.06em;}
+h1, h2 { font-family:"Karmina Bold", Georgia, serif; font-size-ajust:0.473; font-weight:bold; font-style:normal; color: #ffffff; font-size:3.2em; letter-spacing: 0.06em;}
 
 	
 a{ color:#fff064; text-decoration: none; }
@@ -525,7 +525,7 @@ footer a{color:#7EA107;}
 		
 		.speakers li a{ 
 			margin: 0;
-			width: 48%;
+			width: 44%;
 			display: block;
 			padding: 22% 0 0 0; 
 			padding: 53% 50% 0% 0%;
@@ -544,13 +544,15 @@ footer a{color:#7EA107;}
 		#speaker6 { background:url('../images/speakers-gerry-leonidas.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker7 { background:url('../images/speakers-nina-stossinger.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker8 { background:url('../images/speakers-andy-hume.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker9 { background:url('../images/speakers-richard-rutter.jpg')  0 0 no-repeat; background-size: contain; }
 		
-		#speaker1, #speaker3, #speaker5, #speaker7 { margin-right:0%; }
+		#speaker1, #speaker3, #speaker5, #speaker7, #speaker9 { margin-right:0%; }
 		
 	}
 	
 	@media only screen and (min-width : 820px) {	
 		.speakers li { padding: 0; }
+		.speakers li a{	width: 48%;	}
 	}
 	
 	@media only screen and (min-width : 1024px) {	
@@ -575,7 +577,7 @@ footer a{color:#7EA107;}
 
 .schedule { padding:0; letter-spacing: 0.06em; text-align:left; }
 .schedule h1 { padding:0; }
-.schedule h2, .schedule-change {font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal; font-size:.8em; padding:0 20% 0 0; line-height:1.2em; }
+.schedule p, .schedule-change { width: 57%;}
 .schedule .time { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
 .schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #ffffff;  margin-left:12px; }
 .schedule-table {margin:60px 0 0 0; width: 100%;}
@@ -706,6 +708,7 @@ footer a{color:#7EA107;}
 		left: 35%; 
 	}
 	.speaker-session h1{ margin-top:0; }
+	.speaker-session h2{ font-size: ; }
 
 	.speaker-session p{ margin:0 0 17px 0;}
 
@@ -742,7 +745,7 @@ footer a{color:#7EA107;}
 /* #############  SPONSORS PAGE ####################################################################################################### */
 /* #################################################################################################################################### */
 
-.main-content .sponsors-page h2 { 
+.main-content .sponsors-page .loud { 
 	font-family:"Karmina Sans Light", sans-serif; 
 	font-weight: 200;
 	letter-spacing:0em; 
@@ -762,7 +765,7 @@ footer a{color:#7EA107;}
 	padding: 11px 0 0 0; 
 }
 .main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
-.main-content .sponsors-page h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
+.main-content .sponsors-page .loud span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
 .sponsorship-pack { margin: 32px 0; font-family:"Karmina Sans Light", sans-serif; font-weight: 200; }	
 
 .sponsorship-pack .button small {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal;}	
@@ -778,16 +781,32 @@ footer a{color:#7EA107;}
 	
 	@media only screen and (min-width : 720px) {
 		.sponsorship-pack{ position:absolute; top:0; right: 7%; width:30%; max-width: 340px; }
-		.main-content .sponsors-page h2 { width:57%; font-size: 1.4em; }
+		.main-content .sponsors-page .loud { width:57%; font-size: 1.4em; }
 		.main-content .sponsors-page  p { width:57%; }
 		
 	}
 
+/* #################################################################################################################################### */ 
+/* #############  WORKSHOP PAGE ####################################################################################################### */
+/* #################################################################################################################################### */
 
 
 
-		
-	
+.workshop-item h1{ font-size: 2em;}
+.workshop-item p{ margin: 4% 0;}
+.workshop-item li{ font-size: .8em; line-height: 1.2em; list-style:square; margin: 0 0 2% 6%; font-family:"Karmina Sans Light", sans-serif; font-weight: 200;}	
+
+
+	@media only screen and (min-width : 720px) {
+		.workshops p{ width: 60%;}	
+		.workshop-item { width: 48%; border-bottom: 1px solid rgba(255,255,255,.3); }
+		.workshop-item p{ width: 130%; }
+		.workshop-item ul { margin-bottom: 10%;}	
+		#wrk1 { border-top: 1px solid rgba(255,255,255,0.3); padding: 4% 0 0 0; margin: 3% 0 0 0;}
+		/*#wrk1, #wrk2 {  margin-bottom: 1%; }
+		#wrk2, #wrk4 {  margin-left: 2%; }
+		*/#wrk1,#wrk2, #wrk3, #wrk4 { background:url('../images/workshop-placeholder.jpg') 0 0 no-repeat; background-size:43%; padding: 0 0 0 40%; }
+}
 
 
 

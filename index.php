@@ -18,7 +18,7 @@
 	 
 	 <section class="section sessions">
 		<h1>Speakers & Sessions</h1>
-		<p>Ampersand is an affordable one-day event for knowledgable web designers & type enthusiasts, featuring:</p>
+		<p class="loud">Ampersand is an affordable one-day event for knowledgable web designers & type enthusiasts, featuring:</p>
 		<ul class="speakers">
 			<li class="li-spk1" ><a id="speaker1" href="/#">Ben Terrett</a><p class="presentation-title">Presentation Title</p></li>
 			<li class="li-spk2" ><a id="speaker2" href="/#">Mark Boulton</a><p class="presentation-title">Presentation Title</p></li>
@@ -28,6 +28,7 @@
 			<li class="li-spk6" ><a id="speaker6" href="/#">Gerry Leonidas</a><p class="presentation-title">Presentation Title</p></li>
 			<li class="li-spk7" ><a id="speaker7" href="/#">Nina Stössinger</a><p class="presentation-title">Presentation Title</p></li>
 			<li class="li-spk8" ><a id="speaker8" href="/#">Andy Hume</a><p class="presentation-title">Presentation Title</p></li>
+			<li class="li-spk9" ><a id="speaker9" href="/#">Richard Rutter</a><p class="presentation-title">Presentation Title</p></li>
 		</ul>
 		<div class="clearfix">
 	</section>

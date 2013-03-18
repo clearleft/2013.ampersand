@@ -18,8 +18,8 @@
 <div class="main-content">
 	<article class="section sponsors-page clearfix">
 		<h1>Sponsors</h1>
-		<h2><span>Get your message</span> to a creative, knowledgeable, and tech-savvy audience including everyone from creative directors and heads of design, 
-		to freelance web designers, front-end developers, illustrators and type designers.</h2>
+		<p class="loud"><span>Get your message</span> to a creative, knowledgeable, and tech-savvy audience including everyone from creative directors and heads of design, 
+		to freelance web designers, front-end developers, illustrators and type designers.</p>
 		
 		<section class="sponsorship-pack">
 			<a href="#">
