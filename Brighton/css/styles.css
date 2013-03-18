@@ -57,11 +57,11 @@ body {
 	font-weight:normal; 
 	font-style:normal;
 	text-align:left;
-	color:#ffffff;
+	color:#fff;
 }
 
 img {max-width:100%;}
-h1, h2 { font-family:"Karmina Bold", Georgia, serif;  font-weight:bold; font-style:normal; color: #ffffff; font-size:3.2em; letter-spacing: 0.06em;}
+h1, h2 { font-family:"Karmina Bold", Georgia, serif;  font-weight:bold; font-style:normal; color: #fff; font-size:3.2em; letter-spacing: 0.06em;}
 a{ color:#fff064; text-decoration: none; }
 
 /* #################################################################################################################################### */ 
@@ -82,10 +82,10 @@ header#top { width:90%; padding: 0 5%;}
 
 .tickets a:hover { text-decoration: none; }
 
-.loc-date { color:#fff064; letter-spacing: .1em; margin:34px 0 12px; }
+.loc-date { color:#fff; letter-spacing: .1em; margin:34px 0 12px; }
 	
 .cta, .cta-speakers {
-	color: #000000;
+	color: #000;
 	border-radius: 3px;
 	background-color: #fff064;
 	width: 94%;
@@ -127,7 +127,7 @@ header#top { width:90%; padding: 0 5%;}
 		
 		.tickets{ position: absolute; top: 0; right:5%; width:220px; max-width: 310px; }
 		.tickets .loc-date { position: absolute; margin: 121px 0 0 22px; }
-		.cta { padding: 4% 4% 5%; border-radius: 0;	line-height: .6em; width: 160px;}
+		.cta { padding: 6% 4% 5%; border-radius: 0;	line-height: .6em; width: 160px;}
 		.cta:after {
 			content: '';
 			width: 100%;
@@ -254,7 +254,7 @@ body:not(:target) #nav:target a {
 	font-family:"Karmina Sans Light", sans-serif; 
 	font-weight:200; 
 	font-style:normal;
-	color:#ffffff; 
+	color:#fff; 
 	letter-spacing:.08em; 
 	text-transform:uppercase;
 	-moz-transition: height .25s, line-height .25s;
@@ -293,7 +293,7 @@ body:not(:target) #nav:target #back {
 				z-index: 20; 
 				border-top: 1px solid rgba(255,255,255,0.3); 
 				border-bottom: 1px solid rgba(255,255,255,0.3); 
-				padding:20px 0 6px;
+				padding:20px 0 1px;
 				-webkit-box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
 		        box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
 				}
@@ -311,7 +311,7 @@ body:not(:target) #nav:target #back {
 		  		font-size:0.9em;
 		  		letter-spacing:.08em; 
 		  		text-transform:uppercase;
-		  		color:#ffffff; 
+		  		color:#fff064; 
 		  		background: none;
 		  		display:inline;
 		  		position:relative;
@@ -319,7 +319,7 @@ body:not(:target) #nav:target #back {
 		  	}
 			
 		  	body:not(:target) #nav li { float: left; padding: 0; text-align:left; width:31%; padding:0 0 18px 0;}
-			body:not(:target) #nav li a{ padding: 0; font-family:"Karmina Sans Bold", sans-serif;  font-weight:bold; font-style:normal; }
+			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Light", sans-serif;  font-weight:bold; font-style:normal; }
 		.menu-toggle { display:none;}
 		#back{ display: none; }
 		
@@ -330,7 +330,7 @@ body:not(:target) #nav:target #back {
 	}
 	@media only screen and (min-width : 860px) {
 	  	body:not(:target) #nav a { font-size:1em; }
-		body:not(:target) #nav a:hover { color: #fff064!important; }
+		body:not(:target) #nav a:hover { color: #ffffff!important; }
 		body:not(:target) #nav li { width:16%;}
 	}	
 	@media only screen and (min-width : 1024px) {
@@ -441,7 +441,7 @@ body:not(:target) #nav:target #back {
 
 footer { 
 	clear:both;
-	background: #ffffff; 
+	background: #fff; 
 	text-align: left; 
 	font-size: 0.8em;
 	font-family:"Karmina Sans Light", sans-serif; 
@@ -548,7 +548,7 @@ footer a{color:#7EA107;}
 .schedule h1 { padding:0; }
 .schedule p, .schedule-change { width: 57%;}
 .schedule .time { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
-.schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #ffffff;  margin-left:12px; }
+.schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #fff;  margin-left:12px; }
 .schedule-table {margin:60px 0 0 0; width: 100%;}
 .schedule-table td {padding:25px 0}
 .schedule-table .first td{ padding-top:0px;}
@@ -569,7 +569,7 @@ footer a{color:#7EA107;}
 #conf-location { border-bottom: 1px solid rgba(255,255,255,1); width: 100%; margin: 0 auto;}
 #conf-location h3{ font-size:1.5em; margin:0 0 7px 0; }
 #conf-location address { font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal; color: rgba(255,255,255,0.8);}
-#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#ffffff;}
+#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 #conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:45px; padding:50px 0 0 0; }
 #conf-location .location-a { background:url('../images/deco-location-pre.png') 0 16px no-repeat;}
 #conf-location .location-b { background:url('../images/deco-location-conf.png') 0 16px no-repeat;}
@@ -596,7 +596,7 @@ footer a{color:#7EA107;}
 		#conf-location { width: 100%; text-align:left; float: left; margin: 0; border-bottom: none;}
 		#conf-location h3{ font-size:1.5em; margin:0 0 7px 0; }
 		#conf-location address { font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal;   font-size:0.9em; color: #cccccc;}
-		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#ffffff;}
+		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 	
 		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; }
 		#conf-location .location-a { background:url('../images/deco-location-pre.png') 0 47px no-repeat;}
@@ -740,7 +740,7 @@ footer a{color:#7EA107;}
 	padding: 66px 0 13px 0; 
 	text-align: center; 
 	border-radius: 6px;
-	color: #000000;
+	color: #000;
 }
 	
 	@media only screen and (min-width : 720px) {
