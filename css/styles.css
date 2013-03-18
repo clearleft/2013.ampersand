@@ -25,43 +25,17 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
+footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q {	quotes: none; }
 blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+q:before, q:after {	content: '';	content: none; }
+table {	border-collapse: collapse;	border-spacing: 0; }
 
 /* Clearfix */
-
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
-
-/* FONTS BABY */
-/* div { font-family:"Karmina Sans Bold", sans-serif;  font-weight:bold; font-style:normal; }
-div { font-family:"Karmina Sans Regular Italic", sans-serif;  font-weight:normal; font-style:italic; }
-div { font-family:"Karmina Italic", Georgia, serif;  font-weight:normal; font-style:italic; }
-div { font-family:"Karmina Bold", Georgia, serif; font-weight:bold; font-style:normal; }
-div { font-family:"Karmina Sans Regular", sans-serif;  font-weight:normal; font-style:normal; }
-div { font-family:"Karmina Regular", Georgia, serif; font-weight:normal; font-style:normal; } 
-font-family:"Karmina Sans Semi Bold", sans-serif; font-weight:600; font-style:normal;
-*/
 
 /* Default Mobile View Styles */
 
@@ -80,7 +54,6 @@ body {
 	background:url('../images/brighton-bkg.png') center center fixed; 
 	font-size:110%; 
 	font-family:"Karmina Regular", Georgia, serif; 
-	font-size-ajust:0.463; 
 	font-weight:normal; 
 	font-style:normal;
 	text-align:left;
@@ -88,12 +61,8 @@ body {
 }
 
 img {max-width:100%;}
-
-h1, h2 { font-family:"Karmina Bold", Georgia, serif; font-size-ajust:0.473; font-weight:bold; font-style:normal; color: #ffffff; font-size:3.2em; letter-spacing: 0.06em;}
-
-	
+h1, h2 { font-family:"Karmina Bold", Georgia, serif;  font-weight:bold; font-style:normal; color: #ffffff; font-size:3.2em; letter-spacing: 0.06em;}
 a{ color:#fff064; text-decoration: none; }
-
 
 /* #################################################################################################################################### */ 
 /* #############  HEADER  ############################################################################################################# */
@@ -139,7 +108,7 @@ header#top { width:90%; padding: 0 5%;}
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='##fff064', endColorstr='#ffe91c',GradientType=0 ); /* IE6-9 */
 }	
 
-.vat { font-size:.4em; letter-spacing: 0em; margin-right:5%;}
+.vat { font-size:.4em; letter-spacing: 0em; margin-right:5%; }
 
 .registering { 
 	background: url('../images/cta-arrow.png') 174px 0px no-repeat;
@@ -199,7 +168,7 @@ header#top { width:90%; padding: 0 5%;}
 		    backface-visibility: hidden;
 			}	
 		.price { margin:0;}
-		.registering { background: none; font-size:.6; padding:0;}
+		.registering { background: none; font-size:0.6em; padding:0; }
 	}	
 	@media only screen and (min-width : 720px) {
 		
@@ -587,8 +556,7 @@ footer a{color:#7EA107;}
 .vevent td { font-size:.8em; }
 .vevent td p {   margin-left:12px;}
 .vevent td .vcard{ font-size:1.7em; }
-.break { background: rgba(0,0,0,0.15); border-bottom: 1px solid rgba(255,255,255,0.1); border-top: 1px solid rgba(255,255,255,0.1);
-}
+.break { background: rgba(0,0,0,0.15); border-bottom: 1px solid rgba(255,255,255,0.1); border-top: 1px solid rgba(255,255,255,0.1);}
 .type-in-20 p { margin-bottom:9px; }
 .schedule-change{  margin:35px; }
 
@@ -691,13 +659,12 @@ footer a{color:#7EA107;}
 
 
 	
-	.bio-more { font-family:"Karmina Sans Light", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;	
-		margin: 35px 0 0 0;}
-	.speaker-session h2{ margin:39px 0 0 0; }	
-	.speaker-nav { margin: 35px 0 0 0; }
-	.speaker-nav h2 { font-size:1.5em; margin:39px 0 0 0; }
-	.speaker-nav ul {margin: 30px 0 0 0; }
-	.speaker-nav ul li{margin: 0 0 15px 0; }
+.bio-more { font-family:"Karmina Sans Light", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;	margin: 35px 0 0 0;}
+.speaker-session h2{ margin:39px 0 0 0; }	
+.speaker-nav { margin: 35px 0 0 0; }
+.speaker-nav h2 { font-size:1.5em; margin:39px 0 0 0; }
+.speaker-nav ul {margin: 30px 0 0 0; }
+.speaker-nav ul li{margin: 0 0 15px 0; }
 	
 	@media only screen and (min-width : 1024px) {
 	
@@ -708,12 +675,9 @@ footer a{color:#7EA107;}
 		left: 35%; 
 	}
 	.speaker-session h1{ margin-top:0; }
-	.speaker-session h2{ font-size: ; }
-
-	.speaker-session p{ margin:0 0 17px 0;}
-
 	.speaker-session h1 .speaker-title {font-family:"Karmina Sans Light", sans-serif; 
 		font-weight: 200; font-size:.6em; letter-spacing:.1em;}
+	.speaker-session p{ margin:0 0 17px 0;}
 	.speaker-session .talk {font-size:1em; line-height:1.4em; }
 		
 	.bio-more { 
