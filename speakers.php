@@ -47,7 +47,7 @@
 		<div class="speaker-nav">
 			<h2>Speakers & Sessions</h2>
 			<ul>
-				<li>>> Ben Terrett</li>
+				<li>Ben Terrett</li>
 				<li><a href="#">Mark Boulton</a></li>
 				<li><a href="#">Jenn Lukas</a></li>
 				<li><a href="#">Kutlu Çanlıoğlu</a></li>
@@ -56,7 +56,7 @@
 				<li><a href="#">Nina Stössinger</a></li>
 				<li><a href="#">Richard Rutter</a></li>
 			</ul>
-		</div>
+		</div><!-- END SPEAKER 1 -->
 	 	
 		
 	 			

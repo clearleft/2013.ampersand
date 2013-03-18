@@ -380,7 +380,7 @@ body:not(:target) #nav:target #back {
 		  
 
 /* MAIN CONTENT */
-.main-content { position: relative; top:60px; padding: 15px 5% 60px; }
+.main-content { position: relative; top:60px; padding: 15px 5% 60px;  }
 .main-content:after {
 	content: '';
 	height: 100%;
@@ -523,42 +523,48 @@ footer a{color:#7EA107;}
 	
 		.speakers { margin:52px 0 0 0;}
 		
-		.speakers li { 
-			float: left; 
-			margin: 0 0 4% 0;
+		.speakers li a{ 
+			margin: 0;
 			width: 48%;
-			background-size: contain;
+			display: block;
 			padding: 22% 0 0 0; 
+			padding: 53% 50% 0% 0%;
 		}
-
-		#speaker1 { background:url('../images/speakers-ben-terrett.jpg')  0 0 no-repeat; }
-		#speaker2 { background:url('../images/speakers-mark-boulton.jpg')  0 0 no-repeat; }
-		#speaker3 { background:url('../images/speakers-jenn-lukas.jpg')  0 0 no-repeat; }
-		#speaker4 { background:url('../images/speakers-kutlu-canlioglu.jpg')  0 0 no-repeat; }
-		#speaker5 { background:url('../images/speakers-erik-spiekermann.jpg')  0 0 no-repeat; }
-		#speaker6 { background:url('../images/speakers-gerry-leonidas.jpg')  0 0 no-repeat; }
-		#speaker7 { background:url('../images/speakers-nina-stossinger.jpg')  0 0 no-repeat; }
-		#speaker8 { background:url('../images/speakers-richard-rutter.jpg')  0 0 no-repeat; }
 		
-		#speaker1, #speaker3, #speaker5, #speaker7 { margin-right:4%; }
+		.speakers li { font-size: 1.5em; float: left; width: 50%; }
+		.speakers li p { margin-bottom: 4%; }
+		
+		
+		
+		#speaker1 { background:url('../images/speakers-ben-terrett.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker2 { background:url('../images/speakers-mark-boulton.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker3 { background:url('../images/speakers-jenn-lukas.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker4 { background:url('../images/speakers-kutlu-canlioglu.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker5 { background:url('../images/speakers-erik-spiekermann.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker6 { background:url('../images/speakers-gerry-leonidas.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker7 { background:url('../images/speakers-nina-stossinger.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker8 { background:url('../images/speakers-andy-hume.jpg')  0 0 no-repeat; background-size: contain; }
+		
+		#speaker1, #speaker3, #speaker5, #speaker7 { margin-right:0%; }
 		
 	}
 	
 	@media only screen and (min-width : 820px) {	
-		.speakers li { padding: 23% 0 0 0; }
+		.speakers li { padding: 0; }
 	}
 	
 	@media only screen and (min-width : 1024px) {	
-		.speakers li { padding: 24% 0 0 0; }
+		.speakers li { padding:0; }
+		.speakers li a:hover { opacity:.8;}
 	}
 	
 	@media only screen and (min-width : 1150px) {	
-		.speakers li { width: 32%; padding: 15% 0 0 0;  }
-		#speaker1, #speaker2, #speaker4, #speaker5, #speaker7, #speaker8  { margin-right:2%; }
-		#speaker3, #speaker6, #speaker9{ margin-right:0; }
+		.speakers li { width: 33%; padding: 0;  }
+		.li-spk1, .li-spk2, .li-spk4, .li-spk5, .li-spk7, .li-spk8  { margin-right:.5%; }
+		.li-spk3, .li-spk6, .li-spk9{ margin-right:0; }
 	}
 	@media only screen and (min-width : 1220px) {	
-		.speakers li { width: 32%; padding: 15.5% 0 0 0;  }
+
 	}	
 
 
@@ -693,7 +699,12 @@ footer a{color:#7EA107;}
 	
 	@media only screen and (min-width : 1024px) {
 	
-	.speaker-session { margin: 35px 0 0 2%; float: right; width: 51%; }
+	.speaker-session { 
+		margin: 19px 0 0 0;
+		width: 36%;
+		position: relative;
+		left: 35%; 
+	}
 	.speaker-session h1{ margin-top:0; }
 
 	.speaker-session p{ margin:0 0 17px 0;}
@@ -705,31 +716,28 @@ footer a{color:#7EA107;}
 	.bio-more { 
 		background: url('../images/speakers-ben-terrett.jpg') 0 0 no-repeat;
 		background-size: contain;
-		padding: 13% 0 0 0;
+		padding: 15% 0 0 0;
 		width: 28%;
-		float: right;
-		font-family:"Karmina Sans Light", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;
+		font-family: "Karmina Sans Light", sans-serif;
+		font-weight: 200;
+		font-size: .8em;
+		letter-spacing: .1em;
+		line-height: 1.5em;
+		position: absolute;
+		top: 0px;
 		}
 	.bio-more h3 { font-size:1.3em; margin:39px 0 17px 0; font-family:"Karmina Regular", Georgia, serif; font-weight:normal; font-style:normal;}	
 	
-	.speaker-nav { width: 17%; float: left; margin: 0px 0 0 0; text-align:right;}
-
-	
-	
-	
-	
+	.speaker-nav { 
+		width: 17%;
+		margin: 0px 0 0 0;
+		text-align: left;
+		position: absolute;
+		top: 0;
+		right: 7%;
+		}	
 }
 	
-	
-	
-	
-	
-	
-	
-
-
-
-
 /* #################################################################################################################################### */ 
 /* #############  SPONSORS PAGE ####################################################################################################### */
 /* #################################################################################################################################### */
@@ -738,26 +746,24 @@ footer a{color:#7EA107;}
 	font-family:"Karmina Sans Light", sans-serif; 
 	font-weight: 200;
 	letter-spacing:0em; 
-	padding:0 6%; 
 	line-height:1.2em; 
 	color: rgba(255,255,255, 0.9);
 	text-align: left; 
 	font-size:1.1em;
-	padding:12px 0 0 0;
-	margin: 0 6%;
+	padding:12px 0;
 }
 .main-content .sponsors-page  p {  
 	font-family:"Karmina Sans Light", sans-serif; 
 	font-weight: 200; 
 	text-align: left; 
-	margin: 0 6% 25px; 
+	margin: 0 0 25px; 
 	font-size: .85em;
 	line-height: 1.5em; 
 	padding: 11px 0 0 0; 
 }
 .main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
 .main-content .sponsors-page h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
-.sponsorship-pack { margin: 32px 6%; font-family:"Karmina Sans Light", sans-serif; font-weight: 200; }	
+.sponsorship-pack { margin: 32px 0; font-family:"Karmina Sans Light", sans-serif; font-weight: 200; }	
 
 .sponsorship-pack .button small {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal;}	
 .sponsorship-pack .button span{  margin: 18px 0 0 0px; display:block;}
@@ -769,6 +775,17 @@ footer a{color:#7EA107;}
 	border-radius: 6px;
 	color: #000000;
 }
+	
+	@media only screen and (min-width : 720px) {
+		.sponsorship-pack{ position:absolute; top:0; right: 7%; width:30%; max-width: 340px; }
+		.main-content .sponsors-page h2 { width:57%; font-size: 1.4em; }
+		.main-content .sponsors-page  p { width:57%; }
+		
+	}
+
+
+
+
 		
 	
 

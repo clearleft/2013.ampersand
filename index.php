@@ -20,14 +20,14 @@
 		<h1>Speakers & Sessions</h1>
 		<p>Ampersand is an affordable one-day event for knowledgable web designers & type enthusiasts, featuring:</p>
 		<ul class="speakers">
-			<li id="speaker1"><a href="/#"><img src="images/speakers-ben-terrett.jpg" alt="Speakers Ben Terrett"><br/>Ben Terrett</a><p class="presentation-title">Presentation Title</p></li>
-			<li id="speaker2"><a href="/#"><img src="images/speakers-mark-boulton.jpg" alt="Speakers Mark Boulton"><br/>Mark Boulton</a><p class="presentation-title">Presentation Title</p></li>
-			<li id="speaker3"><a href="/#"><img src="images/speakers-jenn-lukas.jpg" alt="Speakers Jenn Lukas"><br/>Jenn Lukas</a><p class="presentation-title">Presentation Title</p></li>
-			<li id="speaker4"><a href="/#"><img src="images/speakers-kutlu-canlioglu.jpg" alt="Speakers Kutlu Canlioglu"><br/>Kutlu Çanlıoğlu</a><p class="presentation-title">Presentation Title</p></li>
-			<li id="speaker5"><a href="/#"><img src="images/speakers-erik-spiekermann.jpg" alt="Speakers Erik Spiekermann"><br/>Erik Spiekerman</a><p class="presentation-title">Presentation Title</p></li>
-			<li id="speaker6"><a href="/#"><img src="images/speakers-gerry-leonidas.jpg" alt="Speakers Gerry Leonidas"><br/>Gerry Leonidas</a><p class="presentation-title">Presentation Title</p></li>
-			<li id="speaker7"><a href="/#"><img src="images/speakers-nina-stossinger.jpg" alt="Speakers Nina Stossinger"><br/>Nina Stössinger</a><p class="presentation-title">Presentation Title</p></li>
-			<li id="speaker8"><a href="/#"><img src="images/speakers-richard-rutter.jpg" alt="Speakers Richard Rutter"><br/>Richard Rutter</a><p class="presentation-title">Presentation Title</p></li>
+			<li class="li-spk1" ><a id="speaker1" href="/#">Ben Terrett</a><p class="presentation-title">Presentation Title</p></li>
+			<li class="li-spk2" ><a id="speaker2" href="/#">Mark Boulton</a><p class="presentation-title">Presentation Title</p></li>
+			<li class="li-spk3" ><a id="speaker3" href="/#">Jenn Lukas</a><p class="presentation-title">Presentation Title</p></li>
+			<li class="li-spk4" ><a id="speaker4" href="/#">Kutlu Çanlıoğlu</a><p class="presentation-title">Presentation Title</p></li>
+			<li class="li-spk5" ><a id="speaker5" href="/#">Erik Spiekerman</a><p class="presentation-title">Presentation Title</p></li>
+			<li class="li-spk6" ><a id="speaker6" href="/#">Gerry Leonidas</a><p class="presentation-title">Presentation Title</p></li>
+			<li class="li-spk7" ><a id="speaker7" href="/#">Nina Stössinger</a><p class="presentation-title">Presentation Title</p></li>
+			<li class="li-spk8" ><a id="speaker8" href="/#">Andy Hume</a><p class="presentation-title">Presentation Title</p></li>
 		</ul>
 		<div class="clearfix">
 	</section>
