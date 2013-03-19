@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Ampersand 2013 &middot; The Web Typography Conference</title>
-<meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 28 June 2013." />
+<title>Ampersand 2013 &middot; Speaker</title>
+
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="stylesheet" href="css/styles.css">

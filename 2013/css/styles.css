@@ -26,7 +26,6 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section { display: block; }
-body { line-height: 1; }
 ol, ul { list-style: none; }
 blockquote, q {	quotes: none; }
 blockquote:before, blockquote:after,
@@ -52,7 +51,8 @@ html {
 
 body { 	
 	background:url('../images/brighton-bkg.png') center center fixed; 
-	font-size:110%; 
+	font-size:112.5%;
+	line-height: 1.16666666666667;
 	font-family:"Karmina Regular", Georgia, serif; 
 	font-weight:normal; 
 	font-style:normal;
@@ -82,7 +82,7 @@ header#top { width:90%; padding: 0 5%;}
 
 .tickets a:hover { text-decoration: none; }
 
-.loc-date { color:#fff; letter-spacing: .1em; margin:34px 0 12px; }
+.loc-date { color:#fff; margin:34px 0 12px; }
 	
 .cta, .cta-speakers {
 	color: #000;
@@ -494,10 +494,9 @@ footer a{color:#7EA107;}
 		
 		.speakers li a{ 
 			margin: 0;
-			width: 44%;
+			width: 96%;
 			display: block;
-			padding: 22% 0 0 0; 
-			padding: 53% 50% 0% 0%;
+			padding: 53% 0 0 0;
 		}
 		
 		.speakers li { font-size: 1.5em; float: left; width: 50%; }
@@ -521,7 +520,7 @@ footer a{color:#7EA107;}
 	
 	@media only screen and (min-width : 820px) {	
 		.speakers li { padding: 0; }
-		.speakers li a{	width: 48%;	}
+		.speakers li a{	width: 96%;	}
 	}
 	
 	@media only screen and (min-width : 1024px) {	
@@ -544,7 +543,7 @@ footer a{color:#7EA107;}
 /* #############  Schedule PAGE ####################################################################################################### */
 /* #################################################################################################################################### */
 
-.schedule { padding:0; letter-spacing: 0.06em; text-align:left; }
+.schedule { padding:0; text-align:left; }
 .schedule h1 { padding:0; }
 .schedule p, .schedule-change { width: 57%;}
 .schedule .time { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
@@ -580,7 +579,7 @@ footer a{color:#7EA107;}
 
 #city-info { width: 100%; margin: 0 auto; text-align: left; padding:40px 0 0 0;  }
 #city-info h2, #city-info p {   margin:0px 0 40px;  color: rgba(255,255,255, 0.9); font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200;}
-#city-info h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1);}
+#city-info h2 strong{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1);}
 #city-info h2 {font-size: 2.2em; }
 .map iframe{ width:100%; height:260px; }	
 
@@ -728,11 +727,11 @@ footer a{color:#7EA107;}
 	line-height: 1.5em; 
 	padding: 11px 0 0 0; 
 }
-.main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
-.main-content .sponsors-page .loud span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
+.main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
+.main-content .sponsors-page .loud span{ font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
 .sponsorship-pack { margin: 32px 0; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; }	
 
-.sponsorship-pack .button small {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal;}	
+.sponsorship-pack .button small {font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal;}	
 .sponsorship-pack .button span{  margin: 18px 0 0 0px; display:block;}
 
 .sponsorship-pack .button { 
@@ -769,8 +768,10 @@ footer a{color:#7EA107;}
 		#wrk1 { border-top: 1px solid rgba(255,255,255,0.3); margin: 3% 0 0 0;}
 		/*#wrk1, #wrk2 {  margin-bottom: 1%; }
 		#wrk2, #wrk4 {  margin-left: 2%; }
-		*/#wrk1,#wrk2, #wrk3, #wrk4 { background:url('../images/workshop-placeholder.jpg') 0 0 no-repeat; background-size:38%; padding-left: 40%; }
-		#wrk1 { background-position-y: 7%; }
+		*/
+		#wrk1  { background:url('../images/speakers-mark-boulton.jpg') 0 0 no-repeat; }
+		#wrk2 { background:url('../images/workshop-placeholder.jpg') 0 0 no-repeat; }
+		#wrk1, #wrk2  { background-size:38%; background-position-y: 7%; padding-left: 40%; }
 }
 
 

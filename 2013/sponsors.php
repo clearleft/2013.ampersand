@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Ampersand 2012 &middot; The Web Typography Conference</title>
-<meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 28 June 2013." />
+<title>Ampersand 2013 &middot; Sponsorship</title>
+
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="stylesheet" href="http://f.fontdeck.com/s/css/uYeecfgxZsRY9yoFdZP/14nD1k8/2012.ampersandconf.dev/11761.css" type="text/css" />
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
