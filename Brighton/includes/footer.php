@@ -38,12 +38,12 @@
 		<nav role="navigation" id="main-nav">
 				
 			<ul id="nav">
-				<li><a class="home-link" href="/" title="Home">Home</a></li>
-				<li><a class="schedule-link" href="/schedule" title="Schedule">Schedule</a></li>
-				<li><a class="workshops-link" href="/workshops" title="location">Workshops</a></li>
-				<li><a class="exhibition-link" href="/exhibition" title="location">Exhibition</a></li>
-				<li><a class="location-link" href="/location" title="location">Location</a></li>
-				<li><a class="sponsors-link" href="/sponsors" title="Sponsors">Sponsors</a></li>
+				<li><a class="home-link" href="http://http://2013.ampersandconf.com/brighton/" title="Home">Home</a></li>
+				<li><a class="schedule-link" href="http://http://2013.ampersandconf.com/brighton/shecdule.php" title="Schedule">Schedule</a></li>
+				<li><a class="workshops-link" href="http://http://2013.ampersandconf.com/brighton/workshops.php" title="location">Workshops</a></li>
+				<li><a class="exhibition-link" href="http://http://2013.ampersandconf.com/brighton/exhibition.php" title="location">Exhibition</a></li>
+				<li><a class="location-link" href="http://http://2013.ampersandconf.com/brighton/location.php" title="location">Location</a></li>
+				<li><a class="sponsors-link" href="http://http://2013.ampersandconf.com/brighton/sponsors.php" title="Sponsors">Sponsors</a></li>
 				<li id="back"><a href="#top">Back to top</a></li>
 			</ul>
 				
@@ -79,8 +79,7 @@
 				<p>Presented by <a href="http://clearleft.com" title="Clearleft" >Clearleft</a>, a user experience design consultancy based in Brighton, UK.
 				Email us on <a href="mailto:ampersand@clearleft.com" title="ampersand@clearleft.com">ampersand@clearleft.com</a>
 				</p>
-				<small>Ampersand &copy; 2011 Clearleft Ltd. All rights reserved. Set in flavours of <a href="http://fontdeck.com/typeface/karmina">Karmina</a> and <a href="http://fontdeck.com/typeface/karmina"> Karmina Sans </a>
-				served by <a href="http://fontdeck.com/">Fontdeck.</a></small>
+				<small>Ampersand &copy; 2011 Clearleft Ltd. All rights reserved. Set in flavours of <a href="http://fontdeck.com/typeface/karmina">Karmina</a> and <a href="http://fontdeck.com/typeface/karmina"> Karmina Sans </a>served by <a href="http://fontdeck.com/">Fontdeck.</a></small>
 			
 			</div>
 		</footer>
