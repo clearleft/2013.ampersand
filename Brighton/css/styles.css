@@ -766,10 +766,11 @@ footer a{color:#7EA107;}
 		.workshop-item { /*width: 48%; */border-bottom: 1px solid rgba(255,255,255,.3); }
 		.workshop-item p{ width: 100%; }
 		.workshop-item ul { margin-bottom: 10%;}	
-		#wrk1 { border-top: 1px solid rgba(255,255,255,0.3); padding: 4% 0 0 0; margin: 3% 0 0 0;}
+		#wrk1 { border-top: 1px solid rgba(255,255,255,0.3); margin: 3% 0 0 0;}
 		/*#wrk1, #wrk2 {  margin-bottom: 1%; }
 		#wrk2, #wrk4 {  margin-left: 2%; }
-		*/#wrk1,#wrk2, #wrk3, #wrk4 { background:url('../images/workshop-placeholder.jpg') 0 0 no-repeat; background-size:38%; padding: 0 0 0 40%; }
+		*/#wrk1,#wrk2, #wrk3, #wrk4 { background:url('../images/workshop-placeholder.jpg') 0 0 no-repeat; background-size:38%; padding-left: 40%; }
+		#wrk1 { background-position-y: 7%; }
 }
 
 
