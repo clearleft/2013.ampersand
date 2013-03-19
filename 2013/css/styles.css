@@ -74,7 +74,7 @@ header#top { width:90%; padding: 0 5%;}
 .conf-title { font-size:2em; letter-spacing: .1em; line-height: .7em;}
 
 .description { 
-	font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal; 
+	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; 
 	letter-spacing:.2em; 
 	font-size:.37em; 
 	text-transform: uppercase; 
@@ -207,7 +207,7 @@ nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; ba
 	height: 53px;
 	width: 44px;
 	text-indent: -2.2em;
-	font-family:"Karmina Sans Light", sans-serif; 
+	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight:200; 
 	font-style:normal;
 	font-size: .8em;
@@ -251,7 +251,7 @@ body:not(:target) #nav:target a {
 	padding: 0 0 6px 14px;
 	position: relative;
 	z-index: 1;
-	font-family:"Karmina Sans Light", sans-serif; 
+	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight:200; 
 	font-style:normal;
 	color:#fff; 
@@ -305,7 +305,7 @@ body:not(:target) #nav:target #back {
 		  		height: 50px;
 		  		line-height: 1em;
 		  		padding: 0 1em;
-		  		font-family:"Karmina Sans Light", sans-serif; 
+		  		font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 		  		font-weight:200; 
 		  		font-style:normal; 
 		  		font-size:0.9em;
@@ -319,7 +319,7 @@ body:not(:target) #nav:target #back {
 		  	}
 			
 		  	body:not(:target) #nav li { float: left; padding: 0; text-align:left; width:31%; padding:0 0 18px 0;}
-			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Light", sans-serif;  font-weight:bold; font-style:normal; }
+			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:bold; font-style:normal; }
 		.menu-toggle { display:none;}
 		#back{ display: none; }
 		
@@ -386,7 +386,7 @@ body:not(:target) #nav:target #back {
 }
 
 .main-content h1 { margin: 23px 0 6px;  }
-.main-content p { font-family:"Karmina Sans Light", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
+.main-content p { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
 .main-content  .presentation-title{ font-size: 0.7em; }
 	@media only screen and (min-width : 570px) {
 	
@@ -423,7 +423,7 @@ body:not(:target) #nav:target #back {
 
 /* FOOTER SECTION */
 .sponsors{ margin:260px 0 0 0; padding: 0 5%; }
-.sponsors h2 { font-size: 1em; font-family:"Karmina Sans Light", sans-serif; font-weight: 200; color: #fff064; margin-top: 30px; }
+.sponsors h2 { font-size: 1em; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; color: #fff064; margin-top: 30px; }
 
 
 
@@ -444,7 +444,7 @@ footer {
 	background: #fff; 
 	text-align: left; 
 	font-size: 0.8em;
-	font-family:"Karmina Sans Light", sans-serif; 
+	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight: 200;
 	color:#555555;
 	overflow:hidden;
@@ -455,7 +455,7 @@ footer a{color:#7EA107;}
 
 .footer-nav { background: rgba(0,0,0, 0.5); width:100%; text-align: center; padding:18px 0 0 0;}
 .footer-nav ul li { 
-	font-family:"Karmina Sans Light", sans-serif; 
+	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight:200;
 	margin: 0 0 18px 0; 
 	font-style:normal; 
@@ -547,7 +547,7 @@ footer a{color:#7EA107;}
 .schedule { padding:0; letter-spacing: 0.06em; text-align:left; }
 .schedule h1 { padding:0; }
 .schedule p, .schedule-change { width: 57%;}
-.schedule .time { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
+.schedule .time { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
 .schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #fff;  margin-left:12px; }
 .schedule-table {margin:60px 0 0 0; width: 100%;}
 .schedule-table td {padding:25px 0}
@@ -568,7 +568,7 @@ footer a{color:#7EA107;}
 
 #conf-location { border-bottom: 1px solid rgba(255,255,255,1); width: 100%; margin: 0 auto;}
 #conf-location h3{ font-size:1.5em; margin:0 0 7px 0; }
-#conf-location address { font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal; color: rgba(255,255,255,0.8);}
+#conf-location address { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; color: rgba(255,255,255,0.8);}
 #conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 #conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:45px; padding:50px 0 0 0; }
 #conf-location .location-a { background:url('../images/deco-location-pre.png') 0 16px no-repeat;}
@@ -579,12 +579,12 @@ footer a{color:#7EA107;}
 #loc-container { clear:both; }
 
 #city-info { width: 100%; margin: 0 auto; text-align: left; padding:40px 0 0 0;  }
-#city-info h2, #city-info p {   margin:0px 0 40px;  color: rgba(255,255,255, 0.9); font-family:"Karmina Sans Light", sans-serif; font-weight:200;}
+#city-info h2, #city-info p {   margin:0px 0 40px;  color: rgba(255,255,255, 0.9); font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200;}
 #city-info h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1);}
 #city-info h2 {font-size: 2.2em; }
 .map iframe{ width:100%; height:260px; }	
 
-#sleep-food-net { width: 100%; font-family:"Karmina Sans Light", sans-serif; font-weight:200; letter-spacing:.03em;}
+#sleep-food-net { width: 100%; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; letter-spacing:.03em;}
 #sleep-food-net h4 { font-size:1.5em; font-family:"Karmina Regular", Georgia, serif; font-weight:normal; font-style:normal; margin: 40px 0 20px; }	
 #sleep-food-net address { font-size:0.9em; margin: 0 0 30px 0; }
 #sleep-food-net address p { color: rgba(255,255,255,0.6);}	
@@ -595,7 +595,7 @@ footer a{color:#7EA107;}
 	@media only screen and (min-width : 550px) {
 		#conf-location { width: 100%; text-align:left; float: left; margin: 0; border-bottom: none;}
 		#conf-location h3{ font-size:1.5em; margin:0 0 7px 0; }
-		#conf-location address { font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal;   font-size:0.9em; color: #cccccc;}
+		#conf-location address { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal;   font-size:0.9em; color: #cccccc;}
 		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 	
 		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; }
@@ -659,7 +659,7 @@ footer a{color:#7EA107;}
 
 
 	
-.bio-more { font-family:"Karmina Sans Light", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;	margin: 35px 0 0 0;}
+.bio-more { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;	margin: 35px 0 0 0;}
 .speaker-session h2{ margin:39px 0 0 0; }	
 .speaker-nav { margin: 35px 0 0 0; }
 .speaker-nav h2 { font-size:1.5em; margin:39px 0 0 0; }
@@ -675,7 +675,7 @@ footer a{color:#7EA107;}
 		left: 35%; 
 	}
 	.speaker-session h1{ margin-top:0; }
-	.speaker-session h1 .speaker-title {font-family:"Karmina Sans Light", sans-serif; 
+	.speaker-session h1 .speaker-title {font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 		font-weight: 200; font-size:.6em; letter-spacing:.1em;}
 	.speaker-session p{ margin:0 0 17px 0;}
 	.speaker-session .talk {font-size:1em; line-height:1.4em; }
@@ -685,7 +685,7 @@ footer a{color:#7EA107;}
 		background-size: contain;
 		padding: 15% 0 0 0;
 		width: 28%;
-		font-family: "Karmina Sans Light", sans-serif;
+		font-family: "Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 		font-weight: 200;
 		font-size: .8em;
 		letter-spacing: .1em;
@@ -710,7 +710,7 @@ footer a{color:#7EA107;}
 /* #################################################################################################################################### */
 
 .main-content .sponsors-page .loud { 
-	font-family:"Karmina Sans Light", sans-serif; 
+	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight: 200;
 	letter-spacing:0em; 
 	line-height:1.2em; 
@@ -720,7 +720,7 @@ footer a{color:#7EA107;}
 	padding:12px 0;
 }
 .main-content .sponsors-page  p {  
-	font-family:"Karmina Sans Light", sans-serif; 
+	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight: 200; 
 	text-align: left; 
 	margin: 0 0 25px; 
@@ -730,7 +730,7 @@ footer a{color:#7EA107;}
 }
 .main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
 .main-content .sponsors-page .loud span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
-.sponsorship-pack { margin: 32px 0; font-family:"Karmina Sans Light", sans-serif; font-weight: 200; }	
+.sponsorship-pack { margin: 32px 0; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; }	
 
 .sponsorship-pack .button small {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal;}	
 .sponsorship-pack .button span{  margin: 18px 0 0 0px; display:block;}
@@ -758,7 +758,7 @@ footer a{color:#7EA107;}
 
 .workshop-item h1{ font-size: 2em;}
 .workshop-item p{ margin: 2% 0 4%;}
-.workshop-item li{ font-size: .8em; line-height: 1.2em; list-style:square; margin: 0 0 2% 6%; font-family:"Karmina Sans Light", sans-serif; font-weight: 200;}	
+.workshop-item li{ font-size: .8em; line-height: 1.2em; list-style:square; margin: 0 0 2% 6%; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200;}	
 
 
 	@media only screen and (min-width : 720px) {

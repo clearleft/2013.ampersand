@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>Ampersand 2013 &middot; The Web Typography Conference</title>
-<meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 15 June 2012." />
+<meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 2 November 2013." />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="stylesheet" href="css/styles.css">
@@ -25,7 +25,7 @@
 		<p>Ampersand will be a fabulous day of nitty gritty details from experts in font design &amp; development, typesetting & font usage, 
 			browser implementations, and with glimpses of a bright typographic future.</p>
 			
-			<table class="schedule-table" summary="Ampersand schedule for 15 June 2012">
+			<table class="schedule-table" summary="Ampersand schedule for 2 November 2013">
                 
                 <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2012-06-14T19:30:00">Thurs 19.30</time> </th>
