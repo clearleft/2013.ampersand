@@ -8,7 +8,7 @@
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<link rel="stylesheet" href="css/styles.css">
 	
-
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	
 </head>
 
@@ -16,9 +16,16 @@
 
 	<?php include("includes/header.php"); ?>
 
+	<!-- INTRO -->
+	
+	
+
 	<!-- SPEAKERS -->
 <div class="main-content">
-	  <section class="section sessions">
+	
+	 <h2 class="description"><span>The</span> Web Typography Conference</h2>
+	
+	 <section class="section sessions">
 		<h1>Speakers & Sessions</h1>
 		<p class="loud">Ampersand is an affordable one-day event for knowledgable web designers & type enthusiasts, featuring:</p>
 		<ul class="speakers">
@@ -37,10 +44,6 @@
 	
 </div>		
 <?php include("includes/footer.php"); ?>
-
-
-
-
 </body>
 
 </html>

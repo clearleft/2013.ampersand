@@ -58,28 +58,42 @@ body {
 	font-style:normal;
 	text-align:left;
 	color:#fff;
+	
 }
 
 img {max-width:100%;}
-h1, h2 { font-family:"Karmina Bold", Georgia, serif;  font-weight:bold; font-style:normal; color: #fff; font-size:3.2em; letter-spacing: 0.06em;}
+h1, h2 { font-family:"Karmina Regular", Georgia, serif;  font-weight:200; font-style:normal; color: #fff; font-size:3.2em; letter-spacing: 0.06em;}
 a{ color:#fff064; text-decoration: none; }
 
 /* #################################################################################################################################### */ 
 /* #############  HEADER  ############################################################################################################# */
 /* #################################################################################################################################### */
 
-header#top { width:90%; padding: 0 5%;}
+header#top { width:90%; padding: 0 5%; background:rgba(0,0,0,0.5); }
 
-.ampersand-logo img{ max-width: 12%; margin: 20px 0 10px; }
-.conf-title { font-size:2em; letter-spacing: .1em; line-height: .7em;}
-
+.conf-title { 
+	font-size: 2.5em;
+	line-height: .7em;
+	padding: 0 0 24px;
+}
+.conf-title img { width: 55px; height: 75px; position: relative; top: 12px; right: 19px; }
 .description { 
-	font-family:"Karmina Sans Light", sans-serif; font-weight:200; font-style:normal; 
-	letter-spacing:.2em; 
-	font-size:.37em; 
-	text-transform: uppercase; 
+	font-family: "Karmina Regular", Georgia, serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 9em;
+	padding: 0 0 5%;
+	text-transform: uppercase;
+	line-height: 1.18em;
+	border-bottom: 4px solid #fff;
 }	
-
+.description span { color: #fff064; }
+.description:first-letter {
+	font-size: 3em;
+	float: left;
+	padding: 0px 0 0 0;
+	line-height: 0.72em;
+ }
 .tickets a:hover { text-decoration: none; }
 
 .loc-date { color:#fff; letter-spacing: .1em; margin:34px 0 12px; }
@@ -100,7 +114,7 @@ header#top { width:90%; padding: 0 5%;}
 	padding: 1% 3% 1%;
 	background: #fff59e; /* Old browsers */
 	background: -moz-linear-gradient(top,  #fff064 0%, #ffe91c 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff064), color-stop(100%,#ffe91c)); /* Chrome,Safari4+ */
+	background: -webkit-gradient(linear,  top, bottom, color-stop(0%,#fff064), color-stop(100%,#ffe91c)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  #fff064 0%,#ffe91c 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top,  #fff064 0%,#ffe91c 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #fff064 0%,#ffe91c 100%); /* IE10+ */
@@ -124,6 +138,8 @@ header#top { width:90%; padding: 0 5%;}
 .registering img {position: absolute; margin: 0 0 1px 12px; top: -5px; display:inline;}
 
 	@media only screen and (min-width : 570px) {
+		
+		header#top { text-align: left;}
 		
 		.tickets{ position: absolute; top: 0; right:5%; width:220px; max-width: 310px; }
 		.tickets .loc-date { position: absolute; margin: 121px 0 0 22px; }
@@ -172,17 +188,16 @@ header#top { width:90%; padding: 0 5%;}
 	}	
 	@media only screen and (min-width : 720px) {
 		
-		header#top  { width: 86%; padding: 0 7%; }
+		header#top  { width: 86%; padding: 0 7% 0 8%; }
 		.conf-title { font-size: 2.5em; }
-		.description { font-size: .28em; }
 		.cta:hover { opacity: 0.9; }
 		
-		.tickets { right: 7%;}
-		.tickets .loc-date { position: absolute; margin-top: 136px; }
+		.tickets { right: 6%;}
+		.tickets .loc-date { position: absolute; margin-top: 48px; left: -232px; }
 	}
 	@media only screen and (min-width : 1024px) {
-		header#top { margin-top: 16px;}
-		.conf-title { font-size: 3em; }
+		header#top { }
+		.conf-title { font-size: 4em; padding: 0px 0 29px; }
 	}	
 
 
@@ -207,9 +222,7 @@ nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; ba
 	height: 53px;
 	width: 44px;
 	text-indent: -2.2em;
-	font-family:"Karmina Sans Light", sans-serif; 
-	font-weight:200; 
-	font-style:normal;
+	
 	font-size: .8em;
 	letter-spacing: .1em;
 	color: #fff;
@@ -251,9 +264,7 @@ body:not(:target) #nav:target a {
 	padding: 0 0 6px 14px;
 	position: relative;
 	z-index: 1;
-	font-family:"Karmina Sans Light", sans-serif; 
-	font-weight:200; 
-	font-style:normal;
+	
 	color:#fff; 
 	letter-spacing:.08em; 
 	text-transform:uppercase;
@@ -287,15 +298,12 @@ body:not(:target) #nav:target #back {
 			
 		  	body:not(:target) #nav { 
 				position: absolute; 
-				top:205px; 
+				top:75px; 
 				width:90%; 
 				margin: 0 auto; 
 				z-index: 20; 
-				border-top: 1px solid rgba(255,255,255,0.3); 
-				border-bottom: 1px solid rgba(255,255,255,0.3); 
+				border-bottom: 3px solid rgba(255,255,255,1); 
 				padding:20px 0 1px;
-				-webkit-box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
-		        box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
 				}
 			
 		  	body:not(:target) #nav a {
@@ -305,12 +313,7 @@ body:not(:target) #nav:target #back {
 		  		height: 50px;
 		  		line-height: 1em;
 		  		padding: 0 1em;
-		  		font-family:"Karmina Sans Light", sans-serif; 
-		  		font-weight:200; 
-		  		font-style:normal; 
 		  		font-size:0.9em;
-		  		letter-spacing:.08em; 
-		  		text-transform:uppercase;
 		  		color:#fff064; 
 		  		background: none;
 		  		display:inline;
@@ -319,7 +322,7 @@ body:not(:target) #nav:target #back {
 		  	}
 			
 		  	body:not(:target) #nav li { float: left; padding: 0; text-align:left; width:31%; padding:0 0 18px 0;}
-			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Light", sans-serif;  font-weight:bold; font-style:normal; }
+			body:not(:target) #nav li a{ padding: 0; }
 		.menu-toggle { display:none;}
 		#back{ display: none; }
 		
@@ -334,11 +337,11 @@ body:not(:target) #nav:target #back {
 		body:not(:target) #nav li { width:16%;}
 	}	
 	@media only screen and (min-width : 1024px) {
-		body:not(:target) #nav { top: 260px;}
+		body:not(:target) #nav { top: 165px;}
 		body:not(:target) #nav a { font-size:1.2em; }
 	}	
 	@media only screen and (min-width : 1200px) {
-		body:not(:target) #nav a { font-size:1.3em; }
+		body:not(:target) #nav a { font-size:1.5em; }
 	}		
 
 
@@ -349,71 +352,22 @@ body:not(:target) #nav:target #back {
 		  
 
 /* MAIN CONTENT */
-.main-content { position: relative; top:60px; padding: 15px 5% 60px;  }
-.main-content:after {
-	content: '';
-	height: 100%;
-	position: absolute;
-	border-bottom: none;
-	border-radius: 0 0 3px 3px;
-	z-index: -90;
-	right: 0;
-	left:0px;
-	top:-10px;
-	background-color: rgba(0,0,0, 0.3) ;
-	-ms-transform: skew(0deg,-2deg); 
-	-webkit-transform: skew(0deg,-2deg); 
-	-o-transform: skew(0deg,-2deg); 
-	-moz-transform: skew(0deg,-2deg);
-	clear:both;
-}
-.main-content:before {
-	content: '';
+.main-content { position: relative; top:60px; padding: 15px 0 60px;  }
 
-	height: 100%;
-	position: absolute;
-	border-bottom: none;
-	border-radius: 0 0 3px 3px;
-	z-index: -90;
-	right: 0;
-	left:0px;
-	top:-7px;
-	background-color: rgba(0,0,0, 0.3) ;
-	-ms-transform: skew(0deg,2deg); 
-	-webkit-transform: skew(0deg,2deg); 
-	-o-transform: skew(0deg,2deg); 
-	-moz-transform: skew(0deg,2deg);
-}
 
 .main-content h1 { margin: 23px 0 6px;  }
 .main-content p { font-family:"Karmina Sans Light", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
 .main-content  .presentation-title{ font-size: 0.7em; }
 	@media only screen and (min-width : 570px) {
 	
-		.main-content { top:190px;  }
+		.main-content { top:163px;  }
 	}
 	@media only screen and (min-width : 720px) {
 	
-		.main-content { padding: 15px 7% 60px;}
+		.main-content { padding: 0px 7% 60px;}
 	}
 	@media only screen and (min-width : 1220px) {	
-	.main-content:after {
-		content: '';
-		top:-21px;
-		-ms-transform: skew(0deg,-1deg); 
-		-webkit-transform: skew(0deg,-1deg); 
-		-o-transform: skew(0deg,-1deg); 
-		-moz-transform: skew(0deg,-1deg);
-		clear:both;
-		}
-
-	.main-content:before {
-		content: '';
-		-ms-transform: skew(0deg,1deg); 
-		-webkit-transform: skew(0deg,1deg); 
-		-o-transform: skew(0deg,1deg); 
-		-moz-transform: skew(0deg,1deg);
-		}
+	
 	}
 	
 	
@@ -477,7 +431,6 @@ footer a{color:#7EA107;}
 	}
 
 	@media only screen and (min-width : 1220px) {
-		
 		.social ul li a{ margin: 12px 10.5%;}
 	}
 
@@ -499,12 +452,8 @@ footer a{color:#7EA107;}
 			padding: 22% 0 0 0; 
 			padding: 53% 50% 0% 0%;
 		}
-		
 		.speakers li { font-size: 1.5em; float: left; width: 50%; }
 		.speakers li p { margin-bottom: 4%; }
-		
-		
-		
 		#speaker1 { background:url('../images/speakers-ben-terrett.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker2 { background:url('../images/speakers-mark-boulton.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker3 { background:url('../images/speakers-jenn-lukas.jpg')  0 0 no-repeat; background-size: contain; }
@@ -514,9 +463,7 @@ footer a{color:#7EA107;}
 		#speaker7 { background:url('../images/speakers-nina-stossinger.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker8 { background:url('../images/speakers-andy-hume.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker9 { background:url('../images/speakers-richard-rutter.jpg')  0 0 no-repeat; background-size: contain; }
-		
 		#speaker1, #speaker3, #speaker5, #speaker7, #speaker9 { margin-right:0%; }
-		
 	}
 	
 	@media only screen and (min-width : 820px) {	
@@ -579,9 +526,9 @@ footer a{color:#7EA107;}
 #loc-container { clear:both; }
 
 #city-info { width: 100%; margin: 0 auto; text-align: left; padding:40px 0 0 0;  }
-#city-info h2, #city-info p {   margin:0px 0 40px;  color: rgba(255,255,255, 0.9); font-family:"Karmina Sans Light", sans-serif; font-weight:200;}
+#city-info h2, #city-info p {  margin:0px 0 40px;  color: rgba(255,255,255, 0.9); font-family:"Karmina Sans Light", sans-serif; font-weight:200;}
 #city-info h2 span{ font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1);}
-#city-info h2 {font-size: 2.2em; }
+
 .map iframe{ width:100%; height:260px; }	
 
 #sleep-food-net { width: 100%; font-family:"Karmina Sans Light", sans-serif; font-weight:200; letter-spacing:.03em;}
@@ -763,13 +710,13 @@ footer a{color:#7EA107;}
 
 	@media only screen and (min-width : 720px) {
 		.workshops p{ width: 60%;}	
-		.workshop-item { /*width: 48%; */border-bottom: 1px solid rgba(255,255,255,.3); }
-		.workshop-item p{ width: 100%; }
+		.workshop-item { width: 48%; border-bottom: 1px solid rgba(255,255,255,.3); }
+		.workshop-item p{ width: 130%; }
 		.workshop-item ul { margin-bottom: 10%;}	
 		#wrk1 { border-top: 1px solid rgba(255,255,255,0.3); padding: 4% 0 0 0; margin: 3% 0 0 0;}
 		/*#wrk1, #wrk2 {  margin-bottom: 1%; }
 		#wrk2, #wrk4 {  margin-left: 2%; }
-		*/#wrk1,#wrk2, #wrk3, #wrk4 { background:url('../images/workshop-placeholder.jpg') 0 0 no-repeat; background-size:38%; padding: 0 0 0 40%; }
+		*/#wrk1,#wrk2, #wrk3, #wrk4 { background:url('../images/workshop-placeholder.jpg') 0 0 no-repeat; background-size:43%; padding: 0 0 0 40%; }
 }
 
 

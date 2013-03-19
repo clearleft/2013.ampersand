@@ -41,17 +41,17 @@ table {	border-collapse: collapse;	border-spacing: 0; }
 
 html {
 	background: #1a6259; /* Old browsers */
-	background: -moz-linear-gradient(left,  #1a6259 0%, #193749 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1a6259), color-stop(100%,#193749)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #1a6259 0%,#193749 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #1a6259 0%,#193749 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #1a6259 0%,#193749 100%); /* IE10+ */
-	background: linear-gradient(to right,  #1a6259 0%,#193749 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a6259', endColorstr='#1f445a',GradientType=1 ); /* IE6-9 */
+	background: -moz-linear-gradient(left,  #1f3048 0%, #372b48 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1f3048), color-stop(100%,#372b48)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1f3048 0%,#372b48 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1f3048 0%,#372b48 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1f3048 0%,#372b48 100%); /* IE10+ */
+	background: linear-gradient(to right,  #1f3048 0%,#372b48 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f3048', endColorstr='#372b48',GradientType=1 ); /* IE6-9 */
 }
 
 body { 	
-	background:url('../images/brighton-bkg.png') center center fixed; 
+	background:url('../images/nyc-bkg.png') center center fixed; 
 	font-size:110%; 
 	font-family:"Karmina Regular", Georgia, serif; 
 	font-weight:normal; 
@@ -181,7 +181,7 @@ header#top { width:90%; padding: 0 5%;}
 		.tickets .loc-date { position: absolute; margin-top: 136px; }
 	}
 	@media only screen and (min-width : 1024px) {
-		header#top { margin-top: 16px;}
+		header#top { padding-top: 16px;}
 		.conf-title { font-size: 3em; }
 	}	
 

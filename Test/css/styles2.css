@@ -1,0 +1,608 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Clearfix */
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* FONTS BABY */
+/* div { font-family:"Karmina Sans Bold", sans-serif;  font-weight:bold; font-style:normal; }
+div { font-family:"Karmina Sans Regular Italic", sans-serif;  font-weight:normal; font-style:italic; }
+div { font-family:"Karmina Italic", Georgia, serif;  font-weight:normal; font-style:italic; }
+div { font-family:"Karmina Bold", Georgia, serif; font-weight:bold; font-style:normal; }
+div { font-family:"Karmina Sans Regular", sans-serif;  font-weight:normal; font-style:normal; }
+div { font-family:"Karmina Regular", Georgia, serif; font-weight:normal; font-style:normal; } 
+font-family:"Karmina Sans Semi Bold", sans-serif; font-weight:600; font-style:normal;
+*/
+
+/* Default Mobile View Styles */
+
+html {
+	background: #1a6259; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1a6259 0%, #193749 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1a6259), color-stop(100%,#193749)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1a6259 0%,#193749 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1a6259 0%,#193749 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1a6259 0%,#193749 100%); /* IE10+ */
+	background: linear-gradient(to right,  #1a6259 0%,#193749 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a6259', endColorstr='#1f445a',GradientType=1 ); /* IE6-9 */
+}
+
+body { 	
+	background:url('../images/brighton-bkg.png') center center fixed; 
+	font-size:110%; 
+	font-family:"Karmina Regular", Georgia, serif; 
+	font-size-ajust:0.463; 
+	font-weight:normal; 
+	font-style:normal;
+	text-align:center;
+}
+
+h1, h2 { font-family:"Karmina Bold", Georgia, serif; font-size-ajust:0.473; font-weight:bold; font-style:normal; color: #ffffff; font-size:1.5em; letter-spacing: 0.1em;}
+h5 {
+	font-family:"Karmina Sans Light", sans-serif; 
+	font-weight:200; 
+	font-style:normal; 
+	letter-spacing:.08em; 
+	font-size:1em; 
+	margin:34px 0 0 0;  
+	color:#fff064;
+}
+	
+	
+a{ color:#fff064; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header { width:100%; padding: 42px 0 0 0; text-align: center;}
+.conf-title {color:#ffffff; font-size:2.2em; letter-spacing: .1em; }
+.description { 
+	font-family:"Karmina Sans Light", sans-serif; 
+	 
+	font-weight:200; 
+	font-style:normal; 
+	letter-spacing:.35em; 
+	font-size:.7em; 
+	margin:4px 0 0 0; 
+	text-transform: uppercase; 
+	color:#ffffff;
+}
+.loc-date { color:#fff064; letter-spacing: .1em; font-size:.8em; margin:27px 0 31px; }
+
+.tickets a:hover { text-decoration: none; }
+.cta { 
+	color: #000000;
+	border-radius: 3px;
+	background-color: #fff064;
+	width: 180px;	
+	position:relative;
+	margin: 0 auto;
+	line-height: 1.6em;
+	padding: 15px 0px 10px;
+	background: #fff59e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fff59e 0%, #fff064 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff59e), color-stop(100%,#fff064)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fff59e 0%,#fff064 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fff59e 0%,#fff064 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fff59e 0%,#fff064 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fff59e 0%,#fff064 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff59e', endColorstr='#fff064',GradientType=0 ); /* IE6-9 */
+}
+
+.cta:hover { opacity: 0.9; }
+
+
+.cta:after {
+	content: '';
+	width: 180px;
+	height: 22px;
+	position: absolute;
+	border-bottom: none;
+	border-radius: 0 0 3px 3px;
+	z-index: 0;
+	right: 0;
+	left:0px;
+	bottom:-12px;
+	background: #fff064 ;
+	-ms-transform: skew(0deg,-3deg); 
+	-webkit-transform: skew(0deg,-3deg); 
+	-o-transform: skew(0deg,3deg); 
+	-moz-transform: skew(0deg,3deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;	
+}
+
+.cta:before {
+	content: '';
+	width: 178px;
+	height: 14px;
+	position: absolute;
+	border-bottom: none;
+	border-radius: 0 0 3px 3px;
+	z-index: 0;
+	right: 0;
+	left:0px;
+	bottom:-14px;
+	background-color: rgba(0,0,0, 0.5) ;
+	-ms-transform: skew(0deg,3deg); 
+	-webkit-transform: skew(0deg,3deg); 
+	-o-transform: skew(0deg,3deg); 
+	-moz-transform: skew(0deg,3deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;	
+}
+
+.price {font-size: 3em;	letter-spacing: .07em; }
+
+.vat { font-size:1em; letter-spacing: 0em; }
+
+.registering { 
+	font-size:1em; 
+	text-transform: uppercase; 
+	margin: 6px 0; 
+	font-family:"Karmina Italic", Georgia, serif;  
+	font-weight:normal; 
+	font-style:italic;  
+	letter-spacing: 0.1em; 
+}
+
+.ampersand-logo { clear:both; }
+.ampersand-logo img{ max-width: 25%; margin-top:-25px;}
+
+/* =Navigation */
+nav { margin: 0 -1em; }
+nav ul { margin-bottom: 0;  }
+nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; background: rgba(0,0,0,0.9); }
+
+#nav a { font-weight: bold; }
+#nav { margin: 0; outline: 0; font-size: .7857em; /* 11/14 */ }
+
+#jump {
+	background:url('../images/menu-btn.png')10px 9px no-repeat;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    height: 53px;
+    width: 53px;
+    text-indent: -999em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1001; 
+}
+
+#search input { width: 100%; }
+
+body:not(:target) #nav {
+    outline: 0;
+    margin: 0;
+    padding-top: 39px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000; 
+	
+}
+
+body:not(:target) #nav a {
+	border-bottom-width: 0;
+	font-weight: bold;
+	overflow: hidden;
+	height: 0;
+	line-height: 0;
+	padding: 0 1em; 
+}
+
+body:not(:target) #nav:target {	z-index: 1001; }
+
+body:not(:target) #nav:target a {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	line-height: 3em;
+	height: 2.6em;
+	padding: 0 0 6px 0;
+	position: relative;
+	z-index: 1;
+	font-family:"Karmina Sans Light", sans-serif; 
+	font-weight:200; 
+	font-style:normal; 
+	letter-spacing:.08em; 
+	text-transform:uppercase;
+	color:#ffffff;
+	-moz-transition: height .25s, line-height .25s;
+	-ms-transition: height .25s, line-height .25s;
+	-o-transition: height .25s, line-height .25s;
+	-webkit-transition: height .25s, line-height .25s;
+	transition: height .25s, line-height .25s; 
+}
+body:not(:target) #nav:target #back {
+	display: block;
+	position: relative; }
+	body:not(:target) #nav:target #back a {
+	background: transparent;
+	border: 0;
+	display: block;
+	height: auto;
+	line-height: 1;
+	position: absolute;
+	top: -101em;
+	bottom: -101em;
+	left: 0;
+	right: 0;
+	text-indent: -999em;
+	z-index: 0; 
+} 
+		  
+
+
+
+/* MAIN CONTENT */
+.main-content { position: relative; top:60px; padding: 3px 0 60px 0; }
+.main-content:after {
+	content: '';
+
+	height: 100%;
+	position: absolute;
+	border-bottom: none;
+	border-radius: 0 0 3px 3px;
+	z-index: -90;
+	right: 0;
+	left:0px;
+	top:-10px;
+	background-color: rgba(0,0,0, 0.3) ;
+	-ms-transform: skew(0deg,-3deg); 
+	-webkit-transform: skew(0deg,-3deg); 
+	-o-transform: skew(0deg,3deg); 
+	-moz-transform: skew(0deg,3deg);
+	clear:both;
+}
+
+.main-content:before {
+	content: '';
+
+	height: 100%;
+	position: absolute;
+	border-bottom: none;
+	border-radius: 0 0 3px 3px;
+	z-index: -90;
+	right: 0;
+	left:0px;
+	top:-15px;
+	background-color: rgba(0,0,0, 0.3) ;
+	-ms-transform: skew(0deg,3deg); 
+	-webkit-transform: skew(0deg,3deg); 
+	-o-transform: skew(0deg,3deg); 
+	-moz-transform: skew(0deg,3deg);
+}
+
+.main-content h1 { margin: 23px 0;  }
+
+
+/* ############# HOME PAGE ############### */
+.speakers { text-align:center; }
+.speakers li  { margin-bottom:15px; font-size: 1.5em; letter-spacing: 0.06em; }
+.speakers { text-align:center; }
+.speakers li  { margin-bottom:15px; font-size: 1.5em; letter-spacing: 0.06em; }
+
+
+/* ############# SCHEDULE PAGE ############### */
+.schedule { padding:0; letter-spacing: 0.06em; text-align:left; }
+.schedule h1 { text-align:center;}
+.schedule h2, .schedule-change {font-family:"Karmina Sans Light", sans-serif; font-weight:normal; font-style:normal; font-size:.9em; text-align:center; padding:0 10%; line-height:1.2em; }
+.schedule .time { font-family:"Karmina Sans Light", sans-serif; font-size:.8em; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
+.schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #ffffff;  margin-left:12px; }
+.schedule-table {margin:60px 0 0 0; width: 100%;}
+.schedule-table td {padding:25px 0}
+.schedule-table .first td{ padding-top:0px;}
+.schedule-table .last td{ padding-bottom:0px;}
+.vevent td { font-size:.8em; }
+.vevent td p {  color:#ffffff; margin-left:12px;}
+.vevent td .vcard{ font-size:1.7em; }
+.break { background: rgba(0,0,0,0.15); padding}
+.type-in-20 p { margin-bottom:9px; }
+.schedule-change{ color:#ffffff; margin:35px; }
+
+/* FOOTER SECTION */
+.sponsors{ margin:100px 0 0 0; }
+.sponsors img { margin:12px; }
+
+.social { position:relative; background-color: rgba(0,0,0, 0.3); padding:23px 0 12px 0; }
+.social h3 {color:#ffffff; font-size: .9em; letter-spacing:.07em;}
+.social ul { width: 300px; margin: 8px auto 0; overflow:hidden;}
+.social ul li a{ float:left; margin:12px 5%; text-indent:-99999px; }
+.social #twitter { background:url('../images/icon-twitter.png') 0 0 no-repeat; width:43px; height:43px; }
+.social #rss { background:url('../images/icon-rss.png') 0 0 no-repeat; width:43px; height:43px; }
+.social #lanyrd { background:url('../images/icon-lanyrd.png') 0 0 no-repeat; width:43px; height:43px; }
+.social #ical { background:url('../images/icon-iCal.png') 0 0 no-repeat; width:43px; height:43px; }		
+.social-subtext { display: none;}	
+
+footer { 
+	clear:both;
+	background: #ffffff; 
+	text-align: left; 
+	font-size: 0.8em;
+	font-family:"Karmina Sans Light", sans-serif; 
+	
+	overflow:hidden;
+	padding:2% 4% 4% 4%;
+	}
+
+footer a{color:#7EA107;}
+
+.footer-nav { background: rgba(0,0,0, 0.5); width:100%; text-align: center; padding:18px 0 0 0;}
+.footer-nav ul li { 
+	font-family:"Karmina Sans Light", sans-serif; 
+	 
+	font-weight:200;
+	margin: 0 0 18px 0; 
+	font-style:normal; 
+	letter-spacing:.15em; 
+	font-size:.8em; 
+	}
+
+
+/* ####################### MEDIA QUERIES YAY!!!! ########################## */
+   
+   
+  /* Smartphones (portrait) ----------- */
+ @media only screen and (min-width : 320px) {
+ 	}
+
+
+ /* Smartphones (landscape) ----------- */
+ @media only screen and (min-width : 480px) {
+  }  
+
+
+ /* iPads (portrait and landscape) ----------- */
+ @media only screen and (min-width : 768px) {
+	 
+	/* HEADER */.main-content { width: 95%; margin:0 auto; padding:  2% 0 5%;  }
+ 	.conf-title {color:#ffffff; font-size:4.2em; letter-spacing: .05em; }
+ 	.ampersand-logo img { max-width: 25%; margin-top: 15px; }
+	.main-content h1 { font-size:1.7em;  } 
+	/* HOME PAGE */
+	.speakers li a{ 
+		-webkit-transition: background .3s ease-in;
+		-moz-transition: background .3s ease-in;
+        -ms-transition: background .3s ease-in;
+        -o-transition: background .3s ease-in;
+		transition: background .3s ease-in;
+	}
+	
+	.speakers { width: 560px; margin: 0 auto; }
+	.speakers li a { 
+		background:rgba(0,0,0,0.6); 
+		display:block; 
+		width:263px; 
+		height:143px; 
+		padding: 120px 0px 0 0;
+		margin: 0px 0 0 -5px;
+	}
+	.speakers li a:hover { text-decoration:none; background:rgba(0,0,0,0); }
+	.speakers li#speaker1 { background:url('../images/speakers-vc.jpg') 0 0 no-repeat; margin: 0 14px 20px 0; }
+	.speakers li#speaker2 { background:url('../images/speakers-jsm.jpg') 0 0 no-repeat; margin: 0 0 20px 0;}
+	.speakers li#speaker3 { background:url('../images/speakers-jt.jpg') 0 0 no-repeat;margin: 0 14px 20px 0;}
+	.speakers li#speaker4 { background:url('../images/speakers-jh.jpg') 0 0 no-repeat;margin: 0 0px 20px 0;}
+	.speakers li#speaker5 { background:url('../images/speakers-db.jpg') 0 0 no-repeat;margin: 0 14px 20px 0;}
+	.speakers li#speaker6 { background:url('../images/speakers-jd.jpg') 0 0 no-repeat;margin: 0 0px 20px 0;}
+	.speakers li#speaker7 { background:url('../images/speakers-tb.jpg') 0 0 no-repeat;margin: 0 14px 20px 0;}
+	.speakers li#speaker8 { background:url('../images/speakers-mb.jpg') 0 0 no-repeat;margin: 0 0px 20px 0;}
+	.speakers li#speaker9 { background:url('../images/speakers-yp.jpg') 0 0 no-repeat;}
+	#speaker1, #speaker2, #speaker3, #speaker4, #speaker5, #speaker6, #speaker7, #speaker8, #speaker9 { padding: 0px 5px; float: left; width:263px;  }
+	.sponsors { text-align: left; width: 95%; margin:140px auto 0;}
+	
+	
+	/* ############# SCHEDULE PAGE ############### */
+	.schedule .time { 
+		width: 42%; 
+		padding:0 22px 0 0; 
+		background: url('../images/deco-li.png') top right no-repeat;
+		background-position-x: 430px;
+		background-position-y: 29px;  
+		font-size: .9em;
+	}	
+	.schedule .first .time { background-position-y: 0px; }
+	.break {  border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05);}
+	.schedule-table td { padding:35px 0 35px 12px ; background:url('../images/deco-li.png')-14px 29px no-repeat; font-size:.9em;}
+	.schedule-table .first td { background-position-y: 0px; padding-top: 8px; }
+	.schedule h2, .schedule-change, .schedule h3.summary  { font-size:.9em; }
+	
+	
+	
+	/* NAVIGATION */
+	
+	#jump { display: none;}
+	
+	body:not(:target) #nav { position: absolute; top:350px;}
+	
+	body:not(:target) #nav a {
+		border-bottom-width: 0;
+		font-weight: bold;
+		overflow: hidden;
+		height: 50px;
+		line-height: 1em;
+		padding: 0 1em;
+		font-family:"Karmina Sans Light", sans-serif; 
+		font-weight:200; 
+		font-style:normal; 
+		font-size:0.9em;
+		letter-spacing:.08em; 
+		text-transform:uppercase;
+		color:#ffffff;
+		background: none;
+		display:inline;
+		position:relative;
+	}
+	
+	body:not(:target) #nav .home-link { border:none; width: 5%;  top:25px; left:-340px; }
+	body:not(:target) #nav .schedule-link { border:none; width: 5%; top:10px; left:-250px;  }
+	body:not(:target) #nav .workshops-link { border: none;width: 5%; top:-5px;  left:-150px;} 
+	body:not(:target) #nav .exhibition-link { border:none;  width: 5%; top:-20px; left:145px;  }
+	body:not(:target) #nav .location-link { border:none;  width: 5%; top:-35px; left:235px; }
+	body:not(:target) #nav .sponsors-link { border: none; width: 5%; top:-50px; left:325px }
+	
+	/*#main-nav { position:absolute; top:30px; index.php}
+	#main-nav #nav{ position: relative; width:95%; margin:0 auto;}
+	#main-nav a { background: none; padding: 12px; }
+	#main-nav .home-link { border:none; width: 5%; position:absolute; left:0px; }
+	body:not(:target) #nav .schedule-link { border:none; width: 5%; position:absolute; left:80px;  }
+	body:not(:target) #nav .workshops-link { border: none;width: 5%; position:absolute;  left:190px;} 
+	body:not(:target) #nav .exhibition-link { border:none;  width: 5%; position:absolute; left:380px;  }
+	body:not(:target) #nav .location-link { border:none;  width: 5%; position:absolute; left:479px; }
+	body:not(:target) #nav .sponsors-link { border: none; width: 5%; position:absolute;left:567px }*/
+	
+	#back { display: none;}
+/*	nav.main-nav { background: none; border: none; position: absolute; top:365px; width:100%;}
+	nav.main-nav ul { position: relative;  width: 560px; margin: 0 auto;}
+	nav.main-nav ul li a{ 
+		float:left; 
+		border:none; 
+		padding:15px 0 12px; 
+		text-align:center; 
+		width: 5%; 
+		letter-spacing:0.2em;
+		text-transform: uppercase; 
+		font-size:.75em; 
+	}
+	nav.main-nav ul li a.home-link { border:none; width: 5%; position:absolute; left:-80px; }
+	nav.main-nav ul li a.schedule-link { border:none; width: 5%; position:absolute; left:-8px;  }
+	nav.main-nav ul li a.workshops-link { border: none;width: 5%; position:absolute;  left:90px;} 
+	nav.main-nav ul li a.exhibition-link { border:none;  width: 5%; position:absolute; left:380px;  }
+	nav.main-nav ul li a.location-link { border:none;  width: 5%; position:absolute; left:479px; }
+	nav.main-nav ul li a.sponsors-link { border: none; width: 5%; position:absolute;left:567px } */
+	
+	.menu-toggle { display:none;}
+	
+	/* SOCIAL */
+	.social ul { width: 95%; }
+	.social ul li{ width:25%; float:left;}
+	.social ul li a{ margin:12px 5%; text-indent:60px; width:190px; padding:12px 0 0 0;}
+		
+	/* FOOTER NAV */	
+	.footer-nav { padding: 18px 0;}
+	.footer-nav ul li { display: inline; margin: 0 15px; }
+	
+	/* FOOTER */
+	footer { padding:4% 2%;  }
+	footer.section {width: 95%;}
+	footer img.clearleft { float:right;}
+}
+
+
+ /* iPads (landscape) ----------- */
+ @media only screen and (min-width : 1024px){
+	 
+	.main-content { width: 1056px; padding: 2% 0% 5%; margin-top: 100px; }
+	.main-content h1 { font-size:2em;} 
+	
+	body:not(:target) #nav a {
+		border-bottom-width: 0;
+		font-weight: bold;
+		overflow: hidden;
+		height: 50px;
+		line-height: 1em;
+		padding: 0 1em;
+		font-family:"Karmina Sans Light", sans-serif; 
+		font-weight:200; 
+		font-style:normal; 
+		font-size:1.1em;
+		letter-spacing:.08em; 
+		text-transform:uppercase;
+		color:#ffffff;
+		background: none;
+		display:inline;
+		position:relative;
+	}
+	body:not(:target) #nav .home-link { border:none; width: 5%;  top:25px; left:-450px; }
+	body:not(:target) #nav .schedule-link { border:none; width: 5%; top:10px; left:-330px;  }
+	body:not(:target) #nav .workshops-link { border: none;width: 5%; top:-5px;  left:-190px;} 
+	body:not(:target) #nav .exhibition-link { border:none;  width: 5%; top:-20px; left:180px;  }
+	body:not(:target) #nav .location-link { border:none;  width: 5%; top:-35px; left:305px; }
+	body:not(:target) #nav .sponsors-link { border: none; width: 5%; top:-50px; left:425px }
+ 	
+	
+	
+	.speakers { width: 847px; margin: 0 auto; }
+ 	.speakers li a:hover { text-decoration:none; background:rgba(0,0,0,0); }
+ 	.speakers li#speaker1 { background:url('../images/speakers-vc.jpg') 0 0 no-repeat; margin: 0 14px 20px 0; }
+ 	.speakers li#speaker2 { background:url('../images/speakers-jsm.jpg') 0 0 no-repeat; margin: 0 14px 20px 0;}
+ 	.speakers li#speaker3 { background:url('../images/speakers-jt.jpg') 0 0 no-repeat;margin: 0 0px 20px 0;}
+ 	.speakers li#speaker4 { background:url('../images/speakers-jh.jpg') 0 0 no-repeat;margin: 0 14px 20px 0;}
+ 	.speakers li#speaker5 { background:url('../images/speakers-db.jpg') 0 0 no-repeat;margin: 0 14px 20px 0;}
+ 	.speakers li#speaker6 { background:url('../images/speakers-jd.jpg') 0 0 no-repeat;margin: 0 0px 20px 0;}
+ 	.speakers li#speaker7 { background:url('../images/speakers-tb.jpg') 0 0 no-repeat;margin: 0 14px 20px 0;}
+ 	.speakers li#speaker8 { background:url('../images/speakers-mb.jpg') 0 0 no-repeat;margin: 0 14px 20px 0;}
+ 	.speakers li#speaker9 { background:url('../images/speakers-yp.jpg') 0 0 no-repeat;margin: 0 0px 20px 0;}
+	 .sponsors { text-align: left; width: 1056px; margin:14	0px auto 0;}
+	 
+	 .social ul { width: 1056px; }
+	 .social h3 {color:#ffffff; font-size: 1.1em; letter-spacing:.07em;}
+	 .social ul li a{ margin:12px 5%; text-indent:60px; width:190px; padding:2px 0 0 0;}
+ 	.social-subtext {
+ 		color: #ffffff;
+ 		font-size: 65%;
+ 		text-indent: 60px;
+ 		display: block;
+ 		width: 220px;
+ 		text-align: left;
+ 	}
+	 .tickets {width: 1056px; background:url('../images/deco-nav-shadow.png') 0 0 no-repeat; height: 8px; z-index:-90; margin: 0 auto;}
+	 
+	 footer .section { width: 1056px; margin: 0 auto;}
+ }   
+   
+
+
+
+
+		  
+		  
+

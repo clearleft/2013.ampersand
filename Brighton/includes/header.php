@@ -4,7 +4,7 @@
 	<div class="ampersand-logo">
 		<img src="images/ampersand-logo.png" alt="ampersand-logo" />
 	</div>
-	<h1 class="conf-title">Ampersand 2013<br/><span class="description">The Web Typography Conference</span></h1>
+	<h2 class="conf-title">Ampersand 2013<br/><span class="description">The Web Typography Conference</span></h2>
 	
 			
 	<div class="tickets clearfix">
