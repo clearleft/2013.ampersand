@@ -19,13 +19,13 @@
 
 <div class="main-content">
 	 
-	 <section class="section sessions">
+	 <section class="speakers-container"  id="ben-terrett">
 		
- 		<div class="speaker-session">
+ 		<div class="speaker-copy" >
 	 		<h1>The Future of CSS Typography</h1>
-	 		<p class="talk">This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
-	 		<p class="talk">These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
-	 		<p class="talk">How these new properties evolved and some of the design problems involved will be discussed in detail. The problem of consistent rendering across browsers and the effect of that on both font and web design will also be discussed.</p>
+	 		<p>This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
+	 		<p>These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
+	 		<p>How these new properties evolved and some of the design problems involved will be discussed in detail. The problem of consistent rendering across browsers and the effect of that on both font and web design will also be discussed.</p>
 		
 			<h2>Ben Terrett</h2>
 	 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet 
@@ -34,7 +34,7 @@
 	 		<p>In 2010 Ben won the Graphics category in the Design Museum’s Designs	Of The Year Awards.</p>
 	 	</div>	<!-- END SPEAKER-BIO -->
 		
- 		<div class="bio-more">
+ 		<div class="speaker-more">
  	 		<h3>More Info</h3>
  	 		<ul>
  	 			<li><a href="#">@ben_terret on Twitter</a></li>
@@ -43,26 +43,203 @@
  	 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
  	 		</ul>
  	 	</div><!-- END MORE-BIO -->
-		
-		<div class="speaker-nav">
-			<h2>Speakers & Sessions</h2>
-			<ul>
-				<li>Ben Terrett</li>
-				<li><a href="#">Mark Boulton</a></li>
-				<li><a href="#">Jenn Lukas</a></li>
-				<li><a href="#">Kutlu Çanlıoğlu</a></li>
-				<li><a href="#">Erik Spiekerman</a></li>
-				<li><a href="#">Gerry Leonidas</a></li>
-				<li><a href="#">Nina Stössinger</a></li>
-				<li><a href="#">Richard Rutter</a></li>
-			</ul>
-		</div><!-- END SPEAKER 1 -->
-	 	
-		
-	 			
-		
-		<div class="clearfix">
-	</section>
+	</section><!-- ########  END SPEAKER ###### -->
+	
+ <section class="speakers-container" id="mark-boulton">
+	
+		<div class="speaker-copy" >
+ 		<h1>The Future of CSS Typography</h1>
+ 		<p>This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
+ 		<p>These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
+ 		<p>How these new properties evolved and some of the design problems involved will be discussed in detail. The problem of consistent rendering across browsers and the effect of that on both font and web design will also be discussed.</p>
+	
+		<h2>Mark Boulton</h2>
+ 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet 
+ 		Office for the UK Government.</p>
+ 		<p>Before that he was Design Director at Wieden & Kennedy London.</p>
+ 		<p>In 2010 Ben won the Graphics category in the Design Museum’s Designs	Of The Year Awards.</p>
+ 	</div>	<!-- END SPEAKER-BIO -->
+	
+		<div class="speaker-more">
+	 		<h3>More Info</h3>
+	 		<ul>
+	 			<li><a href="#">@ben_terret on Twitter</a></li>
+	 			<li><a href="#">www.benterrett.com</a></li>
+	 			<li><a href="#">Article, “Type Today”</a></li>
+	 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
+	 		</ul>
+	 	</div><!-- END MORE-BIO -->
+</section><!-- ########  END SPEAKER ###### -->
+
+ <section class="speakers-container" id="jenn-lukas">
+	
+	<div class="speaker-copy" >
+ 		<h1>The Future of CSS Typography</h1>
+ 		<p>This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
+ 		<p>These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
+ 		<p>How these new properties evolved and some of the design problems involved will be discussed in detail. The problem of consistent rendering across browsers and the effect of that on both font and web design will also be discussed.</p>
+	
+		<h2>Jenn Lukas</h2>
+ 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet 
+ 		Office for the UK Government.</p>
+ 		<p>Before that he was Design Director at Wieden & Kennedy London.</p>
+ 		<p>In 2010 Ben won the Graphics category in the Design Museum’s Designs	Of The Year Awards.</p>
+ 	</div>	<!-- END SPEAKER-BIO -->
+	
+	<div class="speaker-more">
+ 		<h3>More Info</h3>
+ 		<ul>
+ 			<li><a href="#">@ben_terret on Twitter</a></li>
+ 			<li><a href="#">www.benterrett.com</a></li>
+ 			<li><a href="#">Article, “Type Today”</a></li>
+ 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
+ 		</ul>
+ 	</div><!-- END MORE-BIO -->
+</section><!-- ########  END SPEAKER ###### -->
+
+ <section class="speakers-container" id="kutlu-canlioglu">
+	
+	<div class="speaker-copy" >
+ 		<h1>The Future of CSS Typography</h1>
+ 		<p>This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
+ 		<p>These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
+ 		<p>How these new properties evolved and some of the design problems involved will be discussed in detail. The problem of consistent rendering across browsers and the effect of that on both font and web design will also be discussed.</p>
+	
+		<h2>Kutlu Çanlıoğlu</h2>
+ 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet 
+ 		Office for the UK Government.</p>
+ 		<p>Before that he was Design Director at Wieden & Kennedy London.</p>
+ 		<p>In 2010 Ben won the Graphics category in the Design Museum’s Designs	Of The Year Awards.</p>
+ 	</div>	<!-- END SPEAKER-BIO -->
+	
+	<div class="speaker-more">
+ 		<h3>More Info</h3>
+ 		<ul>
+ 			<li><a href="#">@ben_terret on Twitter</a></li>
+ 			<li><a href="#">www.benterrett.com</a></li>
+ 			<li><a href="#">Article, “Type Today”</a></li>
+ 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
+ 		</ul>
+ 	</div><!-- END MORE-BIO -->
+</section><!-- ########  END SPEAKER ###### -->
+
+ <section class="speakers-container" id="erik-spiekermann">
+	
+	<div class="speaker-copy" >
+ 		<h1>The Future of CSS Typography</h1>
+ 		<p>This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
+ 		<p>These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
+ 		<p>How these new properties evolved and some of the design problems involved will be discussed in detail. The problem of consistent rendering across browsers and the effect of that on both font and web design will also be discussed.</p>
+	
+		<h2>Erik Spiekermann</h2>
+ 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet 
+ 		Office for the UK Government.</p>
+ 		<p>Before that he was Design Director at Wieden & Kennedy London.</p>
+ 		<p>In 2010 Ben won the Graphics category in the Design Museum’s Designs	Of The Year Awards.</p>
+ 	</div>	<!-- END SPEAKER-BIO -->
+	
+	<div class="speaker-more">
+ 		<h3>More Info</h3>
+ 		<ul>
+ 			<li><a href="#">@ben_terret on Twitter</a></li>
+ 			<li><a href="#">www.benterrett.com</a></li>
+ 			<li><a href="#">Article, “Type Today”</a></li>
+ 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
+ 		</ul>
+ 	</div><!-- END MORE-BIO -->
+</section><!-- ########  END SPEAKER ###### -->
+
+ <section class="speakers-container" id="gerry-leonidas">
+	
+	<div class="speaker-copy" >
+ 		<h1>The Future of CSS Typography</h1>
+ 		<p>This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
+ 		<p>These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
+ 		<p>How these new properties evolved and some of the design problems involved will be discussed in detail. The problem of consistent rendering across browsers and the effect of that on both font and web design will also be discussed.</p>
+	
+		<h2>Gerry Leonidas</h2>
+ 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet 
+ 		Office for the UK Government.</p>
+ 		<p>Before that he was Design Director at Wieden & Kennedy London.</p>
+ 		<p>In 2010 Ben won the Graphics category in the Design Museum’s Designs	Of The Year Awards.</p>
+ 	</div>	<!-- END SPEAKER-BIO -->
+	
+	<div class="speaker-more">
+ 		<h3>More Info</h3>
+ 		<ul>
+ 			<li><a href="#">@ben_terret on Twitter</a></li>
+ 			<li><a href="#">www.benterrett.com</a></li>
+ 			<li><a href="#">Article, “Type Today”</a></li>
+ 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
+ 		</ul>
+ 	</div><!-- END MORE-BIO -->
+</section><!-- ########  END SPEAKER ###### -->
+
+ <section class="speakers-container" id="nina-stossinger">
+	
+	<div class="speaker-copy" >
+ 		<h1>The Future of CSS Typography</h1>
+ 		<p>This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
+ 		<p>These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
+ 		<p>How these new properties evolved and some of the design problems involved will be discussed in detail. The problem of consistent rendering across browsers and the effect of that on both font and web design will also be discussed.</p>
+	
+		<h2>Nina Stössinger</h2>
+ 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet 
+ 		Office for the UK Government.</p>
+ 		<p>Before that he was Design Director at Wieden & Kennedy London.</p>
+ 		<p>In 2010 Ben won the Graphics category in the Design Museum’s Designs	Of The Year Awards.</p>
+ 	</div>	<!-- END SPEAKER-BIO -->
+	
+	<div class="speaker-more">
+ 		<h3>More Info</h3>
+ 		<ul>
+ 			<li><a href="#">@ben_terret on Twitter</a></li>
+ 			<li><a href="#">www.benterrett.com</a></li>
+ 			<li><a href="#">Article, “Type Today”</a></li>
+ 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
+ 		</ul>
+ 	</div><!-- END MORE-BIO -->
+</section><!-- ########  END SPEAKER ###### -->
+
+ <section class="speakers-container" id="andy-hume">
+	
+	<div class="speaker-copy" >
+ 		<h1>The Future of CSS Typography</h1>
+ 		<p>This talk will focus on efforts to improve typographic support in CSS. Beyond just defining the @font-face rule, new properties in the CSS3 Fonts module provide explicit control over kerning, ligatures, small-caps and a variety of features commonly available in OpenType fonts.</p>
+ 		<p>These features will allow designers to solve a number of basic typographic problems in a much more elegant way than previously was possible. </p>
+ 		<p>How these new properties evolved and some of the design problems involved will be discussed in detail. The problem of consistent rendering across browsers and the effect of that on both font and web design will also be discussed.</p>
+	
+		<h2>Andy Hume</h2>
+ 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet 
+ 		Office for the UK Government.</p>
+ 		<p>Before that he was Design Director at Wieden & Kennedy London.</p>
+ 		<p>In 2010 Ben won the Graphics category in the Design Museum’s Designs	Of The Year Awards.</p>
+ 	</div>	<!-- END SPEAKER-BIO -->
+	
+	<div class="speaker-more">
+ 		<h3>More Info</h3>
+ 		<ul>
+ 			<li><a href="#">@ben_terret on Twitter</a></li>
+ 			<li><a href="#">www.benterrett.com</a></li>
+ 			<li><a href="#">Article, “Type Today”</a></li>
+ 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
+ 		</ul>
+ 	</div><!-- END MORE-BIO -->
+</section><!-- ########  END SPEAKER ###### -->
+	
+	<div class="speaker-nav">
+		<h2>Speakers & Sessions</h2>
+		<ul>
+			<li><a href="#ben-terrett">Ben Terrett</a></li>
+			<li><a href="#mark-boulton">Mark Boulton</a></li>
+			<li><a href="#jenn-lukas">Jenn Lukas</a></li>
+			<li><a href="#kutlu-canlioglu">Kutlu Çanlıoğlu</a></li>
+			<li><a href="#erik-spiekermann">Erik Spiekermann</a></li>
+			<li><a href="#gerry-leonidas">Gerry Leonidas</a></li>
+			<li><a href="#nina-stossinger">Nina Stössinger</a></li>
+			<li><a href="#andy-hume">Andy Hume</a></li>
+		</ul>
+	</div><!-- END SPEAKER-NAV -->
 	
 </div>
 		

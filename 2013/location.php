@@ -15,21 +15,21 @@
 
 <!-- LOCATION -->
 <div class="main-content">
-	<article class="section location clearfix">
-		<header><h1>Location</h1></header>
-		
+	<article class="location">
+		<header>
+			<h1>Location</h1>
 			<p>Brighton is one of the most vibrant, colourful and creative cities in Europe. Cosmopolitan, compact, energetic, unique, fun, lively, historic, young, exotic and free-spirited, it’s a city like no other. Why not spend the weekend here after the conference!</p>
-			
+		</header>	
 		<div id="conf-location">
 			<div class="location-a">
-				<h3>Pre-Party <a href="sponsors">sponsorship available</a></h3>
+				<h2>Pre-Party <a href="sponsors">sponsorship available</a></h2>
 				<address>
 					<span class="conf-location-name">Venue tba</span>
 				</address>
 			</div>
 		
 			<div class="location-b">
-				<h3 >Conference</h3>
+				<h2 >Conference</h2>
 				<address>
 					<span class="conf-location-name">Brighton Dome Corn Exchange</span> <br />
 					Church Street, Brighton, BN1 1UG, UK
@@ -37,7 +37,7 @@
 			</div>
 		
 			<div class="location-c">
-				<h3 >After Party hosted by Typekit</h3>
+				<h2 >After Party hosted by Typekit</h2>
 				<address>
 					<span class="conf-location-name">The Loft</span><br />
 					10 Ship Street, Brighton, BN1 1AD, UK
@@ -61,6 +61,7 @@
 
 			
 	</article>
+	<div class="clearfix"></div>
 </div>	
 	
 		
