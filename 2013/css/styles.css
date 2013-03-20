@@ -484,7 +484,7 @@ footer a{color:#7EA107;}
 
 .schedule { padding:0; text-align:left; }
 .schedule h1 { padding:0; }
-.schedule p, .schedule-change { width: 57%;}
+.schedule-change { text-align: center;}
 .schedule .time { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
 .schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #fff;  margin-left:12px; }
 .schedule-table {margin:60px 0 0 0; width: 100%;}
@@ -497,6 +497,14 @@ footer a{color:#7EA107;}
 .break { background: rgba(0,0,0,0.15); border-bottom: 1px solid rgba(255,255,255,0.1); border-top: 1px solid rgba(255,255,255,0.1);}
 .type-in-20 p { margin-bottom:9px; }
 .schedule-change{  margin:35px; }
+
+@media only screen and (min-width : 820px) {	
+	.schedule p { width:65%; }
+}
+
+@media only screen and (min-width : 1024px) {	
+	.schedule p { width:51%; }
+}
 
 /* #################################################################################################################################### */ 
 /* #############  LOCATION PAGE ####################################################################################################### */
