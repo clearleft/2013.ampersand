@@ -19,7 +19,7 @@
 	<!-- SPEAKERS -->
 <div class="main-content">
 	  <section class="section sessions">
-		<p class="loud">Ampersand is an affordable one-day event for knowledgable web designers and type enthusiasts, featuring:</p>
+		<h1>Ampersand is an affordable one-day event for knowledgable web designers and type enthusiasts, featuring:</h1>
 		<ul class="speakers">
 			<li class="li-spk5" ><a id="speaker5" href="erik-spiekermann">Erik Spiekermann</a><p class="presentation-title">Keynote</p></li>
 			<li class="li-spk2" ><a id="speaker2" href="mark-boulton">Mark Boulton</a><p class="presentation-title">Typography in Responsive Design</p></li>

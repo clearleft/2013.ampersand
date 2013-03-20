@@ -51,17 +51,15 @@ html {
 
 body { 	
 	background:url('../images/brighton-bkg.png') center center fixed; 
-	font-size:112.5%;
-	line-height: 1.16666666666667;
-	font-family:"Karmina Regular", Georgia, serif; 
-	font-weight:normal; 
-	font-style:normal;
+	font-size:100%;
+	line-height: 1.5em;
+	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; 
 	text-align:left;
 	color:#fff;
 }
 
 img {max-width:100%;}
-h1, h2 { font-family:"Karmina Bold", Georgia, serif;  font-weight:bold; font-style:normal; color: #fff; font-size:3.2em; letter-spacing: 0.06em;}
+h1, h2, h3, h4, h5 { font-family:"Karmina Bold", Georgia, serif;  font-weight:bold; font-style:normal; color: #fff; font-size:2.25em; letter-spacing: 0.06em;}
 a{ color:#fff064; text-decoration: none; }
 
 /* #################################################################################################################################### */ 
@@ -71,119 +69,75 @@ a{ color:#fff064; text-decoration: none; }
 header#top { width:90%; padding: 0 5%;}
 
 .ampersand-logo img{ max-width: 12%; margin: 20px 0 10px; }
-.conf-title { font-size:2em; letter-spacing: .1em; line-height: .7em;}
+.conf-title { font-size:2em; line-height: .7em;}
 
 .description { 
 	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; 
 	letter-spacing:.2em; 
-	font-size:.37em; 
+	font-size:.6em; 
 	text-transform: uppercase; 
+	margin: 5px 0 0 0;
 }	
-
-.tickets a:hover { text-decoration: none; }
-
-.loc-date { color:#fff; margin:34px 0 12px; }
+.tickets { 
+	border-radius: 6px; 
+	background: rgba(0,0,0,0.4);
+	padding: 8px;
+	margin: 15px 0 0 0;
+	text-align: center;
+	}
+.loc-date { color:#fff; font-size:1.5em; }
+.price { 
+	color: #fff064; 
+	font-size: 3.375em; 
+	font-family:"Karmina Sans Bold", sans-serif;
+	font-weight:bold; 
+	font-style:normal; 
+	margin: 5% 0 3%;
+}
 	
-.cta, .cta-speakers {
+.cta {
 	color: #000;
 	border-radius: 3px;
 	background-color: #fff064;
-	width: 94%;
 	display: block;
-	text-align: center;
-	position: relative;
-	margin: 0 auto;
-	z-index: 500;
-	line-height: 1.2em;
-	font-size: 2em; 
-	letter-spacing: .07em;
-	padding: 1% 3% 1%;
-	background: #fff59e; /* Old browsers */
-	background: -moz-linear-gradient(top,  #fff064 0%, #ffe91c 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff064), color-stop(100%,#ffe91c)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #fff064 0%,#ffe91c 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #fff064 0%,#ffe91c 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #fff064 0%,#ffe91c 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #fff064 0%,#ffe91c 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='##fff064', endColorstr='#ffe91c',GradientType=0 ); /* IE6-9 */
+	font-size:1em;
+	text-transform: uppercase;
+	padding: 4% 0 3%;
+	font-family:"Karmina Sans Bold", sans-serif; font-weight:bold; font-style:italic;
 }	
 
 .vat { font-size:.4em; letter-spacing: 0em; margin-right:5%; }
 
-.registering { 
-	background: url('../images/cta-arrow.png') 174px 0px no-repeat;
-	font-size: .6em;
-	text-transform: uppercase;
-	font-family: "Karmina Italic", Georgia, serif;
-	font-weight: normal;
-	font-style: italic;
-	letter-spacing: 0.1em;
-	padding: 4px 44px 4px 0;
-}
-
-.registering img {position: absolute; margin: 0 0 1px 12px; top: -5px; display:inline;}
-
-	@media only screen and (min-width : 570px) {
+	@media only screen and (min-width : 580px) {
 		
-		.tickets{ position: absolute; top: 0; right:5%; width:220px; max-width: 310px; }
-		.tickets .loc-date { position: absolute; margin: 121px 0 0 22px; }
-		.cta { padding: 6% 4% 5%; border-radius: 0;	line-height: .6em; width: 160px;}
-		.cta:after {
-			content: '';
-			width: 100%;
-			height: 31px;
-			position: absolute;
-			border-bottom: none;
-			z-index: 0;
-			right: 0;
-			left: 0px;
-			bottom: -19px;
-			background: #ffe91c ;
-			border-radius:0px 0px  3px 3px ;
-			-ms-transform: skew(0deg,-3deg); 
-			-webkit-transform: skew(0deg,-3deg); 
-			-o-transform: skew(0deg,-3deg); 
-			-moz-transform: skew(0deg,-3deg);
-		    -webkit-backface-visibility: hidden;
-		    backface-visibility: hidden;	
-		}
-
-		.cta:before {
-			content: '';
-			width: 99%;
-			height: 20px;
-			position: absolute;
-			border-bottom: none;
-			z-index: 0;
-			right: 0;
-			border-radius:0px 0px 3px 3px;
-			left:0px;
-			bottom:-24px;
-			background-color: rgba(0,0,0, 0.5) ;
-			-ms-transform: skew(0deg,2deg); 
-			-webkit-transform: skew(0deg,2deg); 
-			-o-transform: skew(0deg,2deg); 
-			-moz-transform: skew(0deg,2deg);
-		    -webkit-backface-visibility: hidden;
-		    backface-visibility: hidden;
-			}	
-		.price { margin:0;}
-		.registering { background: none; font-size:0.6em; padding:0; }
+		.conf-title { font-size:2.3em; }
+		.description { font-size:.7em; }	
+		.tickets{ position: absolute; top: 1%; right:5%; width:170px; }
+		.loc-date { color:#fff; font-size:1em; }
+		.price { font-size: 2.5em; }
 	}	
 	@media only screen and (min-width : 720px) {
 		
 		header#top  { width: 86%; padding: 0 7%; }
 		.conf-title { font-size: 2.5em; }
-		.description { font-size: .28em; }
-		.cta:hover { opacity: 0.9; }
-		
-		.tickets { right: 7%;}
-		.tickets .loc-date { position: absolute; margin-top: 136px; }
+		.tickets { right: 7%; width:220px; }
 	}
 	@media only screen and (min-width : 1024px) {
-		header#top { margin-top: 16px;}
-		.conf-title { font-size: 3em; }
+		header#top  { text-align:center; }
+		.conf-title { font-size: 3.375em; }
+		.description { font-size: .9em; 	margin: 15px 0 0 0; }
+		
+		
 	}	
+	@media only screen and (min-width : 1156px) {
+		header#top  { padding: 2%; }	
+		.conf-title { font-size: 5.063em; }
+		.description { font-size: 1em; 	margin: 15px 0 0 0; }
+	}
+	@media only screen and (min-width : 1350px){
+		.loc-date { color:#fff; font-size:1.5em; }
+		.price { font-size: 3.375em; margin: 8% 0 7%; }	
+	}		
 
 
 /* #################################################################################################################################### */ 
@@ -194,7 +148,16 @@ header#top { width:90%; padding: 0 5%;}
 
 nav#main-nav { margin: 0 -1em; }
 nav#main-nav ul { margin-bottom: 0;  }
-nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; background: rgba(0,0,0,0.7); }
+nav#main-nav a { 
+	display: block; 
+	border-bottom: 1px solid rgba(255,255,255,0.3); 
+	padding: .5em 1em; 
+	letter-spacing: .1em;
+	background: rgba(0,0,0,0.8); 
+	font-size: 1.5em;
+	text-transform:uppercase;
+	font-family:"Karmina Sans Bold", sans-serif; font-weight:bold; font-style:italic;
+}
 
 #nav a { font-weight: bold; }
 #nav { margin: 0; outline: 0; font-size: .7857em; /* 11/14 */ }
@@ -203,7 +166,7 @@ nav#main-nav a { display: block; border-bottom: 1px solid; padding: .5em 1em; ba
 	background: url('../images/menu-btn.png')10px 9px no-repeat;
 	cursor: pointer;
 	display: block;
-	padding: 16px 0 0 0;
+	padding: 12px 0 0 0;
 	height: 53px;
 	width: 44px;
 	text-indent: -2.2em;
@@ -235,7 +198,6 @@ body:not(:target) #nav {
 
 body:not(:target) #nav a {
 	border-bottom-width: 0;
-	font-weight: bold;
 	overflow: hidden;
 	height: 0;
 	line-height: 0;
@@ -247,16 +209,10 @@ body:not(:target) #nav:target {	z-index: 1001; }
 body:not(:target) #nav:target a {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	line-height: 3em;
-	height: 2.6em;
-	padding: 0 0 6px 14px;
+	height: 2.25em;
+	padding: 0px 0 10px 14px;
 	position: relative;
 	z-index: 1;
-	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
-	font-weight:200; 
-	font-style:normal;
-	color:#fff; 
-	letter-spacing:.08em; 
-	text-transform:uppercase;
 	-moz-transition: height .25s, line-height .25s;
 	-ms-transition: height .25s, line-height .25s;
 	-o-transition: height .25s, line-height .25s;
@@ -281,22 +237,18 @@ body:not(:target) #nav:target #back {
 	z-index: 0; 
 } 
 
-	@media only screen and (min-width : 570px) {
+	@media only screen and (min-width : 580px) {
 		
 		#jump { display: none;}
-			
-		  	body:not(:target) #nav { 
-				position: absolute; 
-				top:205px; 
+	 	
+			body:not(:target) #nav { 
+				top:21%; 
 				width:90%; 
 				margin: 0 auto; 
 				z-index: 20; 
-				border-top: 1px solid rgba(255,255,255,0.3); 
-				border-bottom: 1px solid rgba(255,255,255,0.3); 
+				border-bottom: 3px solid rgba(255,255,255,1); 
 				padding:20px 0 1px;
-				-webkit-box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
-		        box-shadow:  0px -1px 0px 0px rgba(0, 0, 0, .3), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3);
-				}
+			}
 			
 		  	body:not(:target) #nav a {
 		  		border-bottom-width: 0;
@@ -308,17 +260,17 @@ body:not(:target) #nav:target #back {
 		  		font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 		  		font-weight:200; 
 		  		font-style:normal; 
-		  		font-size:0.9em;
+		  		font-size:1em;
 		  		letter-spacing:.08em; 
 		  		text-transform:uppercase;
-		  		color:#fff064; 
+		  		color:#fff; 
 		  		background: none;
 		  		display:inline;
 		  		position:relative;
 				
 		  	}
 			
-		  	body:not(:target) #nav li { float: left; padding: 0; text-align:left; width:31%; padding:0 0 18px 0;}
+		  	body:not(:target) #nav li { float: left; text-align:left; width:31%; padding:0 0 10px 0;}
 			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:bold; font-style:normal; }
 		.menu-toggle { display:none;}
 		#back{ display: none; }
@@ -329,16 +281,21 @@ body:not(:target) #nav:target #back {
 		body:not(:target) #nav { top: 231px; width: 86%; }
 	}
 	@media only screen and (min-width : 860px) {
-	  	body:not(:target) #nav a { font-size:1em; }
-		body:not(:target) #nav a:hover { color: #ffffff!important; }
+	  	body:not(:target) #nav { top: 255px; }
+		body:not(:target) #nav a { font-size:1em; }
+		body:not(:target) #nav a:hover { color: #fff064!important; }
 		body:not(:target) #nav li { width:16%;}
 	}	
 	@media only screen and (min-width : 1024px) {
-		body:not(:target) #nav { top: 260px;}
-		body:not(:target) #nav a { font-size:1.2em; }
+		body:not(:target) #nav { top: 285px;}
 	}	
-	@media only screen and (min-width : 1200px) {
-		body:not(:target) #nav a { font-size:1.3em; }
+	@media only screen and (min-width : 1156px) {
+		body:not(:target) #nav { top: 34%;}
+	}
+	
+	@media only screen and (min-width : 1320px) {
+		body:not(:target) #nav { top: 36%;}
+	
 	}		
 
 
@@ -349,7 +306,7 @@ body:not(:target) #nav:target #back {
 		  
 
 /* MAIN CONTENT */
-.main-content { position: relative; top:60px; padding: 15px 5% 60px;  }
+.main-content { position: relative; top:40px; padding: 25px 5% 60px;  }
 .main-content:after {
 	content: '';
 	height: 100%;
@@ -360,7 +317,7 @@ body:not(:target) #nav:target #back {
 	right: 0;
 	left:0px;
 	top:-10px;
-	background-color: rgba(0,0,0, 0.3) ;
+	background-color: rgba(0,0,0, 0.4) ;
 	-ms-transform: skew(0deg,-2deg); 
 	-webkit-transform: skew(0deg,-2deg); 
 	-o-transform: skew(0deg,-2deg); 
@@ -369,7 +326,6 @@ body:not(:target) #nav:target #back {
 }
 .main-content:before {
 	content: '';
-
 	height: 100%;
 	position: absolute;
 	border-bottom: none;
@@ -385,35 +341,21 @@ body:not(:target) #nav:target #back {
 	-moz-transform: skew(0deg,2deg);
 }
 
-.main-content h1 { margin: 23px 0 6px;  }
+.main-content h1 { font-size:1.5em; line-height:1.25em; margin-bottom:20px;  }
 .main-content p { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
 .main-content  .presentation-title{ font-size: 0.7em; }
-	@media only screen and (min-width : 570px) {
-	
-		.main-content { top:190px;  }
+	@media only screen and (min-width : 580px) {
+		.main-content { top:30px; padding-top:140px; }
 	}
 	@media only screen and (min-width : 720px) {
-	
-		.main-content { padding: 15px 7% 60px;}
+		.main-content { padding: 150px 7% 60px;}
+		
 	}
-	@media only screen and (min-width : 1220px) {	
-	.main-content:after {
-		content: '';
-		top:-21px;
-		-ms-transform: skew(0deg,-1deg); 
-		-webkit-transform: skew(0deg,-1deg); 
-		-o-transform: skew(0deg,-1deg); 
-		-moz-transform: skew(0deg,-1deg);
-		clear:both;
-		}
-
-	.main-content:before {
-		content: '';
-		-ms-transform: skew(0deg,1deg); 
-		-webkit-transform: skew(0deg,1deg); 
-		-o-transform: skew(0deg,1deg); 
-		-moz-transform: skew(0deg,1deg);
-		}
+	@media only screen and (min-width : 860px) {
+		.main-content { padding-top: 118px; top:45px;}
+		}	
+	@media only screen and (min-width : 1024px) {	
+		.main-content h1 { font-size:2.25em; margin-top: 2%; width: 80%;}
 	}
 	
 	
@@ -422,7 +364,7 @@ body:not(:target) #nav:target #back {
 /* #################################################################################################################################### */	
 
 /* FOOTER SECTION */
-.sponsors{ margin:260px 0 0 0; padding: 0 5%; }
+.sponsors{ margin:120px 0 0 0; padding: 0 5%; }
 .sponsors h2 { font-size: 1em; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; color: #fff064; margin-top: 30px; }
 
 
@@ -485,24 +427,22 @@ footer a{color:#7EA107;}
 /* #############  HOME PAGE SPEAKER SECTION  ############################################################################################################# */
 /* #################################################################################################################################### */
 
-.speakers li { font-size: 1.5em; }
+.speakers li { font-size: 1.5em; margin-bottom: 18px; }
+.speakers li a { font-family:"Karmina Regular", Georgia, serif;  font-weight:normal; font-style:normal; }
 .speakers li a img {display: none;}
 
-	@media only screen and (min-width : 570px) {
+	@media only screen and (min-width : 580px) {
 	
-		.speakers { margin:52px 0 0 0;}
+		.speakers { margin:12px 0 0 0;}
 		
+		.speakers li { font-size: 1.5em; float: left; width: 50%; }
 		.speakers li a{ 
 			margin: 0;
 			width: 96%;
 			display: block;
 			padding: 53% 0 0 0;
 		}
-		
-		.speakers li { font-size: 1.5em; float: left; width: 50%; }
 		.speakers li p { margin-bottom: 4%; }
-		
-		
 		
 		#speaker1 { background:url('../images/speakers-ben-terrett.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker2 { background:url('../images/speakers-mark-boulton.jpg')  0 0 no-repeat; background-size: contain; }
@@ -513,7 +453,6 @@ footer a{color:#7EA107;}
 		#speaker7 { background:url('../images/speakers-nina-stossinger.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker8 { background:url('../images/speakers-andy-hume.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker9 { background:url('../images/speakers-richard-rutter.jpg')  0 0 no-repeat; background-size: contain; }
-		
 		#speaker1, #speaker3, #speaker5, #speaker7, #speaker9 { margin-right:0%; }
 		
 	}
@@ -524,13 +463,13 @@ footer a{color:#7EA107;}
 	}
 	
 	@media only screen and (min-width : 1024px) {	
-		.speakers li { padding:0; }
+		.speakers li { padding:0;  }
 		.speakers li a:hover { opacity:.8;}
 	}
 	
 	@media only screen and (min-width : 1150px) {	
 		.speakers li { width: 33%; padding: 0;  }
-		.li-spk1, .li-spk2, .li-spk4, .li-spk5, .li-spk7, .li-spk8  { margin-right:.5%; }
+		.li-spk1, .li-spk2, .li-spk4, .li-spk5, .li-spk7, .li-spk8  { margin-right:.3%; }
 		.li-spk3, .li-spk6, .li-spk9{ margin-right:0; }
 	}
 	@media only screen and (min-width : 1220px) {	
