@@ -292,14 +292,11 @@ body:not(:target) #nav:target #back {
 		body:not(:target) #nav { top: 266px;}
 	}	
 	@media only screen and (min-width : 1156px) {
-		body:not(:target) #nav { top: 335px;}
-	}
-	@media only screen and (min-width : 1320px) {
 		body:not(:target) #nav { top: 340px;}
+	}
 	
-	}	
 	@media only screen and (min-width : 1400px) {
-		body:not(:target) #nav { top: 375px;}
+		body:not(:target) #nav { top: 370px;}
 	
 	}		
 
@@ -350,14 +347,14 @@ body:not(:target) #nav:target #back {
 .main-content p { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
 .main-content  .presentation-title{ font-size: 0.7em; }
 	@media only screen and (min-width : 580px) {
-		.main-content { top:30px; padding-top:140px; }
+		.main-content { top:30px; padding-top:110px; }
 	}
 	@media only screen and (min-width : 720px) {
-		.main-content { padding: 150px 7% 60px;}
+		.main-content { padding: 110px 7% 60px;}
 		
 	}
 	@media only screen and (min-width : 860px) {
-		.main-content { padding-top: 118px; top:45px;}
+		.main-content {  top:45px;}
 		}	
 	@media only screen and (min-width : 1024px) {	
 		.main-content h1 { font-size:2.25em; margin-top: 1%; width: 80%;}
@@ -667,7 +664,7 @@ footer a{color:#7EA107;}
 		#erik-spiekermann .speaker-more { background: url('../images/speakers-erik-spiekermann.jpg') 0 0 no-repeat; }	
 		#gerry-leonidas .speaker-more { background: url('../images/speakers-gerry-leonidas.jpg') 0 0 no-repeat; }	
 		#nina-stossinger .speaker-more { background: url('../images/speakers-nina-stossinger.jpg') 0 0 no-repeat; }	
-		#andy-hume .speaker-more { background: url('../images/speakers-andy-huume.jpg') 0 0 no-repeat; }	
+		#andy-hume .speaker-more { background: url('../images/speakers-andy-hume.jpg') 0 0 no-repeat; }	
 	
 		.speaker-nav { 
 			width: 17%;
