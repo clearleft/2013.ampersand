@@ -343,14 +343,14 @@ body:not(:target) #nav:target #back {
 	-moz-transform: skew(0deg,2deg);
 }
 
-.main-content h1 { font-size:1.5em; line-height:1.25em; margin-bottom:20px;  }
+.main-content h1 { font-size:1.5em; line-height:1.1em; margin:20px 0;  }
 .main-content p { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
 .main-content  .presentation-title{ font-size: 0.7em; }
 	@media only screen and (min-width : 580px) {
-		.main-content { top:30px; padding-top:110px; }
+		.main-content { top:30px; padding-top:90px; }
 	}
 	@media only screen and (min-width : 720px) {
-		.main-content { padding: 110px 7% 60px;}
+		.main-content { padding: 90px 7% 60px;}
 		
 	}
 	@media only screen and (min-width : 860px) {
@@ -444,7 +444,7 @@ footer a{color:#7EA107;}
 			display: block;
 			padding: 53% 0 0 0;
 		}
-		.speakers li p { margin-bottom: 4%; }
+		.speakers li p { margin-bottom: 4%; margin-top: 2px;}
 		
 		#speaker1 { background:url('../images/speakers-ben-terrett.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker2 { background:url('../images/speakers-mark-boulton.jpg')  0 0 no-repeat; background-size: contain; }
@@ -547,9 +547,9 @@ footer a{color:#7EA107;}
 		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 	
 		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; }
-		#conf-location .location-a { background:url('../images/deco-location-pre.png') 0 14px no-repeat;}
-		#conf-location .location-b { background:url('../images/deco-location-conf.png') 0 14px no-repeat;}
-		#conf-location .location-c { background:url('../images/deco-location-post.png') 0 14px no-repeat;}
+		#conf-location .location-a { background:url('../images/marker-pre-party.png') 0 14px no-repeat;}
+		#conf-location .location-b { background:url('../images/marker-conference.png') 0 14px no-repeat;}
+		#conf-location .location-c { background:url('../images/marker-after-party.png') 0 14px no-repeat;}
 	}
 
 	@media only screen and (min-width : 720px) {
@@ -612,7 +612,8 @@ footer a{color:#7EA107;}
 
 
 .speakers-container{ padding: 0 0 4%; margin-bottom:6%; border-bottom:1px solid rgba(255,255,255,0.3);}
-.speaker-copy h2, .speaker-more h3 { margin:39px 0 0 0; font-size:1.5em; }	
+.speaker-copy h2 { margin:0 0 8px 0; font-size:1.25em; }	
+.speaker-more h3 { margin:39px 0 5px 0; font-size:1.5em; }	
 .speaker-copy p{ margin:0 0 22px 0; }	
 	
 .speaker-more { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;	margin: 35px 0 0 0;}
@@ -626,17 +627,18 @@ footer a{color:#7EA107;}
 .speaker-nav ul li{margin: 0 0 15px 0; }
 	
 	@media only screen and (min-width : 680px) {
-		.speakers-container{ overflow: hidden; width: 72%;}
+		.speakers-container { overflow: hidden; width: 72%;}
 		.speaker-nav { 
 			width: 18%;
 			margin: 0px 0 0 0;
 			text-align: left;
-			position: fixed;
-			top: 33.8%;
+			position: absolute;
+			top: 100px;
 			right: 7%;
 			padding-left:12px;
 			border-left: 1px solid rgba(255,255,255,0.3);
 			}	
+			.speaker-nav.fixed { position: fixed; top: 50px; }
 	}
 	
 	@media only screen and (min-width : 720px) {
@@ -644,6 +646,7 @@ footer a{color:#7EA107;}
 		.speakers-container{ overflow: hidden; width: 75%; padding-top:1%; }
 		.speaker-copy {float: right; width: 49%;}
 		.speaker-copy h1 { margin-top: -2%; }
+		.speaker-copy h2 { font-size:1.5em; }	
 		.speaker-more {
 			float: left; 
 			width: 49%;
@@ -666,40 +669,28 @@ footer a{color:#7EA107;}
 		#nina-stossinger .speaker-more { background: url('../images/speakers-nina-stossinger.jpg') 0 0 no-repeat; }	
 		#andy-hume .speaker-more { background: url('../images/speakers-andy-hume.jpg') 0 0 no-repeat; }	
 	
-		.speaker-nav { 
-			width: 17%;
-			margin: 0px 0 0 0;
-			text-align: left;
-			position: fixed;
-			top: 34.6%;
-			right: 7%;
-			padding-left:18px;
-			border-left: 1px solid rgba(255,255,255,0.3);
-			}	
+		.speaker-nav { top: 100px; right: 7%; }	
 	}
 	
-	@media only screen and (min-width : 860px) {
-		.speaker-nav { top: 32.2%; }
-	}
+	@media only screen and (min-width : 860px) {	}
 	
 	@media only screen and (min-width : 1024px) {
 		.speaker-copy h1 { margin-top: -2.6%; }
-		.speaker-nav { top: 37%; }	
 		
 	}
 
 	@media only screen and (min-width : 1156px) {
-		.speaker-nav { top: 46%; }	
-		
+		.speaker-nav { top: 120px; }	
 		.speakers-container{ padding:3% 0 2%; margin-bottom:1%;  }
 		}
+		
 	@media only screen and (min-width : 1210px) {
-		.speaker-copy h1 { margin-top: -1%; }
+		.speaker-copy h1 { margin-top: -1%; line-height: 1em; }
+		.speaker-nav { top: 130px; }	
 		.speaker-more {	padding: 24% 0 0 0; }	
 		}	
 		
 	@media only screen and (min-width : 1400px) {
-		.speaker-nav { top: 46%; }	
 		.speakers-container{ padding:3% 0 2% }
 		}	
 	
@@ -747,7 +738,6 @@ footer a{color:#7EA107;}
 		.sponsorship-pack{ position:absolute; top:98px; right: 7%; width:30%; max-width: 340px; }
 		.main-content .sponsors-page .loud { width:57%; font-size: 1.4em; }
 		.main-content .sponsors-page  p { width:57%; }
-		
 	}
 
 /* #################################################################################################################################### */ 
@@ -759,11 +749,11 @@ footer a{color:#7EA107;}
 .workshop-item h1{ font-size: 2em;}
 .workshop-item p{ margin: 2% 0 4%;}
 .workshop-item li{ font-size: .8em; line-height: 1.2em; list-style:square; margin: 0 0 2% 6%; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200;}	
-
+.workshop-item .cta {text-align: center; width: 250px; padding: 8px 0;}
 
 	@media only screen and (min-width : 720px) {
-		.workshops p{ width: 60%;}	
-		.workshop-item { /*width: 48%; */border-bottom: 1px solid rgba(255,255,255,.3); }
+
+		.workshop-item { /*width: 48%; */border-bottom: 1px solid rgba(255,255,255,.3); padding: 0 0 5% 0; }
 		.workshop-item p{ width: 100%; }
 		.workshop-item ul { margin-bottom: 10%;}	
 		#wrk1 { border-top: 1px solid rgba(255,255,255,0.3); margin: 3% 0 0 0;}

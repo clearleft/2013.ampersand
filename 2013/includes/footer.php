@@ -63,8 +63,7 @@
 			</div>
 		</footer>
 
-		<script src="js/plugins.js"></script>
-		<script src="js/script.js"></script>
+	
 	
 		<script type="text/javascript">
 		WebFontConfig = { fontdeck: { id: '29643' } };

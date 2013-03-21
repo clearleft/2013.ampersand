@@ -8,7 +8,26 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="stylesheet" href="css/styles.css">
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 
+<script type="text/javascript">
+	$(document).ready(function () {  
+	  var top = $('.speaker-nav').offset().top - parseFloat($('.speaker-nav').css('marginTop').replace(/auto/, 0));
+	  $(window).scroll(function (event) {
+	    // what the y position of the scroll is
+	    var y = $(this).scrollTop();
+  
+	    // whether that's below the form
+	    if (y >= top) {
+	      // if so, ad the fixed class
+	      $('.speaker-nav').addClass('fixed');
+	    } else {
+	      // otherwise remove it
+	      $('.speaker-nav').removeClass('fixed');
+	    }
+	  });
+	});
+</script>
 
 </head>
 
@@ -114,7 +133,6 @@
     		<h3>More Info</h3>
     		<ul>
     			<li><a href="http://www.twitter.com/@kutluc">@kutluc on Twitter</a></li>
-    			<li><a href="#">www.benterrett.com</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
    </section><!-- ########  END SPEAKER ###### -->

@@ -48,7 +48,7 @@
 			
 		<div id="loc-container">
 			<div class="map">
-					<iframe frameBorder='0' src='http://a.tiles.mapbox.com/v3/mhjallan.map-dcw2v1k0.html#17/50.82414000000001/-0.13871999999999177'></iframe>
+					<iframe src='http://a.tiles.mapbox.com/v3/mhjallan.map-dcw2v1k0.html#16/50.82172289183965/-0.13665586310013397'></iframe>
 			</div>			
 		</div><!-- END #conf-Location -->
 		
