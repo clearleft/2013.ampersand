@@ -15,9 +15,10 @@
 	<!-- SPEAKERS -->
 <div class="main-content">
 	 
+	 <?php include("includes/nav.php"); ?>
 	 <section class="section workshops">
 		<h1>Workshops</h1>
-		<p>Ampersand is now offering a series of day-long workshops. Each workshop costs £445+VAT with attendance strictly limited to twenty five people. Workshop attendees receive complimentary entrance to the Ampersand conference.</p>
+		<p class="subheading">Ampersand is now offering a series of day-long workshops. Each workshop costs £445+VAT with attendance strictly limited to twenty five people. Workshop attendees receive complimentary entrance to the Ampersand conference.</p>
 		<div id="wrk1" class="workshop-item">
 			<h1>Designing Grid Systems with Mark&nbsp;Boulton</h1>
 			<p>The way we make websites has changed. Responsive design has challenged the way we think about layout and their underpinning foundation: grid systems. In this workshop, Mark will take it right back to basics on how to design your grids, what things you need to consider for designing grids for different applications and devices, and how we can practically start working 'content out'.</p>

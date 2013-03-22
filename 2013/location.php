@@ -15,6 +15,8 @@
 
 <!-- LOCATION -->
 <div class="main-content">
+	
+	<?php include("includes/nav.php"); ?>
 	<article class="location">
 		<header>
 			<h1>Location</h1>

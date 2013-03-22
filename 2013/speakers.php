@@ -38,6 +38,8 @@
 
 <div class="main-content">
 	
+	<?php include("includes/nav.php"); ?>
+	
     <section class="speakers-container" id="erik-spiekermann">
 	
    	<div class="speaker-copy" >

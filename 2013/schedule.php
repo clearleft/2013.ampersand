@@ -19,6 +19,8 @@
 <!-- SCHEDULE -->
 
 <div class="main-content">
+	
+	<?php include("includes/nav.php"); ?>
 	<article class="section schedule">
 		<h1>Schedule</h1>	
 		<p>Ampersand 2013 will be a fabulous day of nitty gritty details in all aspects of web typography, presented by experts in typeface design, layout, typesetting, performance &amp; optimisation and front-end development.</p>

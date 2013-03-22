@@ -180,7 +180,7 @@ nav#main-nav a {
 	color: #fff;
 	position: absolute;
 	right: 5%;
-	top: 1%;
+	top: 5px;
 	z-index: 1001;
 }
 
@@ -190,8 +190,8 @@ body:not(:target) #nav {
     outline: 0;
     margin: 0;
     padding-top: 50px;
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: -6px;
     right: 0;
     left: 0;
     z-index: 1000; 
@@ -223,8 +223,10 @@ body:not(:target) #nav:target a {
 }
 body:not(:target) #nav:target #back {
 	display: block;
-	position: relative; }
-	body:not(:target) #nav:target #back a {
+	position: relative; 
+}
+
+body:not(:target) #nav:target #back a {
 	background: transparent;
 	border: 0;
 	display: block;
@@ -244,16 +246,17 @@ body:not(:target) #nav:target #back {
 		#jump { display: none;}
 	 	
 			body:not(:target) #nav { 
-				top:21%; 
+   			    position: absolute;
 				width:90%; 
 				margin: 0 auto; 
 				z-index: 20; 
 				border-bottom: 3px solid rgba(255,255,255,1); 
-				padding:20px 0 1px;
+				padding:35px 0 1px;
 			}
 			
 		  	body:not(:target) #nav a {
 		  		border-bottom-width: 0;
+				border-bottom: 0px;
 		  		font-weight: bold;
 		  		overflow: hidden;
 		  		height: 50px;
@@ -272,7 +275,7 @@ body:not(:target) #nav:target #back {
 				
 		  	}
 			
-		  	body:not(:target) #nav li { float: left; text-align:left; width:20%; padding:0 0 10px 0;}
+		  	body:not(:target) #nav li { float: left; text-align:left; width:33%; padding:0 0 10px 0;}
 			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:bold; font-style:normal; }
 		.menu-toggle { display:none;}
 		#back{ display: none; }
@@ -280,25 +283,14 @@ body:not(:target) #nav:target #back {
 		
 	}
 	@media only screen and (min-width : 720px) {
-		body:not(:target) #nav { top: 231px; width: 86%; }
+		body:not(:target) #nav { width: 86%; }
 	}
 	@media only screen and (min-width : 860px) {
-	  	body:not(:target) #nav { top: 240px; }
 		body:not(:target) #nav a { font-size:1em; }
 		body:not(:target) #nav a:hover { color: #fff064!important; }
 		body:not(:target) #nav li { width:16%;}
 	}	
-	@media only screen and (min-width : 1024px) {
-		body:not(:target) #nav { top: 266px;}
-	}	
-	@media only screen and (min-width : 1156px) {
-		body:not(:target) #nav { top: 340px;}
-	}
-	
-	@media only screen and (min-width : 1400px) {
-		body:not(:target) #nav { top: 370px;}
-	
-	}		
+
 
 
 
@@ -347,14 +339,14 @@ body:not(:target) #nav:target #back {
 .main-content p { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
 .main-content  .presentation-title{ font-size: 0.7em; }
 	@media only screen and (min-width : 580px) {
-		.main-content { top:30px; padding-top:90px; }
+		.main-content { padding-top:130px; }
 	}
 	@media only screen and (min-width : 720px) {
-		.main-content { padding: 90px 7% 60px;}
+		.main-content { padding: 130px 7% 60px;}
 		
 	}
 	@media only screen and (min-width : 860px) {
-		.main-content {  top:45px;}
+		.main-content {  top:45px; padding-top:90px;}
 		}	
 	@media only screen and (min-width : 1024px) {	
 		.main-content h1 { font-size:2.25em; margin-top: 1%; width: 80%;}
@@ -633,7 +625,7 @@ footer a{color:#7EA107;}
 			margin: 0px 0 0 0;
 			text-align: left;
 			position: absolute;
-			top: 100px;
+			top: 138px;
 			right: 7%;
 			padding-left:12px;
 			border-left: 1px solid rgba(255,255,255,0.3);
@@ -669,7 +661,7 @@ footer a{color:#7EA107;}
 		#nina-stossinger .speaker-more { background: url('../images/speakers-nina-stossinger.jpg') 0 0 no-repeat; }	
 		#andy-hume .speaker-more { background: url('../images/speakers-andy-hume.jpg') 0 0 no-repeat; }	
 	
-		.speaker-nav { top: 100px; right: 7%; }	
+		.speaker-nav {  right: 7%; }	
 	}
 	
 	@media only screen and (min-width : 860px) {	}
@@ -746,7 +738,7 @@ footer a{color:#7EA107;}
 
 
 
-.workshop-item h1{ font-size: 2em; margin-top:20px;}
+.workshop-item h1{ font-size: 1.5em; margin-top:20px;}
 .workshop-item p{ margin: 2% 0 4%;}
 .workshop-item li{ font-size: .8em; line-height: 1.2em; list-style:square; margin: 0 0 2% 6%; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200;}	
 .workshop-item .cta {text-align: center; width: 250px; padding: 8px 0; margin-bottom: 60px;}
@@ -758,18 +750,41 @@ footer a{color:#7EA107;}
 		.workshop-item ul { margin-bottom: 10%;}	
 		#wrk1 { border-top: 1px solid rgba(255,255,255,0.3); margin: 3% 0 0 0;}
 		#wrk1  { background:url('../images/speakers-mark-boulton.jpg') 0 0 no-repeat; }
-		#wrk2 { background:url('../images/workshop-placeholder.jpg') 0 0 no-repeat; }
+		#wrk2 { background:url('../images/speakers-jeremy-keith.jpg') 0 0 no-repeat; }
 		#wrk1, #wrk2  { background-size:34%; background-position-y: 47px; padding:20px 0 40px 40%; }
 		.workshop-item .cta:hover { opacity: 0.7; }
+		.subheading { width: 60%; }
 }
 
 	@media only screen and (min-width : 1024px) {
-		#wrk1, #wrk2  { background-size:38%;  }
+		#wrk1, #wrk2  { background-size:38%; }
+	}
+	@media only screen and (min-width : 1156px) {
+		#wrk1, #wrk2  { padding-right: 20%; }
+		.subheading { width: 45%; }
 	}
 
 
+/* #################################################################################################################################### */ 
+/* #############  Exhibition PAGE ####################################################################################################### */
+/* #################################################################################################################################### */
 
-
-		  
-
- 
+#exhibition { text-align: center;}
+#exhibition img { max-width: 50%;}
+#exhibition p { margin-bottom: 18px;}
+	@media only screen and (min-width : 720px) {
+			#exhibition { text-align: left; overflow: hidden; }
+			#exhibition img{ float:left; max-width: 30%; margin-right: 7%;  }
+			.exhibition-content { float: left; width: 63%;}	  
+	}
+	@media only screen and (min-width : 990px) {
+		#exhibition { text-align: center;}
+		#exhibition img{ float:none; margin: 0;  }
+		#exhibition h1 { width: 100%; }
+		.exhibition-content { width: 60%; padding:0 20%; float: none;}	
+	}
+	
+	@media only screen and (min-width : 1156px) {
+		.exhibition-content { width: 40%; padding:0 30%; float: none;}	
+	}
+	

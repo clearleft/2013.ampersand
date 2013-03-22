@@ -18,6 +18,8 @@
 
 	<!-- SPEAKERS -->
 <div class="main-content">
+	
+	<?php include("includes/nav.php"); ?>
 	  <section class="section sessions">
 		<h1>Ampersand is an affordable one-day event for knowledgable web designers and type enthusiasts, featuring:</h1>
 		<ul class="speakers">

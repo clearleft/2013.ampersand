@@ -15,6 +15,9 @@
 
 <!-- sponsors-page -->
 <div class="main-content">
+	
+	<?php include("includes/nav.php"); ?>
+	
 	<article class="section sponsors-page clearfix">
 		<h1>Sponsors</h1>
 		<p class="loud"><span>Get your message</span> to a creative, knowledgeable, and tech-savvy audience including everyone from creative directors and heads of design, 
