@@ -6,6 +6,19 @@
 	<title>Ampersand 2013 &middot; Workshops</title>
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<script type="text/javascript">
+		WebFontConfig = { fontdeck: { id: '29643' } };
+
+		(function() {
+		  var wf = document.createElement('script');
+		  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		  wf.type = 'text/javascript';
+		  wf.async = 'true';
+		  var s = document.getElementsByTagName('script')[0];
+		  s.parentNode.insertBefore(wf, s);
+		})();
+	</script>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -32,7 +45,7 @@
 			<p>Lighthouse, 28 Kensington St, Brighton, BN1 4AJ</p>
 			<h4>Price</h4>
 			<p>only <strong>&pound;499</strong> including <abbr title="Value Added Tax @20%">VAT</abbr></p>
-			<p><a href="http://www.eventbrite.co.uk/event/5977664355" class="cta">Buy Tickets</a></p>
+			<p><a href="http://www.eventbrite.co.uk/event/5977664355" class="cta">Register Now</a></p>
 			
 		</div>
 		<div id="wrk2" class="workshop-item">
@@ -47,7 +60,7 @@
 			<h4>Price</h4>
 			<p>only <strong>&pound;499</strong> including <abbr title="Value Added Tax @20%">VAT</abbr></p>
 
-			<p><a href="http://www.eventbrite.co.uk/event/5977513905" class="cta">Buy Tickets</a></p>
+			<p><a href="http://www.eventbrite.co.uk/event/5977513905" class="cta">Register Now</a></p>
 			
 		</div>
 		
@@ -62,7 +75,7 @@
 			<p>Magpie Press, 94a Gloucester Road, Brighton, BN1 4AP</p>
 			<h4>Price</h4>
 			<p>only <strong>&pound;249</strong> including <abbr title="Value Added Tax @20%">VAT</abbr></p>
-			<p><a href="http://www.eventbrite.co.uk/event/5977680403" class="cta">Buy Tickets</a></p>
+			<p><a href="http://www.eventbrite.co.uk/event/5977680403" class="cta">Register Now</a></p>
 			
 		</div>
 		<div class="clearfix">

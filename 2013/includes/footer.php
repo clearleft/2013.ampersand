@@ -58,21 +58,7 @@
 				<p>Presented by <a href="http://clearleft.com">Clearleft</a>, a user experience design consultancy based in Brighton, UK.
 				Email us on <a href="mailto:ampersand@clearleft.com">ampersand@clearleft.com</a>
 				</p>
-				<small>Ampersand &copy; 2013 Clearleft Ltd. All rights reserved. Set in <a href="http://fontdeck.com/typeface/karmina">Karmina</a> and <a href="http://fontdeck.com/typeface/karmina"> Karmina Sans</a>served by <a href="http://fontdeck.com/">Fontdeck.</a></small>
+				<small>Ampersand &copy; 2013 Clearleft Ltd. All rights reserved. Set in <a href="http://fontdeck.com/typeface/karmina">Karmina</a> and <a href="http://fontdeck.com/typeface/karminasans">Karmina Sans</a> served by <a href="http://fontdeck.com/">Fontdeck.</a></small>
 			
 			</div>
 		</footer>
-	
-		<script type="text/javascript">
-		WebFontConfig = { fontdeck: { id: '29643' } };
-
-		(function() {
-		  var wf = document.createElement('script');
-		  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-		  wf.type = 'text/javascript';
-		  wf.async = 'true';
-		  var s = document.getElementsByTagName('script')[0];
-		  s.parentNode.insertBefore(wf, s);
-		})();
-		</script>

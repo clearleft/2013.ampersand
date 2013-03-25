@@ -7,6 +7,19 @@
 	<meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 28 June 2013." />
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<script type="text/javascript">
+		WebFontConfig = { fontdeck: { id: '29643' } };
+
+		(function() {
+		  var wf = document.createElement('script');
+		  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		  wf.type = 'text/javascript';
+		  wf.async = 'true';
+		  var s = document.getElementsByTagName('script')[0];
+		  s.parentNode.insertBefore(wf, s);
+		})();
+	</script>
 	<link rel="stylesheet" href="css/styles.css">
 	
 
@@ -28,11 +41,11 @@
 			<li class="li-spk2" ><a id="speaker2" href="mark-boulton">Mark Boulton</a><p class="presentation-title">Typography in Responsive Design</p></li>
 			<li class="li-spk6" ><a id="speaker6" href="gerry-leonidas">Gerry Leonidas</a><p class="presentation-title">The Newest New Typography</p></li>
 			<li class="li-spk1" ><a id="speaker1" href="ben-terrett">Ben Terrett</a><p class="presentation-title">Designing GOV.UK</p></li>
-			<li class="li-spk4" ><a id="speaker4" href="kutlu-canlioglu">Kutlu Çanlıoğlu</a><p class="presentation-title">BBC Worldwide</p></li>
+			<li class="li-spk4" ><a id="speaker4" href="kutlu-canlioglu">Kutlu Çanlıoğlu</a><p class="presentation-title">Designing BBC Worldwide</p></li>
 			<li class="li-spk7" ><a id="speaker7" href="nina-stoessinger">Nina Stössinger</a><p class="presentation-title">Being Ernestine</p></li>
-			<li class="li-spk3" ><a id="speaker3" href="jenn-lukas">Jenn Lukas</a><p class="presentation-title">On Icon Fonts and Working with Designers</p></li>
+			<li class="li-spk3" ><a id="speaker3" href="jenn-lukas">Jenn Lukas</a><p class="presentation-title">On Icon Fonts &amp; Working with Designers</p></li>
 			<li class="li-spk8" ><a id="speaker8" href="andy-hume">Andy Hume</a><p class="presentation-title">Web Fonts as a Progressive Enhancement</p></li>
-			<li class="li-spk9" ><a id="speaker9" href="#">To be announced</a><p class="presentation-title"></p></li>
+			<li class="li-spk9" ><a id="speaker9" href="#">Very Special Guest</a><p class="presentation-title">Final Thoughts</p></li>
 		</ul>
 		<div class="clearfix">
 	</section>

@@ -99,11 +99,20 @@ header#top { width:90%; padding: 0 5%;}
 .loc-date { color:#fff; font-size:1em; }
 .price { 
 	color: #fff064; 
+<<<<<<< HEAD
 	font-size: 2.25em; 
 	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 	font-weight:bold; 
 	font-style:normal; 
 	margin: 2% 0 2%;
+=======
+	font-size: 3.375em; 
+	line-height: 1;
+	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-weight:bold; 
+	font-style:normal; 
+	margin: 0 0 3% 0;
+>>>>>>> tweaks to padding, added link to eventbrite, moved fontloader to header. copy tweaks
 }
 	
 .cta {
@@ -114,8 +123,8 @@ header#top { width:90%; padding: 0 5%;}
 	font-size:1em;
 	letter-spacing:.1em;
 	text-transform: uppercase;
-	padding: 3% 0 2%;
-	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:bold; font-style:italic;
+	padding: 4% 0 3%;
+	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:bold;
 }	
 
 .vat { font-size:.4em; letter-spacing: 0em; margin-right:5%; }
@@ -146,6 +155,8 @@ header#top { width:90%; padding: 0 5%;}
 		.description { font-size: 1em; 	margin: 15px 0 0 0; }
 	}
 	@media only screen and (min-width : 1350px){
+		.loc-date { color:#fff; font-size:1.5em; }
+		.price { font-size: 3.375em; margin: 7% 0 7%; }	
 	}		
 
 
@@ -165,7 +176,7 @@ nav#main-nav a {
 	background: rgba(0,0,0,0.8); 
 	font-size: 1.5em;
 	text-transform:uppercase;
-	font-family:"Karmina Sans Bold", sans-serif; font-weight:bold; font-style:italic;
+	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:bold;
 }
 
 #nav a { font-weight: bold; }
@@ -487,7 +498,10 @@ footer a{color:#7EA107;}
 .schedule h1 { padding:0; }
 .schedule-change { text-align: center;}
 .schedule .time { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
-.schedule h3.summary { font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color: #fff;  margin-left:12px; }
+.schedule h3.summary { font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color: #fff;  margin-left:12px; line-height: 1;}
+h2 em, h3 em {
+	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200;
+}
 .schedule-table {margin:60px 0 0 0; width: 100%;}
 .schedule-table td {padding:25px 0}
 .schedule-table .first td{ padding-top:0px;}
@@ -516,7 +530,7 @@ footer a{color:#7EA107;}
 #conf-location { margin: 20px 0 0 0;}
 #conf-location h2{ font-size:1.5em; margin:0 0 7px 0; }
 #conf-location address { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; color: rgba(255,255,255,0.8);}
-#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
+#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 #conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:12px; padding:50px 0 0 0; }
 #conf-location .location-a { background:url('../images/marker-pre-party.png') 0 0px no-repeat;}
 #conf-location .location-b { background:url('../images/marker-conference.png') 0 0px no-repeat;}
@@ -542,8 +556,17 @@ footer a{color:#7EA107;}
 		#conf-location { width: 100%; text-align:left; float: left; margin: 0; border-bottom: none;}
 		#conf-location h3{ font-size:1.5em; margin:0 0 7px 0; }
 		#conf-location address { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal;   font-size:0.9em; color: #cccccc;}
+<<<<<<< HEAD
 		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; background-position-y: 14px; }
+=======
+		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
+	
+		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; }
+		#conf-location .location-a { background:url('../images/marker-pre-party.png') 0 14px no-repeat;}
+		#conf-location .location-b { background:url('../images/marker-conference.png') 0 14px no-repeat;}
+		#conf-location .location-c { background:url('../images/marker-after-party.png') 0 14px no-repeat;}
+>>>>>>> tweaks to padding, added link to eventbrite, moved fontloader to header. copy tweaks
 	}
 
 	@media only screen and (min-width : 720px) {

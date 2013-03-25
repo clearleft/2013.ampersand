@@ -6,7 +6,19 @@
 <title>Ampersand 2013 &middot; Location</title>
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="stylesheet" href="http://f.fontdeck.com/s/css/uYeecfgxZsRY9yoFdZP/14nD1k8/2012.ampersandconf.dev/11761.css" type="text/css" />
+	<script type="text/javascript">
+		WebFontConfig = { fontdeck: { id: '29643' } };
+
+		(function() {
+		  var wf = document.createElement('script');
+		  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		  wf.type = 'text/javascript';
+		  wf.async = 'true';
+		  var s = document.getElementsByTagName('script')[0];
+		  s.parentNode.insertBefore(wf, s);
+		})();
+	</script>
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -25,7 +37,7 @@
 		</header>	
 		<div id="conf-location">
 			<div class="location-a">
-				<h2>Pre-Party <a href="sponsors">sponsorship available</a></h2>
+				<h2>Pre-Party <em><a href="sponsors">sponsorship available</a></em></h2>
 				<address>
 					<span class="conf-location-name">Venue tba</span>
 				</address>
@@ -40,7 +52,7 @@
 			</div>
 		
 			<div class="location-c">
-				<h2 >After Party hosted by Typekit</h2>
+				<h2 >After Party <em>hosted by Typekit</em></h2>
 				<address>
 					<span class="conf-location-name">The Loft</span><br />
 					10 Ship Street, Brighton, BN1 1AD, UK
@@ -57,7 +69,7 @@
 		
 		<div id="city-info">
 			<h3>Getting Here</h3>
-			<p>The nearest airport is London Gatwick &ndash; Brighton is only 30 minutes away by train. London itself is only 55 minutes away on the train.</p>
+			<p>The nearest airport is London Gatwick; Brighton is only 30 minutes away by train. London itself is only 55 minutes away on the train.</p>
 			<h3>Accommodation</h3>
 			<p>Latest information is available from <a href="http://visitbrighton.com/accommodation">visitbrighton.com</a></p>
 		</div><!-- END #city-info -->			

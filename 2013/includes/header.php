@@ -9,12 +9,7 @@
 			
 	<div class="tickets">
 		<p class="loc-date">Brighton, <time datetime="2013-06-28" class="dtstart">28 Jun 2013</time></p>
-		<p class="price">&pound;125<span class="vat"> +VAT</span></p>
-		<a href="#" class="cta">Buy Tickets</a>
+		<p class="price">&pound;149</p>
+		<a href="http://ampersand2013.eventbrite.co.uk" class="cta">Register Now</a>
 	</div>
-	
-	
-		
-	
 </header>
-

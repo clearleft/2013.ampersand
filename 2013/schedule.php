@@ -6,6 +6,19 @@
 <title>Ampersand 2013 &middot; Schedule</title>
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<script type="text/javascript">
+		WebFontConfig = { fontdeck: { id: '29643' } };
+
+		(function() {
+		  var wf = document.createElement('script');
+		  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		  wf.type = 'text/javascript';
+		  wf.async = 'true';
+		  var s = document.getElementsByTagName('script')[0];
+		  s.parentNode.insertBefore(wf, s);
+		})();
+	</script>
 <link rel="stylesheet" href="css/styles.css">
 
 
@@ -92,7 +105,7 @@
                     	<h3 class="summary">Designing GOV.UK</h3>
                 		<p class="vcard"><a href="ben-terrett" class="fn url">Ben Terrett</a></p>
                 		
-                		<h3 class="summary">BBC Worldwide</h3>
+                		<h3 class="summary">Designing BBC Worldwide</h3>
                 		<p class="vcard"><a href="kutlu-canlioglu" class="fn url">Kutlu Çanlıoğlu</a></p>
                 		
                 		<h3 class="summary">Being Ernestine</h3>
@@ -118,7 +131,7 @@
                 <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2013-06-28T16:15:00">16.15</time> &ndash; <time class="dtend" title="2013-06-28T17:00:00">17.00</time></th>
                     <td>
-						<h3 class="summary">On Icon Fonts and Working with Designers</h3>
+						<h3 class="summary">On Icon Fonts &amp; Working with Designers</h3>
                     	<p class="vcard"><a href="jake-archibald" class="fn url">Jenn Lukas</a></p>
                     </td>
                 </tr>
@@ -138,7 +151,7 @@
                 <tr class="vevent after-party last">
                     <th class="time"><time class="dtstart" title="2013-06-28T19:30:00">19.30</time> &ndash; <time class="dtend" >Late</time></th>
                     <td>
-                    	<h3 class="summary">After-Party <em>Hosted by Typekit</em></h3>
+                    	<h3 class="summary">After Party <em>hosted by Typekit</em></h3>
                     	<p class="vcard"><a href="location" class="fn url">The Loft</a></p>
                    	</td>
                 </tr>
