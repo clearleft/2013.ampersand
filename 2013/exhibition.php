@@ -38,6 +38,9 @@
 			<h1>Student Typeface Exhibition</h1>
     		<p class="">Ampersand 2013 is delighted to be announce the first international student type exhibition, showcasing the best of student type design from around the world. We'll be presenting the diversity of emerging designers' work in both web and print specimens, along with a take-home catalogue recording the thriving landscape of design education today.</p>
 			<p>All enquiries to <a href="mailto:ampersand.conference@gmail.com">ampersand.conference@gmail.com</a></p>
+			<p>This exhibition is kindly brought to you by:<br/>
+				<a href="http://www.monotype.com" target="_blank"><img src="images/monotype.png" alt="Monotype">
+			</p>
     	</div>	<!-- END SPEAKER-BIO -->
 	</section><!-- ########  END exhibition ###### -->
    

@@ -300,8 +300,6 @@ body:not(:target) #nav:target #back a {
 			body:not(:target) #nav li.currentpage a { color:#fff064;}
 			.menu-toggle { display:none;}
 			#back{ display: none; }
-		
-		
 	}
 	@media only screen and (min-width : 720px) {
 		body:not(:target) #nav { width: 86%; }
