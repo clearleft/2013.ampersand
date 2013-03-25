@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $thisPage="locationpage"; ?>
 <html lang="en">
 <head>
 <meta charset="utf-8" />

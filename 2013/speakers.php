@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $thisPage="speakerspage"; ?>
 <html lang="en">
 <head>
 <meta charset="utf-8" />

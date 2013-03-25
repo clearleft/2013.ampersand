@@ -72,6 +72,7 @@ strong {
 }
 a{ color:#fff064; text-decoration: none; }
 
+
 /* #################################################################################################################################### */ 
 /* #############  HEADER  ############################################################################################################# */
 /* #################################################################################################################################### */
@@ -277,13 +278,13 @@ body:not(:target) #nav:target #back a {
 		  		background: none;
 		  		display:inline;
 		  		position:relative;
-				
 		  	}
 			
 		  	body:not(:target) #nav li { float: left; text-align:left; width:33%; padding:0 0 10px 0;}
 			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:bold; font-style:normal; }
-		.menu-toggle { display:none;}
-		#back{ display: none; }
+			body:not(:target) #nav li.currentpage a { color:#fff064;}
+			.menu-toggle { display:none;}
+			#back{ display: none; }
 		
 		
 	}
@@ -775,11 +776,7 @@ footer a{color:#7EA107;}
 			.exhibition-content { float: left; width: 63%;}	  
 	}
 	@media only screen and (min-width : 990px) {
-			#exhibition { margin: 6% 0;}
-			.exhibition-content { width: 60%; padding:0 20%; float: none;}	
-	}
-	
-	@media only screen and (min-width : 1156px) {
-		.exhibition-content { width: 40%; padding:0 30%; float: none;}	
+			#exhibition { margin: 6% auto;width: 75%; }
+			.exhibition-content { width: 80%; padding:0 20%; float: none;}	
 	}
 	
