@@ -43,9 +43,9 @@
 		<div class="section" >
 			<nav class="footer-nav clearfix" >
 				<ul>
-					<li><a class="http://2013.ampersandconf.dev/privacy-policy.php" href="/privacy">Privacy</a></li>
-					<li><a class="terms" href="/terms">Terms &amp; Conditions</a></li>
-					<li><a class="accessibility" href="/accessibility">Accessibility</a></li>
+					<li><a class="privacy" href="http://2013.ampersandconf.dev/privacy-policy.php">Privacy</a></li>
+					<li><a class="terms" href="http://2013.ampersandconf.dev/terms.php">Terms &amp; Conditions</a></li>
+					<li><a class="accessibility" href="http://2013.ampersandconf.dev/accessibility.php">Accessibility</a></li>
 				</ul>
 			</nav>
 		

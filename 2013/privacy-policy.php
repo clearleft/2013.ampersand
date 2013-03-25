@@ -20,7 +20,7 @@
 	<?php include("includes/nav.php"); ?>
 	
 	<!-- SPONSORS -->
-		<article class="section clearfix">
+		<article class="section pat">
 		
 			<h1>Privacy Policy.</h1>		
 			<h2>Information</h2>		

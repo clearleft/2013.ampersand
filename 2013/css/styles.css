@@ -807,3 +807,23 @@ h2 em, h3 em {
 			.exhibition-content { width: 80%; padding:0 20%; float: none;}	
 	}
 	
+
+/* #################################################################################################################################### */ 
+/* #############  Privacy Accessibility and Terms ####################################################################################################### */
+/* #################################################################################################################################### */
+	
+.pat h2 { font-size: 1.25em;  margin: 18px 0 7px;}	
+.pat h5 { font-size: 1em; font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; margin: 0 0 7px; }	
+.pat p{ margin-bottom: 18px;}
+
+	@media only screen and (min-width : 720px) {
+		.pat h2{ font-size:1.5em; margin-top:12px;}
+		.pat p{ width: 60%;}
+	}
+
+
+
+
+
+
+
