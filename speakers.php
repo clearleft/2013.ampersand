@@ -80,8 +80,8 @@
    	<div class="speaker-more">
     		<h3>More Info</h3>
     		<ul>
-    			<li><a href="http://www.twitter.com/spiekermann">@espiekermann on Twitter</a></li>
-    			<li><a href="http://spiekermann.com/">spiekermann.com/</a></li>
+    			<li><a href="http://www.twitter.com/spiekermann">@espiekermann</a></li>
+    			<li><a href="http://spiekermann.com/">spiekermann.com</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
    </section><!-- ########  END SPIEKERMANN ###### -->
@@ -99,10 +99,8 @@
   		<div class="speaker-more">
   	 		<h3>More Info</h3>
   	 		<ul>
-  	 			<li><a href="http://www.twitter.com/markboulton">@markboulton on Twitter</a></li>
+  	 			<li><a href="http://www.twitter.com/markboulton">@markboulton</a></li>
   	 			<li><a href="www.markboulton.co.uk">www.markboulton.co.uk</a></li>
-  	 			<li><a href="#">Article, “Type Today”</a></li>
-  	 			<li><a href="#">Book, “Responsive  Web Type ”</a></li>
   	 		</ul>
   	 	</div><!-- END MORE-BIO -->
   </section><!-- ########  END SPEAKER ###### -->
@@ -120,8 +118,8 @@
  	<div class="speaker-more">
   		<h3>More Info</h3>
   		<ul>
-  			<li><a href="http://www.twitter.com/@gerryleonidas">@gerryleonidas on Twitter</a></li>
-			<li><a href="http://www.twitter.com/@typefacedesign">@typefacedesign on Twitter</a></li>
+  			<li><a href="http://www.twitter.com/@gerryleonidas">@gerryleonidas</a></li>
+			<li><a href="http://www.twitter.com/@typefacedesign">@typefacedesign</a></li>
   			<li><a href="http://leonidas.org/">leonidas.org/</a></li>
   		</ul>
   	</div><!-- END MORE-BIO -->
@@ -141,7 +139,7 @@
  		<div class="speaker-more">
  	 		<h3>More Info</h3>
  	 		<ul>
- 	 			<li><a href="http://www.twitter.com/@ben_terret">@ben_terret on Twitter</a></li>
+ 	 			<li><a href="http://www.twitter.com/@ben_terret">@ben_terret</a></li>
  	 			<li><a href="http://www.benterrett.com">www.benterrett.com</a></li>
 				<li><a href="http://noisydecentgraphics.typepad.com/">noisydecentgraphics.typepad.com</a></li>
  	 		</ul>
@@ -161,7 +159,7 @@
    	<div class="speaker-more">
     		<h3>More Info</h3>
     		<ul>
-    			<li><a href="http://www.twitter.com/@kutluc">@kutluc on Twitter</a></li>
+    			<li><a href="http://www.twitter.com/@kutluc">@kutluc</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
    </section><!-- ########  END SPEAKER ###### -->
@@ -180,7 +178,7 @@
    	<div class="speaker-more">
     		<h3>More Info</h3>
     		<ul>
-    			<li><a href="http://www.twitter.com/@ninastoessinger">@ninastoessinger on Twitter</a></li>
+    			<li><a href="http://www.twitter.com/@ninastoessinger">@ninastoessinger</a></li>
     			<li><a href="http://ninastoessinger.com">ninastoessinger.com</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
@@ -201,7 +199,7 @@
    	<div class="speaker-more">
     		<h3>More Info</h3>
     		<ul>
-    			<li><a href="http://www.twitter.com/@andyhume">@andyhume on Twitter</a></li>
+    			<li><a href="http://www.twitter.com/@andyhume">@andyhume</a></li>
     			<li><a href="http://andyhume.net/">andyhume.net</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
@@ -221,14 +219,14 @@
 	<div class="speaker-more">
  		<h3>More Info</h3>
  		<ul>
- 			<li><a href="http://www.twitter.com/@jennlukas">@jennlukas on Twitter</a></li>
+ 			<li><a href="http://www.twitter.com/@jennlukas">@jennlukas</a></li>
  			<li><a href="http://jennlukas.com/">Jennlukas.com/</a></li>
  		</ul>
  	</div><!-- END MORE-BIO -->
 </section><!-- ########  END SPEAKER ###### -->
 	
 	<div class="speaker-nav">
-		<h2>Speakers & Sessions</h2>
+		<h2>Speakers &amp; Sessions</h2>
 		<ul>
 			<li><a href="#erik-spiekermann">Erik Spiekermann</a></li>
 			<li><a href="#mark-boulton">Mark Boulton</a></li>
