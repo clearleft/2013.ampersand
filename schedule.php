@@ -67,7 +67,7 @@
                     <th class="time"><time class="dtstart" title="2013-06-28T10:00:00">10.00</time> &ndash; <time class="dtend" title="2013-06-28T10:45:00">10.45</time></th>
                     <td>
                     	<h3 class="summary">Keynote</h3>
-                    	<p class="vcard"><a href="erik-spiekermann" class="fn" >Erik Spiekermann</a></p>
+                    	<p class="vcard"><a href="/speakers.php#erik-spiekermann" class="fn" >Erik Spiekermann</a></p>
                     </td>
                 </tr>
 				
@@ -82,14 +82,14 @@
                     <th class="time"><time class="dtstart" title="2013-06-28T11:15:00">11.15</time> &ndash; <time class="dtend" title="2013-06-28T12:00:00">12.00</time></th>
                     <td>
 						<h3 class="summary">The Newest New Typography</h3>
-                    	<p class="vcard"><a href="gerry-leonidas" class="fn">Gerry Leonidas</a></p>
+                    	<p class="vcard"><a href="/speakers.php#gerry-leonidas" class="fn">Gerry Leonidas</a></p>
 					</td>
                 </tr>
                  <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2013-06-28T12:00:00">12.00</time> &ndash; <time class="dtend" title="2013-06-28T12:45:00">12.45</time></th>
                     <td>
 						<h3 class="summary">Typography in Responsive Design</h3>
-                    	<p class="vcard"><a href="mark-boulton" class="fn">Mark Boulton</a></p>
+                    	<p class="vcard"><a href="/speakers.php#mark-boulton" class="fn">Mark Boulton</a></p>
                     </td>
                 </tr>
                  <tr class="vevent break">
@@ -103,13 +103,13 @@
                     <th class="time"><time class="dtstart" title="2013-06-28T14:15:00">14.15</time> &ndash; <time class="dtend" title="2013-06-28T15:45:00">15.15</time></th>
                     <td>
                     	<h3 class="summary">Designing GOV.UK</h3>
-                		<p class="vcard"><a href="ben-terrett" class="fn url">Ben Terrett</a></p>
+                		<p class="vcard"><a href="/speakers.php#ben-terrett" class="fn url">Ben Terrett</a></p>
                 		
                 		<h3 class="summary">Designing BBC Worldwide</h3>
-                		<p class="vcard"><a href="kutlu-canlioglu" class="fn url">Kutlu Çanlıoğlu</a></p>
+                		<p class="vcard"><a href="/speakers.php#kutlu-canlioglu" class="fn url">Kutlu Çanlıoğlu</a></p>
                 		
                 		<h3 class="summary">Being Ernestine</h3>
-                		<p class="vcard"><a href="nina-stoessinger" class="fn url">Nina Stössinger</a></p>
+                		<p class="vcard"><a href="/speakers.php#nina-stoessinger" class="fn url">Nina Stössinger</a></p>
                     </td>
                 </tr>
 
@@ -117,7 +117,7 @@
                     <th class="time"><time class="dtstart" title="2013-06-28T15:15:00">15.15</time> &ndash; <time class="dtend" title="2013-06-28T15:45:00">15.45</time></th>
                     <td>
                     	<h3 class="summary">Web Fonts as a Progressive Enhancement</h3>
-                    	<p class="vcard"><a href="andy-hume" class="fn url">Andy Hume</a></p>
+                    	<p class="vcard"><a href="/speakers.php#andy-hume" class="fn url">Andy Hume</a></p>
                     </td>
                 </tr>
 
@@ -132,14 +132,14 @@
                     <th class="time"><time class="dtstart" title="2013-06-28T16:15:00">16.15</time> &ndash; <time class="dtend" title="2013-06-28T17:00:00">17.00</time></th>
                     <td>
 						<h3 class="summary">On Icon Fonts &amp; Working with Designers</h3>
-                    	<p class="vcard"><a href="jake-archibald" class="fn url">Jenn Lukas</a></p>
+                    	<p class="vcard"><a href="/speakers.php#jenn-lukas" class="fn url">Jenn Lukas</a></p>
                     </td>
                 </tr>
                  <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2013-06-28T17:00:00">17.00</time> &ndash; <time class="dtend" title="2013-06-28T17:45:00">17.45</time></th>
                     <td>
 						<h3 class="summary">Final Thoughts</h3>
-                    	<p class="vcard"><a href="#" class="fn url">Very special guest</a></p>
+                    	<p class="vcard"><a href="/speakers.php" class="fn url">Very special guest</a></p>
                     </td>
                 </tr>
 				<tr class="vevent">

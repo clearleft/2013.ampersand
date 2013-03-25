@@ -135,7 +135,7 @@
 	 		<p></p>
 		
 			<h2>Ben Terrett</h2>
-	 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet Office for the UK Government. Before that he was Design Director at Wieden & Kennedy London. In 2010 Ben won the Graphics category in the Design Museum's Designs Of The Year Awards. Ben has spoken about design on Radio 4's Today programme and has been a D&AD judge several times.</p>
+	 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet Office for the UK Government. Before that he was Design Director at Wieden & Kennedy London. In 2010 Ben won the Graphics category in the Design Museum's Designs Of The Year Awards. Ben has spoken about design on Radio 4's Today programme and has been a D&amp;AD judge several times.</p>
 	 	</div>	<!-- END SPEAKER-BIO -->
 		
  		<div class="speaker-more">
@@ -167,7 +167,7 @@
    </section><!-- ########  END SPEAKER ###### -->
 
 
-    <section class="speakers-container" id="nina-stossinger">
+    <section class="speakers-container" id="nina-stoessinger">
 	
    	<div class="speaker-copy" >
     		<h1>Being Ernestine</h1>
@@ -182,6 +182,27 @@
     		<ul>
     			<li><a href="http://www.twitter.com/@ninastoessinger">@ninastoessinger on Twitter</a></li>
     			<li><a href="http://ninastoessinger.com">ninastoessinger.com</a></li>
+    		</ul>
+    	</div><!-- END MORE-BIO -->
+   </section><!-- ########  END SPEAKER ###### -->
+   
+   
+   
+    <section class="speakers-container" id="andy-hume">
+   	
+   	<div class="speaker-copy" >
+    		<h1>Web Fonts as a Progressive Enhancement</h1>
+    		<p></p>
+   	
+   		<h2>Andy Hume</h2>
+    		<p class="speaker-bio">Andy builds web sites and web applications. He currently works for the Guardian in London as client-side architect in the Digital Development team. Over the years Andy has written code and consulted for clients including the BBC, Channel 4, NBC, Fontdeck, Mozilla, and eBay. Back in the day, he regularly wrote for the now-defunct UsableType blog.</p>
+    	</div>	<!-- END SPEAKER-BIO -->
+   	
+   	<div class="speaker-more">
+    		<h3>More Info</h3>
+    		<ul>
+    			<li><a href="http://www.twitter.com/@andyhume">@andyhume on Twitter</a></li>
+    			<li><a href="http://andyhume.net/">andyhume.net</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
    </section><!-- ########  END SPEAKER ###### -->
@@ -205,27 +226,6 @@
  		</ul>
  	</div><!-- END MORE-BIO -->
 </section><!-- ########  END SPEAKER ###### -->
-
-
-
- <section class="speakers-container" id="andy-hume">
-	
-	<div class="speaker-copy" >
- 		<h1>Web Fonts as a Progressive Enhancement</h1>
- 		<p></p>
-	
-		<h2>Andy Hume</h2>
- 		<p class="speaker-bio">Andy builds web sites and web applications. He currently works for the Guardian in London as client-side architect in the Digital Development team. Over the years Andy has written code and consulted for clients including the BBC, Channel 4, NBC, Fontdeck, Mozilla, and eBay. Back in the day, he regularly wrote for the now-defunct UsableType blog.</p>
- 	</div>	<!-- END SPEAKER-BIO -->
-	
-	<div class="speaker-more">
- 		<h3>More Info</h3>
- 		<ul>
- 			<li><a href="http://www.twitter.com/@andyhume">@andyhume on Twitter</a></li>
- 			<li><a href="http://andyhume.net/">andyhume.net</a></li>
- 		</ul>
- 	</div><!-- END MORE-BIO -->
-</section><!-- ########  END SPEAKER ###### -->
 	
 	<div class="speaker-nav">
 		<h2>Speakers & Sessions</h2>
@@ -235,9 +235,9 @@
 			<li><a href="#gerry-leonidas">Gerry Leonidas</a></li>
 			<li><a href="#ben-terrett">Ben Terrett</a></li>
 			<li><a href="#kutlu-canlioglu">Kutlu Çanlıoğlu</a></li>
-			<li><a href="#nina-stossinger">Nina Stössinger</a></li>
-			<li><a href="#jenn-lukas">Jenn Lukas</a></li>
+			<li><a href="#nina-stoessinger">Nina Stössinger</a></li>
 			<li><a href="#andy-hume">Andy Hume</a></li>
+			<li><a href="#jenn-lukas">Jenn Lukas</a></li>
 		</ul>
 	</div><!-- END SPEAKER-NAV -->
 	

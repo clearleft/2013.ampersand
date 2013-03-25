@@ -464,7 +464,7 @@ footer a{color:#7EA107;}
 		#speaker4 { background:url('../images/speakers-kutlu-canlioglu.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker5 { background:url('../images/speakers-erik-spiekermann.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker6 { background:url('../images/speakers-gerry-leonidas.jpg')  0 0 no-repeat; background-size: contain; }
-		#speaker7 { background:url('../images/speakers-nina-stossinger.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker7 { background:url('../images/speakers-nina-stoessinger.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker8 { background:url('../images/speakers-andy-hume.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker9 { background:url('../images/speaker-avatar.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker1, #speaker3, #speaker5, #speaker7, #speaker9 { margin-right:0%; }
@@ -681,7 +681,7 @@ h2 em, h3 em {
 		#kutlu-canlioglu .speaker-more { background: url('../images/speakers-kutlu-canlioglu.jpg') 0 0 no-repeat; }	
 		#erik-spiekermann .speaker-more { background: url('../images/speakers-erik-spiekermann.jpg') 0 0 no-repeat; }	
 		#gerry-leonidas .speaker-more { background: url('../images/speakers-gerry-leonidas.jpg') 0 0 no-repeat; }	
-		#nina-stossinger .speaker-more { background: url('../images/speakers-nina-stossinger.jpg') 0 0 no-repeat; }	
+		#nina-stoessinger .speaker-more { background: url('../images/speakers-nina-stossinger.jpg') 0 0 no-repeat; }	
 		#andy-hume .speaker-more { background: url('../images/speakers-andy-hume.jpg') 0 0 no-repeat; }	
 	
 		.speaker-nav {  right: 7%; }	
