@@ -43,7 +43,7 @@
 		<div class="section" >
 			<nav class="footer-nav clearfix" >
 				<ul>
-					<li><a class="privacy" href="/privacy">Privacy</a></li>
+					<li><a class="http://2013.ampersandconf.dev/privacy-policy.php" href="/privacy">Privacy</a></li>
 					<li><a class="terms" href="/terms">Terms &amp; Conditions</a></li>
 					<li><a class="accessibility" href="/accessibility">Accessibility</a></li>
 				</ul>
