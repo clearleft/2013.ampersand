@@ -798,11 +798,10 @@ h2 em, h3 em {
 	@media only screen and (min-width : 720px) {
 			#exhibition { text-align: left; overflow: hidden; }
 			#exhibition img{ float:left; max-width: 30%; margin-right: 7%;  }
-			.exhibition-content { float: left; width: 63%;}	  
 	}
 	@media only screen and (min-width : 990px) {
 			#exhibition { margin: 6% auto;width: 75%; }
-			.exhibition-content { width: 80%; padding:0 20%; float: none;}	
+			.exhibition-content { margin:0 0 0 37%; float: none;}	
 	}
 	
 
