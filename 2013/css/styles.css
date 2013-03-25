@@ -261,7 +261,7 @@ body:not(:target) #nav:target #back a {
 				margin: 0 auto; 
 				z-index: 20; 
 				border-bottom: 3px solid rgba(255,255,255,1); 
-				padding:35px 0 1px;
+				padding:54px 0 1px;
 			}
 			
 		  	body:not(:target) #nav a {
@@ -356,7 +356,7 @@ body:not(:target) #nav:target #back a {
 		
 	}
 	@media only screen and (min-width : 860px) {
-		.main-content {  top:45px; padding-top:90px;}
+		.main-content {  top:45px; padding-top:110px;}
 		}	
 	@media only screen and (min-width : 1024px) {	
 		.main-content h1 { font-size:2.25em; margin-top: 1%; width: 80%;}
