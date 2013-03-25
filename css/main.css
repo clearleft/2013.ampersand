@@ -18,7 +18,7 @@ body {
 }
 
 header, section, footer {
-    transition:opacity 0.5s;
+    transition:opacity 0.3s;
 }
 
 h1, h2 ,h3 {
