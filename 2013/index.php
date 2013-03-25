@@ -31,6 +31,7 @@
 			<li class="li-spk7" ><a id="speaker7" href="nina-stoessinger">Nina Stössinger</a><p class="presentation-title">Being Ernestine</p></li>
 			<li class="li-spk3" ><a id="speaker3" href="jenn-lukas">Jenn Lukas</a><p class="presentation-title">On Icon Fonts and Working with Designers</p></li>
 			<li class="li-spk8" ><a id="speaker8" href="andy-hume">Andy Hume</a><p class="presentation-title">Web Fonts as a Progressive Enhancement</p></li>
+			<li class="li-spk9" ><a id="speaker9" href="#">To be announced</a><p class="presentation-title"></p></li>
 		</ul>
 		<div class="clearfix">
 	</section>

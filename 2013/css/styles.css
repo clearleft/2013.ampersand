@@ -95,14 +95,14 @@ header#top { width:90%; padding: 0 5%;}
 	margin: 15px 0 0 0;
 	text-align: center;
 	}
-.loc-date { color:#fff; font-size:1.5em; }
+.loc-date { color:#fff; font-size:1em; }
 .price { 
 	color: #fff064; 
-	font-size: 3.375em; 
+	font-size: 2.25em; 
 	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 	font-weight:bold; 
 	font-style:normal; 
-	margin: 5% 0 3%;
+	margin: 2% 0 2%;
 }
 	
 .cta {
@@ -113,7 +113,7 @@ header#top { width:90%; padding: 0 5%;}
 	font-size:1em;
 	letter-spacing:.1em;
 	text-transform: uppercase;
-	padding: 4% 0 3%;
+	padding: 3% 0 2%;
 	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:bold; font-style:italic;
 }	
 
@@ -131,24 +131,19 @@ header#top { width:90%; padding: 0 5%;}
 		
 		header#top  { width: 86%; padding: 0 7%; }
 		.conf-title { font-size: 2.5em; }
-		.tickets { right: 7%; width:220px; }
+		.tickets { right: 7%;  }
 	}
 	@media only screen and (min-width : 1024px) {
 		header#top  { text-align:center; }
 		.conf-title { font-size: 3.375em; }
-		.description { font-size: .9em; 	margin: 15px 0 0 0; }
-		.tickets { width:170px; }
-		
+		.description { font-size: .9em; 	margin: 15px 0 0 0; }		
 	}	
 	@media only screen and (min-width : 1156px) {
 		header#top  { padding: 2%; }	
-		.tickets { width:220px; }
 		.conf-title { font-size: 5.063em; }
 		.description { font-size: 1em; 	margin: 15px 0 0 0; }
 	}
 	@media only screen and (min-width : 1350px){
-		.loc-date { color:#fff; font-size:1.5em; }
-		.price { font-size: 3.375em; margin: 8% 0 7%; }	
 	}		
 
 
@@ -456,7 +451,7 @@ footer a{color:#7EA107;}
 		#speaker6 { background:url('../images/speakers-gerry-leonidas.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker7 { background:url('../images/speakers-nina-stossinger.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker8 { background:url('../images/speakers-andy-hume.jpg')  0 0 no-repeat; background-size: contain; }
-		#speaker9 { background:url('../images/speakers-richard-rutter.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker9 { background:url('../images/speaker-avatar.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker1, #speaker3, #speaker5, #speaker7, #speaker9 { margin-right:0%; }
 		
 	}
@@ -516,15 +511,14 @@ footer a{color:#7EA107;}
 
 .location { padding: 0;}
 
-#conf-location {  width: 100%; margin: 0 auto;}
+#conf-location { margin: 20px 0 0 0;}
 #conf-location h2{ font-size:1.5em; margin:0 0 7px 0; }
 #conf-location address { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; color: rgba(255,255,255,0.8);}
 #conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 #conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:12px; padding:50px 0 0 0; }
-#conf-location .location-a { background:url('../images/deco-location-pre.png') 0 10px no-repeat;}
-#conf-location .location-b { background:url('../images/deco-location-conf.png') 0 10px no-repeat;}
-#conf-location .location-c { background:url('../images/deco-location-post.png') 0 10px no-repeat;}
-
+#conf-location .location-a { background:url('../images/marker-pre-party.png') 0 0px no-repeat;}
+#conf-location .location-b { background:url('../images/marker-conference.png') 0 0px no-repeat;}
+#conf-location .location-c { background:url('../images/marker-after-party.png') 0 0px no-repeat;}
 
 #loc-container { clear:both; }
 
@@ -547,24 +541,16 @@ footer a{color:#7EA107;}
 		#conf-location h3{ font-size:1.5em; margin:0 0 7px 0; }
 		#conf-location address { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal;   font-size:0.9em; color: #cccccc;}
 		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
-	
-		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; }
-		#conf-location .location-a { background:url('../images/marker-pre-party.png') 0 14px no-repeat;}
-		#conf-location .location-b { background:url('../images/marker-conference.png') 0 14px no-repeat;}
-		#conf-location .location-c { background:url('../images/marker-after-party.png') 0 14px no-repeat;}
+		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; background-position-y: 14px; }
 	}
 
 	@media only screen and (min-width : 720px) {
-				
 		.map{ width: 100%; padding: 0; margin: 0; float: left; }
-		
 		#sleep-food-net { margin-right:3%; width: 50%; float: left; }
 	}
 	
 	@media only screen and (min-width : 820px) {	
-		
 		.location header p { width:60%; margin-bottom: 25px;}
-
 		#conf-location .location-a { float: left; margin-right:2%; width: 24%; }
 		#conf-location .location-b { float: left; margin-right:2%; width: 24%; }
 		#conf-location .location-c { float: left; margin-right:0; width: 24%; }
@@ -789,10 +775,8 @@ footer a{color:#7EA107;}
 			.exhibition-content { float: left; width: 63%;}	  
 	}
 	@media only screen and (min-width : 990px) {
-		#exhibition { text-align: center;}
-		#exhibition img{ float:none; margin: 0;  }
-		#exhibition h1 { width: 100%; }
-		.exhibition-content { width: 60%; padding:0 20%; float: none;}	
+			#exhibition { margin: 6% 0;}
+			.exhibition-content { width: 60%; padding:0 20%; float: none;}	
 	}
 	
 	@media only screen and (min-width : 1156px) {
