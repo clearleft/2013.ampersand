@@ -38,8 +38,8 @@
 		to freelance web designers, front-end developers, illustrators and type designers.</p>
 		
 		<section class="sponsorship-pack">
-			<a href="#">
-				<div class="button">Sponsors Information Pack <br/><small>(0.6Mb PDF)</small></div>
+			<a href="Ampersand_Sponsor_Pack_2013.pdf">
+				<div class="button">Sponsors Information Pack <br/><small>(3.0Mb PDF)</small></div>
 			</a>				
 			
 			<br/>
