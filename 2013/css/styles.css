@@ -296,7 +296,7 @@ body:not(:target) #nav:target #back a {
 		  	}
 			
 		  	body:not(:target) #nav li { float: left; text-align:left; width:33%; padding:0 0 10px 0;}
-			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:bold; font-style:normal; }
+			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:bold; font-style:normal; }
 			body:not(:target) #nav li.currentpage a { color:#fff064;}
 			.menu-toggle { display:none;}
 			#back{ display: none; }
