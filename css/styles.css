@@ -24,8 +24,18 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 .wf-inactive body {
-	font-size: 89%;
+	font-size: 94%;
 }
+
+.wf-loading header, .wf-loading footer, .wf-loading .main-content {
+	opacity: 0;
+}
+
+header, footer, .main-content {
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section { display: block; }
@@ -627,11 +637,10 @@ h2 em, h3 em {
 
 
 .speakers-container{ padding: 0 0 4%; margin-bottom:6%; border-bottom:1px solid rgba(255,255,255,0.3);}
-.speaker-copy h2 { margin:0 0 8px 0; font-size:1.25em; }	
-.speaker-more h3 { margin:39px 0 5px 0; font-size:1.5em; }	
+.speaker-copy h2 { margin:0 0 8px 0; font-size:1.25em; }
 .speaker-copy p{ margin:0 0 22px 0; }	
 	
-.speaker-more { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;	margin: 35px 0 0 0;}
+.speaker-more { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;	margin: 2em 0 0 0;}
 
 
 
@@ -673,6 +682,9 @@ h2 em, h3 em {
 			letter-spacing: .1em;
 			line-height: 1.5em;
 		}
+		.speaker-more ul {
+	margin-top: 2em;
+}
 		
 		#ben-terrett .speaker-more { background: url('../images/speakers-ben-terrett.jpg') 0 0 no-repeat; background-size: contain;  }	
 		#mark-boulton .speaker-more { background: url('../images/speakers-mark-boulton.jpg') 0 0 no-repeat; background-size: contain;  }	

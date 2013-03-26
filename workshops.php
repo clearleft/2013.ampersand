@@ -10,17 +10,20 @@
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<script type="text/javascript">
-		WebFontConfig = { fontdeck: { id: '29643' } };
+		var html = document.getElementsByTagName('html')[0];
+        html.className = 'js wf-loading';
+        setTimeout(function() {
+            html.className = html.className.replace(' wf-loading', '');
+        }, 3000)
+        WebFontConfig = { fontdeck: { id: 29643 } };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
 
-		(function() {
-		  var wf = document.createElement('script');
-		  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-		  wf.type = 'text/javascript';
-		  wf.async = 'true';
-		  var s = document.getElementsByTagName('script')[0];
-		  s.parentNode.insertBefore(wf, s);
-		})();
 	</script>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
