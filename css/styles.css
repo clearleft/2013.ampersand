@@ -666,7 +666,6 @@ h2 em, h3 em {
 			float: left; 
 			width: 49%;
 			margin: 0 2% 0 0;
-			background-size: contain;
 			padding: 22% 0 0 0;
 			font-family: "Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 			font-weight: 200;
@@ -675,14 +674,14 @@ h2 em, h3 em {
 			line-height: 1.5em;
 		}
 		
-		#ben-terrett .speaker-more { background: url('../images/speakers-ben-terrett.jpg') 0 0 no-repeat; }	
-		#mark-boulton .speaker-more { background: url('../images/speakers-mark-boulton.jpg') 0 0 no-repeat; }	
-		#jenn-lukas .speaker-more { background: url('../images/speakers-jenn-lukas.jpg') 0 0 no-repeat; }	
-		#kutlu-canlioglu .speaker-more { background: url('../images/speakers-kutlu-canlioglu.jpg') 0 0 no-repeat; }	
-		#erik-spiekermann .speaker-more { background: url('../images/speakers-erik-spiekermann.jpg') 0 0 no-repeat; }	
-		#gerry-leonidas .speaker-more { background: url('../images/speakers-gerry-leonidas.jpg') 0 0 no-repeat; }	
-		#nina-stoessinger .speaker-more { background: url('../images/speakers-nina-stoessinger.jpg') 0 0 no-repeat; }	
-		#andy-hume .speaker-more { background: url('../images/speakers-andy-hume.jpg') 0 0 no-repeat; }	
+		#ben-terrett .speaker-more { background: url('../images/speakers-ben-terrett.jpg') 0 0 no-repeat; background-size: contain;  }	
+		#mark-boulton .speaker-more { background: url('../images/speakers-mark-boulton.jpg') 0 0 no-repeat; background-size: contain;  }	
+		#jenn-lukas .speaker-more { background: url('../images/speakers-jenn-lukas.jpg') 0 0 no-repeat; background-size: contain;  }	
+		#kutlu-canlioglu .speaker-more { background: url('../images/speakers-kutlu-canlioglu.jpg') 0 0 no-repeat; background-size: contain;  }	
+		#erik-spiekermann .speaker-more { background: url('../images/speakers-erik-spiekermann.jpg') 0 0 no-repeat; background-size: contain;  }	
+		#gerry-leonidas .speaker-more { background: url('../images/speakers-gerry-leonidas.jpg') 0 0 no-repeat; background-size: contain;  }	
+		#nina-stoessinger .speaker-more { background: url('../images/speakers-nina-stoessinger.jpg') 0 0 no-repeat; background-size: contain;  }	
+		#andy-hume .speaker-more { background: url('../images/speakers-andy-hume.jpg') 0 0 no-repeat; background-size: contain;  }	
 	
 		.speaker-nav {  right: 7%; }	
 	}
