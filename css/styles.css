@@ -749,7 +749,7 @@ h2 em, h3 em {
 }
 	
 	@media only screen and (min-width : 720px) {
-		.sponsorship-pack{ position:absolute; top:98px; right: 7%; width:30%; max-width: 340px; }
+		.sponsorship-pack{ position:absolute; top:128px; right: 7%; width:30%; max-width: 340px; }
 		.main-content .sponsors-page .loud { width:57%; font-size: 1.4em; }
 		.main-content .sponsors-page  p { width:57%; }
 	}
