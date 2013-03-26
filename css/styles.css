@@ -657,7 +657,7 @@ h2 em, h3 em {
 	}
 	
 	@media only screen and (min-width : 720px) {
-		.speaker-nav { top: 36.6%; }
+		.speaker-nav { top: 120px; }
 		.speakers-container{ overflow: hidden; width: 75%; padding-top:1%; }
 		.speaker-copy {float: right; width: 49%;}
 		.speaker-copy h1 { margin-top: -2%; }
