@@ -4,6 +4,9 @@
 <head>
 <meta charset="utf-8" />
 <title>Ampersand 2013 &middot; Schedule</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<script type="text/javascript">
