@@ -43,7 +43,7 @@
 			<li class="li-spk6" ><a id="speaker6" href="/speakers.php#gerry-leonidas">Gerry Leonidas</a><p class="presentation-title">The Newest New Typography</p></li>
 			<li class="li-spk1" ><a id="speaker1" href="/speakers.php#ben-terrett">Ben Terrett</a><p class="presentation-title">Designing GOV.UK</p></li>
 			<li class="li-spk4" ><a id="speaker4" href="/speakers.php#kutlu-canlioglu">Kutlu Çanlıoğlu</a><p class="presentation-title">Designing BBC Worldwide</p></li>
-			<li class="li-spk7" ><a id="speaker7" href="/speakers.php#nina-stossinger">Nina Stössinger</a><p class="presentation-title">Being Ernestine</p></li>
+			<li class="li-spk7" ><a id="speaker7" href="/speakers.php#nina-stoessinger">Nina Stössinger</a><p class="presentation-title">Being Ernestine</p></li>
 			<li class="li-spk3" ><a id="speaker3" href="/speakers.php#jenn-lukas">Jenn Lukas</a><p class="presentation-title">On Icon Fonts &amp; Working with Designers</p></li>
 			<li class="li-spk8" ><a id="speaker8" href="/speakers.php#andy-hume">Andy Hume</a><p class="presentation-title">Web Fonts as a Progressive Enhancement</p></li>
 			<li class="li-spk9" ><a id="speaker9" href="#">Very Special Guest</a><p class="presentation-title">Final Thoughts</p></li>
