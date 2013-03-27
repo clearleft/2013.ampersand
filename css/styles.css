@@ -66,13 +66,13 @@ body {
 	background:url('../images/brighton-bkg.png') center center fixed; 
 	font-size:100%;
 	line-height: 1.5em;
-	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; 
+	font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; 
 	text-align:left;
 	color:#fff;
 }
 
 img {max-width:100%;}
-h1, h2, h3, h4, h5, strong { font-family:"Karmina Bold", Georgia, serif;  font-weight:bold; font-style:normal; color: #fff; font-size:2.25em; letter-spacing: 0.04em;}
+h1, h2, h3, h4, h5, strong { font-family:"Karmina Bold", Cambria, Georgia, serif;  font-weight:bold; font-style:normal; color: #fff; font-size:2.25em; letter-spacing: 0.04em;}
 
 h4 {
 	font-size:1em;
@@ -96,7 +96,7 @@ header#top { width:90%; padding: 0 5%;}
 .conf-title { font-size:2em; line-height: .7em;}
 
 .description { 
-	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; 
+	font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; 
 	letter-spacing:.2em; 
 	font-size:.6em; 
 	text-transform: uppercase; 
@@ -114,7 +114,7 @@ header#top { width:90%; padding: 0 5%;}
 	color: #fff064; 
 	font-size: 3.375em; 
 	line-height: 1;
-	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-family:"Karmina Sans Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 	font-weight:bold; 
 	font-style:normal; 
 	margin: 0 0 3% 0;
@@ -129,7 +129,7 @@ header#top { width:90%; padding: 0 5%;}
 	letter-spacing:.1em;
 	text-transform: uppercase;
 	padding: 4% 0 3%;
-	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:bold;
+	font-family:"Karmina Sans Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:bold;
 }	
 
 .vat { font-size:.4em; letter-spacing: 0em; margin-right:5%; }
@@ -182,7 +182,7 @@ nav#main-nav a {
 	background: rgba(0,0,0,0.8); 
 	font-size: 1.5em;
 	text-transform:uppercase;
-	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:bold;
+	font-family:"Karmina Sans Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:bold;
 }
 
 #nav a { font-weight: bold; }
@@ -196,7 +196,7 @@ nav#main-nav a {
 	height: 53px;
 	width: 44px;
 	text-indent: -2.2em;
-	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
+	font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight:200; 
 	font-style:normal;
 	font-size: .8em;
@@ -286,7 +286,7 @@ body:not(:target) #nav:target #back a {
 		  		height: 50px;
 		  		line-height: 1em;
 		  		padding: 0 1em;
-		  		font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
+		  		font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 		  		font-weight:200; 
 		  		font-style:normal; 
 		  		font-size:1em;
@@ -299,7 +299,7 @@ body:not(:target) #nav:target #back a {
 		  	}
 			
 		  	body:not(:target) #nav li { float: left; text-align:left; width:33%; padding:0 0 10px 0;}
-			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:bold; font-style:normal; }
+			body:not(:target) #nav li a{ padding: 0; 	font-family:"Karmina Sans Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:bold; font-style:normal; }
 			body:not(:target) #nav li.currentpage a { color:#fff064;}
 			.menu-toggle { display:none;}
 			#back{ display: none; }
@@ -358,7 +358,7 @@ body:not(:target) #nav:target #back a {
 }
 
 .main-content h1 { font-size:1.5em; line-height:1.1em; margin:20px 0;  }
-.main-content p { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
+.main-content p { font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:1em; font-weight: 200; line-height:1.4em; }
 .main-content  .presentation-title{ font-size: 0.7em; }
 	@media only screen and (min-width : 580px) {
 		.main-content { padding-top:130px; }
@@ -381,7 +381,7 @@ body:not(:target) #nav:target #back a {
 
 /* FOOTER SECTION */
 .sponsors{ margin:120px 0 0 0; padding: 0 5%; clear:both; }
-.sponsors h2 { font-size: 1em; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; color: #fff064; margin-top: 30px; }
+.sponsors h2 { font-size: 1em; font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; color: #fff064; margin-top: 30px; }
 
 .sponsors img { margin:12px; opacity: 0.8;}
 .sponsors a:hover img {
@@ -403,7 +403,7 @@ footer {
 	background: #fff; 
 	text-align: left; 
 	font-size: 0.8em;
-	font-family:"Karmina Sans Regular", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
+	font-family:"Karmina Sans Regular", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight: 400;
 	color:#555555;
 	overflow:hidden;
@@ -442,7 +442,7 @@ footer a{color:#7EA107;}
 /* #################################################################################################################################### */
 
 .speakers li { font-size: 1.5em; margin-bottom: 18px; }
-.speakers li a { font-family:"Karmina Regular", Georgia, serif;  font-weight:normal; font-style:normal; }
+.speakers li a { font-family:"Karmina Regular", Cambria, Georgia, serif;  font-weight:normal; font-style:normal; }
 .speakers li a img {display: none;}
 
 	@media only screen and (min-width : 580px) {
@@ -499,10 +499,10 @@ footer a{color:#7EA107;}
 .schedule { padding:0; text-align:left; }
 .schedule h1 { padding:0; }
 .schedule-change { text-align: center;}
-.schedule .time { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
-.schedule h3.summary { font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color: #fff;  margin-left:12px; line-height: 1;}
+.schedule .time { font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:.8em; font-weight: 200; color: rgba(255,255,255,0.8); text-align:right; width: 29%; border-right: 1px solid rgba(255,255,255,0.2); padding:0 12px 0 0; }
+.schedule h3.summary { font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color: #fff;  margin-left:12px; line-height: 1;}
 h2 em, h3 em {
-	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200;
+	font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200;
 }
 .schedule-table {margin:60px 0 0 0; width: 100%;}
 .schedule-table td {padding:25px 0}
@@ -531,8 +531,8 @@ h2 em, h3 em {
 
 #conf-location { margin: 20px 0 0 0;}
 #conf-location h2{ font-size:1.5em; margin:0 0 7px 0; }
-#conf-location address { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; color: rgba(255,255,255,0.8);}
-#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
+#conf-location address { font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; color: rgba(255,255,255,0.8);}
+#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 #conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:12px; padding:50px 0 0 0; }
 #conf-location .location-a { background:url('../images/marker-pre-party.png') 0 0px no-repeat;}
 #conf-location .location-b { background:url('../images/marker-conference.png') 0 0px no-repeat;}
@@ -546,8 +546,8 @@ h2 em, h3 em {
 
 .map iframe{ width:100%; height:260px; }	
 
-#sleep-food-net { width: 100%; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; letter-spacing:.03em;}
-#sleep-food-net h4 { font-size:1.5em; font-family:"Karmina Regular", Georgia, serif; font-weight:normal; font-style:normal; margin: 40px 0 20px; }	
+#sleep-food-net { width: 100%; font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; letter-spacing:.03em;}
+#sleep-food-net h4 { font-size:1.5em; font-family:"Karmina Regular", Cambria, Georgia, serif; font-weight:normal; font-style:normal; margin: 40px 0 20px; }	
 #sleep-food-net address { font-size:0.9em; margin: 0 0 30px 0; }
 #sleep-food-net address p { color: rgba(255,255,255,0.6);}	
 
@@ -557,18 +557,13 @@ h2 em, h3 em {
 	@media only screen and (min-width : 550px) {
 		#conf-location { width: 100%; text-align:left; float: left; margin: 0; border-bottom: none;}
 		#conf-location h3{ font-size:1.5em; margin:0 0 7px 0; }
-		#conf-location address { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal;   font-size:0.9em; color: #cccccc;}
-<<<<<<< HEAD
-		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
-		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; background-position-y: 14px; }
-=======
-		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
+		#conf-location address { font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal;   font-size:0.9em; color: #cccccc;}
+		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 	
 		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; }
 		#conf-location .location-a { background:url('../images/marker-pre-party.png') 0 14px no-repeat;}
 		#conf-location .location-b { background:url('../images/marker-conference.png') 0 14px no-repeat;}
 		#conf-location .location-c { background:url('../images/marker-after-party.png') 0 14px no-repeat;}
->>>>>>> tweaks to padding, added link to eventbrite, moved fontloader to header. copy tweaks
 	}
 
 	@media only screen and (min-width : 720px) {
@@ -630,7 +625,7 @@ h2 em, h3 em {
 .speaker-copy h2 { margin:0 0 8px 0; font-size:1.25em; }
 .speaker-copy p{ margin:0 0 22px 0; }	
 	
-.speaker-more { font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;	margin: 2em 0 0 0;}
+.speaker-more { font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; font-size:.8em; letter-spacing:.1em; line-height:1.5em;	margin: 2em 0 0 0;}
 
 
 
@@ -666,7 +661,7 @@ h2 em, h3 em {
 			width: 49%;
 			margin: 0 2% 0 0;
 			padding: 22% 0 0 0;
-			font-family: "Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+			font-family: "Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 			font-weight: 200;
 			font-size: .8em;
 			letter-spacing: .1em;
@@ -718,7 +713,7 @@ h2 em, h3 em {
 /* #################################################################################################################################### */
 
 .main-content .sponsors-page .loud { 
-	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
+	font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight: 200;
 	letter-spacing:0em; 
 	line-height:1.2em; 
@@ -728,18 +723,18 @@ h2 em, h3 em {
 	padding:12px 0;
 }
 .main-content .sponsors-page  p {  
-	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
+	font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight: 200; 
 	text-align: left; 
 	margin: 0 0 25px; 
 	line-height: 1.5em; 
 	padding: 11px 0 0 0; 
 }
-.main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
-.main-content .sponsors-page .loud span{ font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
-.sponsorship-pack { margin: 32px 0; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; }	
+.main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
+.main-content .sponsors-page .loud span{ font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
+.sponsorship-pack { margin: 32px 0; font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; }	
 
-.sponsorship-pack .button small {font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal;}	
+.sponsorship-pack .button small {font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal;}	
 .sponsorship-pack .button span{  margin: 18px 0 0 0px; display:block;}
 
 .sponsorship-pack .button { 
@@ -764,7 +759,7 @@ h2 em, h3 em {
 
 .workshop-item h1{ font-size: 1.5em; margin-top:20px;}
 .workshop-item p{ margin: 2% 0 4%;}
-.workshop-item li{ font-size: .8em; line-height: 1.2em; list-style:square; margin: 0 0 2% 6%; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200;}	
+.workshop-item li{ font-size: .8em; line-height: 1.2em; list-style:square; margin: 0 0 2% 6%; font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200;}	
 .workshop-item .cta {text-align: center; width: 250px; padding: 8px 0; margin-bottom: 60px;}
 
 	@media only screen and (min-width : 720px) {
@@ -812,7 +807,7 @@ h2 em, h3 em {
 /* #################################################################################################################################### */
 	
 .pat h2 { font-size: 1.25em;  margin: 18px 0 7px;}	
-.pat h5 { font-size: 1em; font-family:"Karmina Sans Semi Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; margin: 0 0 7px; }	
+.pat h5 { font-size: 1em; font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; margin: 0 0 7px; }	
 .pat p{ margin-bottom: 18px;}
 
 	@media only screen and (min-width : 720px) {
