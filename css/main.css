@@ -4,7 +4,7 @@
    ========================================================================== */
    
 body {
-	font-family: "Karmina Regular", Cambria, "Times New Roman", serif;
+	font-family: "Karmina Regular", Cambria, Georgia, serif;
 	-moz-font-feature-settings:"onum" 1;
 	-moz-font-feature-settings:"onum=1";
 	-ms-font-feature-settings:"onum" 1;
@@ -21,7 +21,7 @@ header, section, footer {
     transition:opacity 0.3s;
 }
 
-h1, h2 ,h3 {
+h1, h2, h3, .new-york .button {
 	font-family: "Karmina Sans Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
 	font-weight: bold;
 }
@@ -32,20 +32,8 @@ h1, h2 ,h3 {
 	font-weight: normal;
 }
 
-.brighton h1, .clearleft a {
-	font-family: "Karmina Bold", Cambria, "Times New Roman", serif;
-	font-weight: bold;
-}
-
-.brighton .button {
-	font-family:"Karmina Bold Italic", Cambria, "Times New Roman", serif;
-	font-weight: bold;
-	font-style: italic;
-}
-
-.new-york .button {
-	font-family: "Karmina Sans Bold Italic", Corbel, "Lucida Sans Unicode", "Lucida Sans", sans-serif;
-	font-style: italic;
+.brighton h1, .clearleft a, .brighton .button {
+	font-family: "Karmina Bold", Cambria, Georgia, serif;
 	font-weight: bold;
 }
 

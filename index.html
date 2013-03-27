@@ -6,18 +6,22 @@
 		<title>Ampersand 2013 &middot; The Web Typography Conference</title>
 		<meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts." />
 		<meta name="viewport" content="width=device-width; initial-scale=1">
-		<noscript>
-		<link rel="stylesheet" href="//f.fontdeck.com/s/css/zyDGxBT76l/hw9h5tPDD/DiwhiQ/ampersandconf.com/27064.css" type="text/css" />
-        </noscript>
-        
-        <script>
-            var htmlEl = document.getElementsByTagName('html')[0];
-            var htmlClass = ' js wf-loading'
-            htmlEl.className += htmlClass;
-            setTimeout(function() {
-                htmlEl.className = htmlEl.className.replace(' wf-loading', '');
-            }, 5000);
-        </script>		
+		
+		<script type="text/javascript">
+		var html = document.getElementsByTagName('html')[0];
+        html.className = 'js wf-loading';
+        setTimeout(function() {
+            html.className = html.className.replace(' wf-loading', '');
+        }, 3000)
+        WebFontConfig = { fontdeck: { id: 29643 } };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();		
+        </script>
 		
 		<link rel="stylesheet" href="css/main.css">
 		<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
@@ -36,7 +40,7 @@
 				<h1 class="summary">Ampersand 2013</h1>
 				<span class="details"><span class="location">Brighton</span>, <time class="dtstart">28 Jun 2013</time></span>
 				<a class="lanyrd" href="http://lanyrd.com/ckkbp">Lanyrd</a>
-				<a class="button" href="http://2013.ampersandconf.com/"><span>Register Now &middot; See the Line-up</span></a>
+				<a class="button" href="http://2013.ampersandconf.com/"><span>Register Now &ndash; See the Line-up</span></a>
 			</div>
 		</section>
 		
@@ -50,19 +54,8 @@
 		</section>
 		
 		<footer class="clearleft">
-			<p>Presented by <a href="http://clearleft.co.uk">Clearleft</a>, a user experience design consultancy based in Brighton,&nbsp;UK</p>
-		</footer>
-        
-        <script>
-            (function() {
-                WebFontConfig = { fontdeck: { id: 27064 } }
-                var wf = document.createElement('script');
-                wf.src = 'http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'
-                wf.async = 'true';
-                var s = document.getElementsByTagName('head')[0];
-                s.appendChild(wf);
-            })();
-        </script>	
+			<p>Presented by <a href="http://clearleft.com">Clearleft</a>, a user experience design consultancy based in Brighton,&nbsp;UK</p>
+		</footer>	
 		
 	</body>
 
