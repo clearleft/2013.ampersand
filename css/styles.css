@@ -112,20 +112,12 @@ header#top { width:90%; padding: 0 5%;}
 .loc-date { color:#fff; font-size:1em; }
 .price { 
 	color: #fff064; 
-<<<<<<< HEAD
-	font-size: 2.25em; 
-	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-	font-weight:bold; 
-	font-style:normal; 
-	margin: 2% 0 2%;
-=======
 	font-size: 3.375em; 
 	line-height: 1;
 	font-family:"Karmina Sans Bold", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 	font-weight:bold; 
 	font-style:normal; 
 	margin: 0 0 3% 0;
->>>>>>> tweaks to padding, added link to eventbrite, moved fontloader to header. copy tweaks
 }
 	
 .cta {
@@ -391,9 +383,10 @@ body:not(:target) #nav:target #back a {
 .sponsors{ margin:120px 0 0 0; padding: 0 5%; clear:both; }
 .sponsors h2 { font-size: 1em; font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; color: #fff064; margin-top: 30px; }
 
-
-
-.sponsors img { margin:12px; }
+.sponsors img { margin:12px; opacity: 0.8;}
+.sponsors a:hover img {
+	opacity: 1;
+}
 
 .social { position:relative; background-color: rgba(0,0,0, 0.3); padding:23px 0 12px 0; text-align:center; }
 .social h3 { font-size: .9em; letter-spacing:.07em;}
@@ -410,8 +403,8 @@ footer {
 	background: #fff; 
 	text-align: left; 
 	font-size: 0.8em;
-	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
-	font-weight: 200;
+	font-family:"Karmina Sans Regular", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
+	font-weight: 400;
 	color:#555555;
 	overflow:hidden;
 	padding:2% 4% 4% 4%;
@@ -421,11 +414,8 @@ footer a{color:#7EA107;}
 
 .footer-nav { background: rgba(0,0,0, 0.5); width:100%; text-align: center; padding:18px 0 0 0;}
 .footer-nav ul li { 
-	font-family:"Karmina Sans Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
-	font-weight:200;
-	margin: 0 0 18px 0; 
-	font-style:normal; 
-	letter-spacing:.15em; 
+	margin: 0 0 18px 0;
+	letter-spacing:.05em; 
 	font-size:.8em; 
 	}
 

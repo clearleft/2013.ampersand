@@ -94,7 +94,7 @@
 
   		<div class="speaker-copy" >
    		<h1>Typography in Responsive Design</h1>
-   		<p></p>
+   		<p>Drawing on all the tools we currently have at our disposal, Mark will take you through the decisions you can make to make your typography as responsive as your layout.</p>
 
   		<h2>Mark Boulton</h2>
    		<p class="speaker-bio">Mark Boulton is a web designer and author, and member of the ISTD. He is the founder of Mark Boulton Design, and co-founder of indie publisher Five Simple Steps. Sometimes outspoken, always passionate, Mark is obsessed with applying the fundamentals of good typographic design on the web. Mark lives in South Wales with his wife and daughter, a small collection of neglected bonsai and a guitar he wish he owned when he was 18.</p>
