@@ -43,7 +43,7 @@
 		</header>	
 		<div id="conf-location">
 			<div class="location-a">
-				<h2>Pre-Party <em><a href="sponsors">sponsorship available</a></em></h2>
+				<h2>Pre-Party <em><a href="sponsors.php">sponsorship available</a></em></h2>
 				<address>
 					<span class="conf-location-name">Venue tba</span>
 				</address>
@@ -69,7 +69,7 @@
 			
 		<div id="loc-container">
 			<div class="map">
-					<iframe src='http://a.tiles.mapbox.com/v3/mhjallan.map-dcw2v1k0.html#16/50.82172289183965/-0.13665586310013397'></iframe>
+					<iframe src='http://a.tiles.mapbox.com/v3/mhjallan.map-dcw2v1k0.html#15/50.82346178463947/-0.14044046401978338'></iframe>
 			</div>			
 		</div><!-- END #conf-Location -->
 		

@@ -94,6 +94,7 @@ header#top { width:90%; padding: 0 5%;}
 
 .ampersand-logo img{ max-width: 12%; margin: 20px 0 10px; }
 .conf-title { font-size:2em; line-height: .7em;}
+.conf-title a{ color:#fff;}
 
 .description { 
 	font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight:200; font-style:normal; 
@@ -214,8 +215,8 @@ body:not(:target) #nav {
     outline: 0;
     margin: 0;
     padding-top: 50px;
-    position: fixed;
-    top: -6px;
+	position: absolute;
+	top: -362px;
     right: 0;
     left: 0;
     z-index: 1000; 
@@ -274,6 +275,7 @@ body:not(:target) #nav:target #back a {
 				width:90%; 
 				margin: 0 auto; 
 				z-index: 20; 
+				top: -6px;
 				border-bottom: 3px solid rgba(255,255,255,1); 
 				padding:54px 0 1px;
 			}
@@ -381,6 +383,7 @@ body:not(:target) #nav:target #back a {
 
 /* FOOTER SECTION */
 .sponsors{ margin:120px 0 0 0; padding: 0 5%; clear:both; }
+.sponsors h1{ font-size: 1.5em;}
 .sponsors h2 { font-size: 1em; font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; color: #fff064; margin-top: 30px; }
 
 .sponsors img { margin:12px; opacity: 0.8;}
@@ -390,12 +393,15 @@ body:not(:target) #nav:target #back a {
 
 .social { position:relative; background-color: rgba(0,0,0, 0.3); padding:23px 0 12px 0; text-align:center; }
 .social h3 { font-size: .9em; letter-spacing:.07em;}
-.social ul { margin: 0; overflow: hidden; }
-.social ul li a{ float:left; margin:12px 7%; text-indent:-99999px; }
-.social #twitter { background:url('../images/icon-twitter.png') 0 0 no-repeat; width:43px; height:43px; }
-.social #rss { background:url('../images/icon-rss.png') 0 0 no-repeat; width:43px; height:43px; }
-.social #lanyrd { background:url('../images/icon-lanyrd.png') 0 0 no-repeat; width:43px; height:43px; }
-.social #ical { background:url('../images/icon-iCal.png') 0 0 no-repeat; width:43px; height:43px; }		
+.social ul { overflow: hidden;}
+.social ul li { float:left; width: 25%; padding: 21px 0; }
+.social ul li a { padding: 20px 0 30px 60px; font-size:0em; }
+
+.social a#twitter { background:url('../images/icon-twitter.svg') 0px 0px no-repeat; width:49px; height:49px; }
+.social a#rss { background:url('../images/icon-rss.svg') 0px 0px no-repeat; width:49px; height:49px; }
+.social a#lanyrd { background:url('../images/icon-lanyrd.svg') 0px 0px no-repeat; width:49px; height:49px; }
+.social a#ical { background:url('../images/icon-iCal.svg') 0px 0px no-repeat; width:49px; height:49px; }		
+
 .social-subtext { display: none;}	
 
 footer { 
@@ -422,7 +428,7 @@ footer a{color:#7EA107;}
 	@media only screen and (min-width : 720px) {
 	
 		.sponsors{  padding: 0 7%; }
-		.social ul li a{ text-indent:60px; padding:12px 0 0 0; margin: 12px 9%;}
+		.social ul li a { padding: 20px 0 30px 60px; font-size:1em; }
 		.footer-nav { padding: 18px 0;}
 		.footer-nav ul li { display: inline; margin: 0 15px; }
 	
@@ -433,8 +439,12 @@ footer a{color:#7EA107;}
 	}
 
 	@media only screen and (min-width : 1220px) {
-		
-		.social ul li a{ margin: 12px 10.5%;}
+			.social-subtext { display: block;}
+			.social a#twitter .social-subtext { margin: -9px 0 0 80px; font-size: .9em;}
+			.social a#rss .social-subtext { margin: -9px 0 0 80px; font-size: .9em;}
+			.social a#lanyrd .social-subtext { margin: -9px 0 0 80px; font-size: .9em;}
+			.social a#ical .social-subtext { margin: -9px 0 0 80px; font-size: .9em;}
+			.sponsors h1{ font-size: 2.25em;}
 	}
 
 /* #################################################################################################################################### */ 
@@ -561,9 +571,9 @@ h2 em, h3 em {
 		#conf-location address .conf-location-name, #sleep-food-net address .conf-location-name {font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color:#fff;}
 	
 		#conf-location .location-a, #conf-location .location-b, #conf-location .location-c { margin-bottom:55px; padding:20px 0 0 52px; }
-		#conf-location .location-a { background:url('../images/marker-pre-party.png') 0 14px no-repeat;}
-		#conf-location .location-b { background:url('../images/marker-conference.png') 0 14px no-repeat;}
-		#conf-location .location-c { background:url('../images/marker-after-party.png') 0 14px no-repeat;}
+		#conf-location .location-a { background:url('../images/marker-pre-party.svg') 0 14px no-repeat;}
+		#conf-location .location-b { background:url('../images/marker-conference.svg') 0 14px no-repeat;}
+		#conf-location .location-c { background:url('../images/marker-after-party.svg') 0 14px no-repeat;}
 	}
 
 	@media only screen and (min-width : 720px) {

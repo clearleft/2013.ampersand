@@ -2,9 +2,9 @@
 	<a id="jump" href="#nav">menu</a>
 	
 	<div class="ampersand-logo">
-		<img src="images/ampersand-logo.png" alt="ampersand-logo" />
+		<a id="home-link" href="/"><img src="images/ampersand-logo.svg" alt="ampersand-logo" /></a>
 	</div>
-	<h2 class="conf-title">Ampersand 2013</h2>
+	<h2 class="conf-title"><a id="home-link" href="/">Ampersand 2013</a></h2>
 	<p class="description">The Web Typography Conference</p>
 			
 	<div class="tickets">
