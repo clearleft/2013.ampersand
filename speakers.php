@@ -103,7 +103,7 @@
   		<div class="speaker-more">
   	 		  	 		<ul>
   	 			<li><a href="http://www.twitter.com/markboulton">@markboulton</a></li>
-  	 			<li><a href="www.markboulton.co.uk">www.markboulton.co.uk</a></li>
+  	 			<li><a href="http://www.markboulton.co.uk">www.markboulton.co.uk</a></li>
   	 		</ul>
   	 	</div><!-- END MORE-BIO -->
   </section><!-- ########  END SPEAKER ###### -->
@@ -115,7 +115,8 @@
   		<p></p>
 
  		<h2>Gerry Leonidas</h2>
-  		<p class="speaker-bio">Gerry is a consultant and Senior Lecturer of typography and typeface design at the University of Reading. His consultancy focuses on typeface design and typography with particular expertise in Greek typography. Gerry’s perspective is one of placing typography in a wider context, helping designers develop an understanding of the basic principles, and gain an insight into the potential for originality. </p>
+ 		<p>It takes four seconds to make up your mind about a typeface, and about eight minutes to explain why, in detail. It takes about ten years, give or take a couple, to figure out why all the print typographers moan that there's more to Good Typography than a nice typeface; they'd say it would take as much to explain the whole thing. Gerry will attempt to do it in 44 minutes, leaving just enough time for a joke about old typographers.</p>
+  		<p class="speaker-bio">Gerry Leonidas is a Senior Lecturer in Typography at the University of Reading. He teaches, supervises, and lectures on typography, typeface design, and typographic education. The rest of his time is taken with enterprise and consultancy projects, and a fair amount of pushing paper. He is mostly associated with the MA Typeface Design course, for which he is the Programme Director.</p>
   	</div>	<!-- END SPEAKER-BIO -->
 
  	<div class="speaker-more">
