@@ -72,7 +72,7 @@
 		
 		<div id="wrk3" class="workshop-item">
 			<h1>Letterpress Workshop with Lionel&nbsp;Perks</h1>
-			<p>Take a trip back to an analogue age. The half-day letterpress workshops at Magpie Press are designed to replicate the exact working practice of the letterpress printer. The workshop are project-based &ndash; you&#8217;ll learn how to print a poster and be able take home the results &ndash; and intimate with only two attendees at a time. You&#8217;ll be working with original wooden fonts and lead type under the tuition and supervision of local printing legend, Lionel Perks.</p>
+			<p>Take a trip back to an analogue age. The half-day letterpress workshops at Magpie Press are designed to replicate the exact working practice of the letterpress printer. The workshops are project-based and intimate &ndash; you&#8217;ll work with only two attendees at a time, learn how to print a poster, and be able take home the results. You&#8217;ll be working with original wooden fonts and lead type under the tuition and supervision of local printing legend, Lionel Perks.</p>
 
 			
 			<h4>Dates</h4>

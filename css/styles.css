@@ -476,7 +476,7 @@ footer a{color:#7EA107;}
 		#speaker6 { background:url('../images/speakers-gerry-leonidas.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker7 { background:url('../images/speakers-nina-stoessinger.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker8 { background:url('../images/speakers-andy-hume.jpg')  0 0 no-repeat; background-size: contain; }
-		#speaker9 { background:url('../images/speaker-avatar.jpg')  0 0 no-repeat; background-size: contain; }
+		#speaker9 { background:url('../images/speakers-christian-schwartz.jpg')  0 0 no-repeat; background-size: contain; }
 		#speaker1, #speaker3, #speaker5, #speaker7, #speaker9 { margin-right:0%; }
 		
 	}
@@ -689,6 +689,7 @@ h2 em, h3 em {
 		#gerry-leonidas .speaker-more { background: url('../images/speakers-gerry-leonidas.jpg') 0 0 no-repeat; background-size: contain;  }	
 		#nina-stoessinger .speaker-more { background: url('../images/speakers-nina-stoessinger.jpg') 0 0 no-repeat; background-size: contain;  }	
 		#andy-hume .speaker-more { background: url('../images/speakers-andy-hume.jpg') 0 0 no-repeat; background-size: contain;  }	
+		#christian-schwartz .speaker-more { background: url('../images/speakers-christian-schwartz.jpg') 0 0 no-repeat; background-size: contain;  }	
 	
 		.speaker-nav {  right: 7%; }	
 	}

@@ -112,10 +112,9 @@
 
  	<div class="speaker-copy" >
   		<h1>The Newest New Typography</h1>
-  		<p></p>
+ 		<p>It takes four seconds to make up your mind about a typeface, and about eight minutes to explain why, in detail. It takes about ten years, give or take a couple, to figure out why all the print typographers moan that there's more to Good Typography than a nice typeface; they'd say it would take as much to explain the whole thing. Gerry will attempt to do it in 44 minutes, leaving just enough time for a joke about old typographers.</p>
 
  		<h2>Gerry Leonidas</h2>
- 		<p>It takes four seconds to make up your mind about a typeface, and about eight minutes to explain why, in detail. It takes about ten years, give or take a couple, to figure out why all the print typographers moan that there's more to Good Typography than a nice typeface; they'd say it would take as much to explain the whole thing. Gerry will attempt to do it in 44 minutes, leaving just enough time for a joke about old typographers.</p>
   		<p class="speaker-bio">Gerry Leonidas is a Senior Lecturer in Typography at the University of Reading. He teaches, supervises, and lectures on typography, typeface design, and typographic education. The rest of his time is taken with enterprise and consultancy projects, and a fair amount of pushing paper. He is mostly associated with the MA Typeface Design course, for which he is the Programme Director.</p>
   	</div>	<!-- END SPEAKER-BIO -->
 
@@ -123,7 +122,7 @@
   		  		<ul>
   			<li><a href="http://www.twitter.com/@gerryleonidas">@gerryleonidas</a></li>
 			<li><a href="http://www.twitter.com/@typefacedesign">@typefacedesign</a></li>
-  			<li><a href="http://leonidas.org/">leonidas.org/</a></li>
+  			<li><a href="http://leonidas.org/">leonidas.org</a></li>
   		</ul>
   	</div><!-- END MORE-BIO -->
  </section><!-- ########  END SPEAKER ###### -->
@@ -142,7 +141,7 @@
  		<div class="speaker-more">
  	 		 	 		<ul>
  	 			<li><a href="http://www.twitter.com/@ben_terret">@ben_terret</a></li>
- 	 			<li><a href="http://www.benterrett.com">www.benterrett.com</a></li>
+ 	 			<li><a href="http://www.benterrett.com">BenTerrett.com</a></li>
 				<li><a href="http://noisydecentgraphics.typepad.com/">noisydecentgraphics.typepad.com</a></li>
  	 		</ul>
  	 	</div><!-- END MORE-BIO -->
@@ -179,7 +178,7 @@
    	<div class="speaker-more">
     		    		<ul>
     			<li><a href="http://www.twitter.com/@ninastoessinger">@ninastoessinger</a></li>
-    			<li><a href="http://ninastoessinger.com">ninastoessinger.com</a></li>
+    			<li><a href="http://ninastoessinger.com">NinaStoessinger.com</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
    </section><!-- ########  END SPEAKER ###### -->
@@ -199,7 +198,7 @@
    	<div class="speaker-more">
     		    		<ul>
     			<li><a href="http://www.twitter.com/@andyhume">@andyhume</a></li>
-    			<li><a href="http://andyhume.net/">andyhume.net</a></li>
+    			<li><a href="http://andyhume.net/">AndyHume.net</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
    </section><!-- ########  END SPEAKER ###### -->
@@ -218,10 +217,28 @@
 	<div class="speaker-more">
  		 		<ul>
  			<li><a href="http://www.twitter.com/@jennlukas">@jennlukas</a></li>
- 			<li><a href="http://jennlukas.com/">Jennlukas.com/</a></li>
+ 			<li><a href="http://jennlukas.com/">JennLukas.com</a></li>
  		</ul>
  	</div><!-- END MORE-BIO -->
 </section><!-- ########  END SPEAKER ###### -->
+
+  <section class="speakers-container" id="christian-schwartz">
+
+ 	<div class="speaker-copy" >
+  		<h1>Final Thoughts</h1>
+
+ 		<h2>Christian Schwartz</h2>
+  		<p class="speaker-bio">Christian Schwartz is a type designer and typography consultant. Christian is one half of Commercial Type, a joint venture with Paul Barnes, with whom he has collaborated since 2004 on various typeface projects, most notably the award winning Guardian Egyptian.</p>
+  		
+  	</div>	<!-- END SPEAKER-BIO -->
+
+ 	<div class="speaker-more">
+  		  		<ul>
+  			<li><a href="http://www.twitter.com/@commercialtype">@commercialtype</a></li>
+  			<li><a href="http://commercialtype.com/">CommercialType.com</a></li>
+  		</ul>
+  	</div><!-- END MORE-BIO -->
+ </section><!-- ########  END SPEAKER ###### -->
 
 	<div class="speaker-nav">
 		<h2>Speakers &amp; Sessions</h2>
@@ -234,6 +251,7 @@
 			<li><a href="#nina-stoessinger">Nina Stössinger</a></li>
 			<li><a href="#andy-hume">Andy Hume</a></li>
 			<li><a href="#jenn-lukas">Jenn Lukas</a></li>
+			<li><a href="#christian-schwartz">Christian Schwartz</a></li>
 		</ul>
 	</div><!-- END SPEAKER-NAV -->
 

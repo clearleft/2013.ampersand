@@ -145,7 +145,7 @@
                     <th class="time"><time class="dtstart" title="2013-06-28T17:00:00">17.00</time> &ndash; <time class="dtend" title="2013-06-28T17:45:00">17.45</time></th>
                     <td>
 						<h3 class="summary">Final Thoughts</h3>
-                    	<p class="vcard"><a href="/speakers.php" class="fn url">Very special guest</a></p>
+                    	<p class="vcard"><a href="/speakers.php#christian-schwartz" class="fn url">Christian Schwartz</a></p>
                     </td>
                 </tr>
 				<tr class="vevent">
