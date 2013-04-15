@@ -106,21 +106,31 @@
                 </tr>
 
                 <tr class="vevent">
-                    <th class="time"><time class="dtstart" title="2013-06-28T14:15:00">14.15</time> &ndash; <time class="dtend" title="2013-06-28T15:45:00">15.15</time></th>
+                    <th class="time"><time class="dtstart" title="2013-06-28T14:15:00">14.15</time> &ndash; <time class="dtend" title="2013-06-28T14:45:00">14.45</time></th>
                     <td>
                     	<h3 class="summary">Designing GOV.UK</h3>
-                		<p class="vcard"><a href="/speakers.php#ben-terrett" class="fn url">Ben Terrett</a></p>
-                		
+                		<p class="vcard"><a href="/speakers.php#ben-terrett" class="fn url">Ben Terrett</a> &amp; <a href="/speakers.php#chris-heathcote" class="fn url">Chris Heathcote</a></p>
+                    </td>
+                </tr>
+
+                <tr class="vevent">
+                    <th class="time"><time class="dtstart" title="2013-06-28T14:45:00">14.45</time> &ndash; <time class="dtend" title="2013-06-28T15:05:00">15.05</time></th>
+                    <td>
                 		<h3 class="summary">Designing BBC Worldwide</h3>
                 		<p class="vcard"><a href="/speakers.php#kutlu-canlioglu" class="fn url">Kutlu Çanlıoğlu</a></p>
-                		
+                    </td>
+                </tr>
+
+                <tr class="vevent">
+                    <th class="time"><time class="dtstart" title="2013-06-28T14:15:05">15.05</time> &ndash; <time class="dtend" title="2013-06-28T15:25:00">15.25</time></th>
+                    <td>
                 		<h3 class="summary">Being Ernestine</h3>
                 		<p class="vcard"><a href="/speakers.php#nina-stoessinger" class="fn url">Nina Stössinger</a></p>
                     </td>
                 </tr>
 
                 <tr class="vevent">
-                    <th class="time"><time class="dtstart" title="2013-06-28T15:15:00">15.15</time> &ndash; <time class="dtend" title="2013-06-28T15:45:00">15.45</time></th>
+                    <th class="time"><time class="dtstart" title="2013-06-28T15:25:00">15.25</time> &ndash; <time class="dtend" title="2013-06-28T15:55:00">15.50</time></th>
                     <td>
                     	<h3 class="summary">Web Fonts as a Progressive Enhancement</h3>
                     	<p class="vcard"><a href="/speakers.php#andy-hume" class="fn url">Andy Hume</a></p>
@@ -128,7 +138,7 @@
                 </tr>
 
                 <tr class="vevent break">
-                    <th class="time"><time class="dtstart" title="2013-06-28T15:45:00">15.45</time> &ndash; <time class="dtend" title="2013-06-28T16:15:00">16.15</time></th>
+                    <th class="time"><time class="dtstart" title="2013-06-28T15:50:00">15.50</time> &ndash; <time class="dtend" title="2013-06-28T16:15:00">16.15</time></th>
                     <td>
                			<h3 class="summary">Break <em>sponsored by Hoefler &amp; Frere-Jones</em></h3>
                    	</td>
