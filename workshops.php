@@ -50,7 +50,7 @@
 			<h4>Location</h4>
 			<p>Lighthouse, 28 Kensington St, Brighton, BN1 4AJ</p>
 			<h4>Price</h4>
-			<p>only <strong>&pound;499</strong> including <abbr title="Value Added Tax @20%">VAT</abbr></p>
+			<p>only <del>&pound;499</del> <strong>&pound;399</strong> including <abbr title="Value Added Tax @20%">VAT</abbr> (<em>&pound;100 off until 25th May</em>)</p>
 			<p><a href="http://www.eventbrite.co.uk/event/5977664355" class="cta">Register Now</a></p>
 			
 		</div>
@@ -64,7 +64,7 @@
 			<h4>Location</h4>
 			<p>Lighthouse, 28 Kensington St, Brighton, BN1 4AJ</p>
 			<h4>Price</h4>
-			<p>only <strong>&pound;499</strong> including <abbr title="Value Added Tax @20%">VAT</abbr></p>
+			<p>only <del>&pound;499</del> <strong>&pound;399</strong> including <abbr title="Value Added Tax @20%">VAT</abbr> (<em>&pound;100 off until 25th May</em>)</p>
 
 			<p><a href="http://www.eventbrite.co.uk/event/5977513905" class="cta">Register Now</a></p>
 			
