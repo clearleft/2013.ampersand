@@ -116,7 +116,7 @@
                 <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2013-06-28T14:45:00">14.45</time> &ndash; <time class="dtend" title="2013-06-28T15:05:00">15.05</time></th>
                     <td>
-                		<h3 class="summary">Designing BBC Worldwide</h3>
+                		<h3 class="summary">Designing BBC World Service</h3>
                 		<p class="vcard"><a href="/speakers.php#kutlu-canlioglu" class="fn url">Kutlu Çanlıoğlu</a></p>
                     </td>
                 </tr>

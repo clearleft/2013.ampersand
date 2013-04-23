@@ -150,7 +150,7 @@
     <section class="speakers-container" id="kutlu-canlioglu">
 
    	<div class="speaker-copy" >
-    		<h1>Designing BBC Worldwide</h1>
+    		<h1>Designing BBC World Service</h1>
     		<p></p>
 
    		<h2>Kutlu Çanlıoğlu</h2>
