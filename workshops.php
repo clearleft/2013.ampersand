@@ -38,7 +38,8 @@
 	 <?php include("includes/nav.php"); ?>
 	 <section class="section workshops">
 		<h1>Workshops</h1>
-		<p class="subheading">This year we are running workshops in <a href="#wrk1">grid systems</a>, <a href="#wrk2">responsive design</a> and <a href="#wrk3">letterpress</a>. All workshop attendees receive complimentary entrance to the Ampersand conference.</p>
+		<p class="subheading">This year we are running workshops in <a href="#wrk1">grid systems</a>, <a href="#wrk2">responsive design</a> and <a href="#wrk3">letterpress</a>.</p>
+		<p><em>All workshop attendees receive complimentary entrance to the Ampersand conference.</em></p>
 		<div id="wrk1" class="workshop-item">
 			<h1>Designing Grid Systems with Mark&nbsp;Boulton</h1>
 			<p>The way we make websites has changed. Responsive design has challenged the way we think about layout and their underpinning foundation: grid systems. In this workshop, Mark will take it right back to basics on how to design your grids, what things you need to consider for designing grids for different applications and devices, and how we can practically start working &#8216;content out&#8217;.</p>
