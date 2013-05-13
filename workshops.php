@@ -37,7 +37,7 @@
 	 
 	 <?php include("includes/nav.php"); ?>
 	 <section class="section workshops">
-		<h1>Workshops</h1>
+		<h1>Workshops <em>currently 20% off!</em></h1>
 		<p class="subheading">This year we are running workshops in <a href="#wrk1">grid systems</a>, <a href="#wrk2">responsive design</a> and <a href="#wrk3">letterpress</a>.</p>
 		<p><em>All workshop attendees receive complimentary entrance to the Ampersand conference.</em></p>
 		<div id="wrk1" class="workshop-item">
@@ -51,7 +51,7 @@
 			<h4>Location</h4>
 			<p>Lighthouse, 28 Kensington St, Brighton, BN1 4AJ</p>
 			<h4>Price</h4>
-			<p>only <del>&pound;499</del> <strong>&pound;399</strong> including <abbr title="Value Added Tax @20%">VAT</abbr> (<em>&pound;100 off until 25th May</em>)</p>
+			<p>only <del>&pound;499</del> <strong>&pound;399</strong> including <abbr title="Value Added Tax @20%">VAT</abbr> (<em>&pound;100 off until 31st May</em>)</p>
 			<p><a href="http://www.eventbrite.co.uk/event/5977664355" class="cta">Register Now</a></p>
 			
 		</div>
@@ -65,7 +65,7 @@
 			<h4>Location</h4>
 			<p>Lighthouse, 28 Kensington St, Brighton, BN1 4AJ</p>
 			<h4>Price</h4>
-			<p>only <del>&pound;499</del> <strong>&pound;399</strong> including <abbr title="Value Added Tax @20%">VAT</abbr> (<em>&pound;100 off until 25th May</em>)</p>
+			<p>only <del>&pound;499</del> <strong>&pound;399</strong> including <abbr title="Value Added Tax @20%">VAT</abbr> (<em>&pound;100 off until 31st May</em>)</p>
 
 			<p><a href="http://www.eventbrite.co.uk/event/5977513905" class="cta">Register Now</a></p>
 			
