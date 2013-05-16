@@ -242,7 +242,7 @@
  	<div class="speaker-more">
   		  		<ul>
   			<li><a href="http://www.twitter.com/@commercialtype">@commercialtype</a></li>
-  			<li><a href="http://commercialtype.com/">CommercialType.com</a></li>
+  			<li><a href="http://www.christianschwartz.com/">ChristianSchwartz.com</a></li>
   		</ul>
   	</div><!-- END MORE-BIO -->
  </section>
