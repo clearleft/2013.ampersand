@@ -109,7 +109,7 @@
                     <th class="time"><time class="dtstart" title="2013-06-28T14:15:00">14.15</time> &ndash; <time class="dtend" title="2013-06-28T14:45:00">14.45</time></th>
                     <td>
                     	<h3 class="summary">Designing GOV.UK</h3>
-                		<p class="vcard"><a href="/speakers.php#ben-terrett" class="fn url">Ben Terrett</a> &amp; <a href="/speakers.php#chris-heathcote" class="fn url">Chris Heathcote</a></p>
+                		<p class="vcard"><a href="/speakers.php#ben-terrett" class="fn url">Ben Terrett &amp; Chris Heathcote</a></p>
                     </td>
                 </tr>
 

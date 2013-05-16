@@ -106,7 +106,7 @@
   	 			<li><a href="http://www.markboulton.co.uk">www.markboulton.co.uk</a></li>
   	 		</ul>
   	 	</div><!-- END MORE-BIO -->
-  </section><!-- ########  END SPEAKER ###### -->
+  </section>
 
   <section class="speakers-container" id="gerry-leonidas">
 
@@ -125,10 +125,10 @@
   			<li><a href="http://leonidas.org/">leonidas.org</a></li>
   		</ul>
   	</div><!-- END MORE-BIO -->
- </section><!-- ########  END SPEAKER ###### -->
+ </section>
 
 
-	 <section class="speakers-container"  id="ben-terrett">
+	 <section class="speakers-container" id="ben-terrett">
 
  		<div class="speaker-copy" >
 	 		<h1>Designing GOV.UK</h1>
@@ -136,16 +136,23 @@
 
 			<h2>Ben Terrett</h2>
 	 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet Office for the UK Government. Before that he was Design Director at Wieden & Kennedy London. In 2010 Ben won the Graphics category in the Design Museum&#8217;s Designs Of The Year Awards. Ben has spoken about design on Radio 4&#8217;s Today programme and has been a D&amp;AD judge several times.</p>
+
+			<h2>Chris Heathcote</h2>
+	 		<p class="speaker-bio">Chris is creative lead at GDS. He’s one of the most inspirational thinkers in the UK design community, and talks passionately about the intersection between the digital and the physical worlds.</p>
 	 	</div>	<!-- END SPEAKER-BIO -->
 
  		<div class="speaker-more">
  	 		 	 		<ul>
- 	 			<li><a href="http://www.twitter.com/@ben_terret">@ben_terret</a></li>
+ 	 			<li><a href="http://www.twitter.com/@benterrett">@benterrett</a></li>
  	 			<li><a href="http://www.benterrett.com">BenTerrett.com</a></li>
 				<li><a href="http://noisydecentgraphics.typepad.com/">noisydecentgraphics.typepad.com</a></li>
  	 		</ul>
+ 	 		 	 		<ul>
+ 	 			<li><a href="http://www.twitter.com/@antimega">@antimega</a></li>
+ 	 			<li><a href="http://anti-mega.com/">anti-mega.com</a></li>
+ 	 		</ul>
  	 	</div><!-- END MORE-BIO -->
-	</section><!-- ########  END SPEAKER ###### -->
+	</section>
 
     <section class="speakers-container" id="kutlu-canlioglu">
 
@@ -162,7 +169,7 @@
     			<li><a href="http://www.twitter.com/@kutluc">@kutluc</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
-   </section><!-- ########  END SPEAKER ###### -->
+   </section>
 
 
     <section class="speakers-container" id="nina-stoessinger">
@@ -181,7 +188,7 @@
     			<li><a href="http://ninastoessinger.com">NinaStoessinger.com</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
-   </section><!-- ########  END SPEAKER ###### -->
+   </section>
 
 
 
@@ -201,7 +208,7 @@
     			<li><a href="http://andyhume.net/">AndyHume.net</a></li>
     		</ul>
     	</div><!-- END MORE-BIO -->
-   </section><!-- ########  END SPEAKER ###### -->
+   </section>
 
 
  <section class="speakers-container" id="jenn-lukas">
@@ -220,7 +227,7 @@
  			<li><a href="http://jennlukas.com/">JennLukas.com</a></li>
  		</ul>
  	</div><!-- END MORE-BIO -->
-</section><!-- ########  END SPEAKER ###### -->
+</section>
 
   <section class="speakers-container" id="christian-schwartz">
 
@@ -238,7 +245,7 @@
   			<li><a href="http://commercialtype.com/">CommercialType.com</a></li>
   		</ul>
   	</div><!-- END MORE-BIO -->
- </section><!-- ########  END SPEAKER ###### -->
+ </section>
 
 	<div class="speaker-nav">
 		<h2>Speakers &amp; Sessions</h2>
@@ -246,7 +253,7 @@
 			<li><a href="#erik-spiekermann">Erik Spiekermann</a></li>
 			<li><a href="#mark-boulton">Mark Boulton</a></li>
 			<li><a href="#gerry-leonidas">Gerry Leonidas</a></li>
-			<li><a href="#ben-terrett">Ben Terrett</a></li>
+			<li><a href="#ben-terrett">Ben Terrett &amp; Chris&nbsp;Heathcote</a></li>
 			<li><a href="#kutlu-canlioglu">Kutlu Çanlıoğlu</a></li>
 			<li><a href="#nina-stoessinger">Nina Stössinger</a></li>
 			<li><a href="#andy-hume">Andy Hume</a></li>
