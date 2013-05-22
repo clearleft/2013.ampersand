@@ -14,16 +14,17 @@
 					<h2><span>Executive Sponsors</span></h2>
 					<a href="http://typekit.com"><img src="images/sponsors-typekit.svg" alt="Typekit"></a>
 					<a href="http://typography.com"><img src="images/sponsors-hoefler-frere-jones.svg" alt="Hoefler &amp; Frere-Jones" style="position:relative; top:5px"></a>
-					<a href="http://gridsetapp.com/"><img src="images/sponsors-gridset.svg" alt="Gridset" style="position:relative; top:-30px"></a>		
+					<a href="http://gridsetapp.com/"><img src="images/sponsors-gridset.svg" alt="Gridset" style="position:relative; top:-30px"></a>	
+					<a href="http://myfonts.com"><img src="images/sponsors-myfonts.png" alt="MyFonts Web" style="width:170px; height:84px"></a>	
+				</div>
+				<div class="media-partners">
+					<h2><span>Media Partners</span></h2>	
+					<a href="http://www.fivesimplesteps.com/"><img src="images/sponsors-five-simple-steps.svg" alt="Five Simple Steps" style="background:#fff"></a>				
+					<a href="http://www.eyemagazine.com/"><img src="images/sponsors-eye.svg" alt="Eye Magazine"></a>
 				</div>
 				<div class="grass-roots">
 					<h2><span>Grass Roots Sponsors</span></h2>
 					<a href="http://type-together.com"><img src="images/sponsors-type-together.png" alt="TypeTogether"></a>
-				</div>
-				<div class="media-partners">
-					<h2><span>Media Partners</span></h2>
-					<a href="http://www.eyemagazine.com/"><img src="images/sponsors-eye.svg" alt="Eye Magazine"></a>	
-					<a href="http://www.fivesimplesteps.com/"><img src="images/sponsors-five-simple-steps.svg" alt="Five Simple Steps" style="position:relative; top:-12px; background:#fff"></a>				
 				</div>
 			</div>
 		</section>
