@@ -176,10 +176,10 @@
 
    	<div class="speaker-copy" >
     		<h1>Being Ernestine</h1>
-    		<p></p>
+    		<p>What does it mean to design a professional typeface? Nina will tell the short tale of the long journey towards completing her first typeface design; a musing on fun and frustration, on learning to draw and learning to see, on passion and perseverance – on being earnest, and making FF Ernestine.</p>
 
    		<h2>Nina Stössinger</h2>
-    		<p class="speaker-bio">Nina is a self-employed designer based in Basel, where she works in graphic and web design, typography and book design. Nina also teaches screen typography at FH Dresden and is a contributor to We Love Typography. Her nights and weekends are often spent working on her own type projects, resulting in the release of her first commercial typeface in 2011.</p>
+    		<p class="speaker-bio">Nina originally started out as a web designer, discovered her love of type at design school, and has since been working mostly in graphic design, typography, and book design. Nina often speaks and writes about screen typography, including teaching an introductory class at FH Dresden. Most frequently her nights and weekends are spent working on typeface designs, resulting in the release of her first commercial typeface in 2011.</p>
     	</div>	<!-- END SPEAKER-BIO -->
 
    	<div class="speaker-more">
@@ -232,7 +232,7 @@
   <section class="speakers-container" id="christian-schwartz">
 
  	<div class="speaker-copy" >
-  		<h1>Final Thoughts</h1>
+  		<h1>Webfonts are Just Fonts</h1>
 
  		<h2>Christian Schwartz</h2>
   		<p class="speaker-bio">Christian Schwartz is a type designer and typography consultant. Christian is one half of Commercial Type, a joint venture with Paul Barnes, with whom he has collaborated since 2004 on various typeface projects, most notably the award winning Guardian Egyptian.</p>

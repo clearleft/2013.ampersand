@@ -52,7 +52,7 @@
 			<li class="li-spk7" ><a id="speaker7" href="/speakers.php#nina-stoessinger">Nina Stössinger</a><p class="presentation-title">Being Ernestine</p></li>
 			<li class="li-spk3" ><a id="speaker3" href="/speakers.php#jenn-lukas">Jenn Lukas</a><p class="presentation-title">On Icon Fonts &amp; Working with Designers</p></li>
 			<li class="li-spk8" ><a id="speaker8" href="/speakers.php#andy-hume">Andy Hume</a><p class="presentation-title">Web Fonts as a Progressive Enhancement</p></li>
-			<li class="li-spk9" ><a id="speaker9" href="/speakers.php#christian-schwartz">Christian Schwartz</a><p class="presentation-title">Final Thoughts</p></li>
+			<li class="li-spk9" ><a id="speaker9" href="/speakers.php#christian-schwartz">Christian Schwartz</a><p class="presentation-title">Webfonts are Just Fonts</p></li>
 
 		</ul>
 		<div class="clearfix">
