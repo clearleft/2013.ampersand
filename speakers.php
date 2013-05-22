@@ -135,7 +135,7 @@
 	 		<p></p>
 
 			<h2>Ben Terrett</h2>
-	 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet Office for the UK Government. Before that he was Design Director at Wieden & Kennedy London. In 2010 Ben won the Graphics category in the Design Museum&#8217;s Designs Of The Year Awards. Ben has spoken about design on Radio 4&#8217;s Today programme and has been a D&amp;AD judge several times.</p>
+	 		<p class="speaker-bio">Ben is Head of Design at the Government Digital Service, in the Cabinet Office for the UK Government where GOV.UK has just won Design of the Year at the Design Museum Awards. Before that he was Design Director at Wieden &amp; Kennedy London. Ben has spoken about design on Radio 4’s Today programme and has been a D&amp;AD judge several times.</p>
 
 			<h2>Chris Heathcote</h2>
 	 		<p class="speaker-bio">Chris is creative lead at GDS. He’s one of the most inspirational thinkers in the UK design community, and talks passionately about the intersection between the digital and the physical worlds.</p>
