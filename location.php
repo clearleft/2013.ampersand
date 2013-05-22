@@ -43,7 +43,7 @@
 		</header>	
 		<div id="conf-location">
 			<div class="location-a">
-				<h2>Pre-Party <em><a href="sponsors.php">sponsorship available</a></em></h2>
+				<h2>Pre-Party <em>hosted&nbsp;by&nbsp;MyFonts</em></h2>
 				<address>
 					<span class="conf-location-name">Venue tba</span>
 				</address>
@@ -58,7 +58,7 @@
 			</div>
 		
 			<div class="location-c">
-				<h2 >After Party <em>hosted by Typekit</em></h2>
+				<h2 >After Party <em>hosted&nbsp;by&nbsp;Typekit</em></h2>
 				<address>
 					<span class="conf-location-name">The Loft</span><br />
 					10 Ship Street, Brighton, BN1 1AD, UK
@@ -75,7 +75,7 @@
 		
 		<div id="city-info">
 			<h3>Getting Here</h3>
-			<p>The nearest airport is London Gatwick; Brighton is only 30 minutes away by train. London itself is only 55 minutes away on the train.</p>
+			<p>Brighton is only 30 minutes by train from London Gatwick airport. London itself is only 55 minutes by train.</p>
 			<h3>Accommodation</h3>
 			<p>Latest information is available from <a href="http://visitbrighton.com/accommodation">visitbrighton.com</a></p>
 		</div><!-- END #city-info -->			

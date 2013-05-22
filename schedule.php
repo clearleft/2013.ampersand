@@ -50,7 +50,7 @@
                 <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2013-06-27T19:30:00">Thurs 19.30</time> </th>
                     <td>
-                    	<h3 class="summary">Pre-Party</h3>
+                    	<h3 class="summary">Pre-Party <em>hosted by MyFonts</em></h3>
                     	<p class="vcard"><a href="/location" class="fn" >Venue tba</a></p>
                     </td>
                 </tr>
