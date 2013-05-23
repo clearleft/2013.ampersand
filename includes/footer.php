@@ -12,10 +12,10 @@
 				</div>
 				<div class="executive">
 					<h2><span>Executive Sponsors</span></h2>
-					<a href="http://typekit.com"><img src="images/sponsors-typekit.svg" alt="Typekit"></a>
+					<a href="http://typekit.com"><img src="images/sponsors-typekit.svg" alt="Typekit" style="position:relative; top:-7px"></a>
 					<a href="http://typography.com"><img src="images/sponsors-hoefler-frere-jones.svg" alt="Hoefler &amp; Frere-Jones" style="position:relative; top:5px"></a>
 					<a href="http://gridsetapp.com/"><img src="images/sponsors-gridset.svg" alt="Gridset" style="position:relative; top:-30px"></a>	
-					<a href="http://myfonts.com"><img src="images/sponsors-myfonts.png" alt="MyFonts Web" style="width:149px; height:71px; position:relative; top:-7px"></a>	
+					<a href="http://myfonts.com"><img src="images/sponsors-myfonts.svg" alt="MyFonts Web" style="position:relative; top:-1px"></a>	
 				</div>
 				<div class="media-partners">
 					<h2><span>Media Partners</span></h2>	
