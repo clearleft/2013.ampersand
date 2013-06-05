@@ -402,7 +402,7 @@ body:not(:target) #nav:target #back a {
 .social a#twitter { background:url('../images/icon-twitter.svg') 0px 0px no-repeat; width:49px; height:49px; }
 .social a#rss { background:url('../images/icon-rss.svg') 0px 0px no-repeat; width:49px; height:49px; }
 .social a#lanyrd { background:url('../images/icon-lanyrd.svg') 0px 0px no-repeat; width:49px; height:49px; }
-.social a#ical { background:url('../images/icon-iCal.svg') 0px 0px no-repeat; width:49px; height:49px; }		
+.social a#ical { background:url('../images/icon-ical.svg') 0px 0px no-repeat; width:49px; height:49px; }		
 
 .social-subtext { display: none;}	
 
