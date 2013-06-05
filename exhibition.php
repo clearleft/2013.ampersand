@@ -42,10 +42,14 @@
 		<div class="exhibition-content" >
 			<h1>Student Typeface Exhibition</h1>
     		<p>Ampersand 2013 is delighted to be announce the first international student type exhibition, showcasing the best of student type design from around the world. We&#8217;ll be presenting the diversity of emerging designers&#8217; work in both web and print specimens, along with a take-home catalogue recording the thriving landscape of design education today.</p>
-    		<?php /*
-    		<p><a href="http://www.monotype.com" alt="Monotype"><img src="images/monotype.png" alt="Monotype"></a></p>
-    		<p>We are very grateful to Monotype for helping make the student type exhibition possible.</p>
-    		*/ ?>
+		
+		<section class="sponsorship-pack">
+
+			<a href="Student_Exhibition.pdf">
+				<div class="button">Student Exhibition Press Release<br/><small>(1.3Mb PDF)</small></div>
+			</a>				
+		</section>
+		
 			<p>For all enquiries please contact Ben Mitchell at <a href="mailto:ampersand.conference@gmail.com">ampersand.conference@gmail.com</a></p>
 			</p>
     	</div>	<!-- END SPEAKER-BIO -->
