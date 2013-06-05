@@ -21,7 +21,8 @@
 					<h2><span>Media Partners</span></h2>	
 					<a href="http://www.fivesimplesteps.com/"><img src="images/sponsors-five-simple-steps.svg" alt="Five Simple Steps" style="background:#fff"></a>	
 					<a href="http://graffica.info/"><img src="images/sponsors-graffica.svg" alt="Graffica"></a>			
-					<a href="http://www.eyemagazine.com/"><img src="images/sponsors-eye.svg" alt="Eye Magazine"></a>			
+					<a href="http://www.eyemagazine.com/"><img src="images/sponsors-eye.svg" alt="Eye Magazine"></a>		
+					<a href="http://www.istd.org.uk/"><img src="images/sponsors-ISTD.png" alt="ISTD" style="width:80px"></a>			
 				</div>
 				<div class="grass-roots">
 					<h2><span>Grass Roots Sponsors</span></h2>
