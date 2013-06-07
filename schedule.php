@@ -168,7 +168,7 @@
                     <th class="time"><time class="dtstart" title="2013-06-28T19:30:00">19.30</time> &ndash; <time class="dtend" >Late</time></th>
                     <td>
                     	<h3 class="summary">After Party <em>hosted by Typekit</em></h3>
-                    	<p class="vcard"><a href="location" class="fn url">The Loft</a></p>
+                    	<p class="vcard"><a href="location" class="fn url">The Terraces</a></p>
                    	</td>
                 </tr>
             </table>

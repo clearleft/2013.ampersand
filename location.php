@@ -61,8 +61,8 @@
 			<div class="location-c">
 				<h2><em>Typekit</em> After Party</h2>
 				<address>
-					<span class="conf-location-name">The Loft</span><br />
-					10 Ship Street, Brighton, <a href="https://www.google.com/maps/preview#!q=The+Loft%2C+BN1+1AD" title="See on Google Maps">BN1 1AD</a>
+					<span class="conf-location-name">The Terraces</span><br />
+					Madeira Drive, Brighton, <a href="https://www.google.com/maps/preview#!q=The+Terraces%2C+BN2+1TB" title="See on Google Maps">BN2 1TB</a>
 				</address>
 			</div>
 		</div><!-- END #conf-location -->
