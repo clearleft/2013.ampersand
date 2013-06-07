@@ -179,7 +179,7 @@
     		<p>What does it mean to design a professional typeface? Nina will tell the short tale of the long journey towards completing her first typeface design; a musing on fun and frustration, on learning to draw and learning to see, on passion and perseverance – on being earnest, and making FF Ernestine.</p>
 
    		<h2>Nina Stössinger</h2>
-    		<p class="speaker-bio">Nina originally started out as a web designer, discovered her love of type at design school, and has since been working mostly in graphic design, typography, and book design. Nina often speaks and writes about screen typography, including teaching an introductory class at FH Dresden. Most frequently her nights and weekends are spent working on typeface designs, resulting in the release of her first commercial typeface in 2011.</p>
+    		<p class="speaker-bio">Nina originally started out as a web designer, discovered her love of type at design school, and has since been working mostly in graphic design, typography, and book design. Nina sometimes speaks and writes, and has taught an introductory class in screen typography at FH Dresden. Most frequently her nights and weekends are spent working on typeface designs, resulting in the release of her first commercial typeface in 2011.</p>
     	</div>	<!-- END SPEAKER-BIO -->
 
    	<div class="speaker-more">
@@ -218,7 +218,7 @@
  		<p>Ever spent countless hours crafting a totally awesome type system for your beautiful design, only to have it lost in translation when it goes to development? Let’s examine type and icon fonts through a developer lense and see how to work together to get everyone on the same page!</p>
 
 		<h2>Jenn Lukas</h2>
- 		<p class="speaker-bio">Jenn Lukas is a web developer working with Happy Cog in Philadelphia. She writes for The Nerdary and has a regular column in .net magazine. When she’s not crafting sites with the finest of web standards, Jenn teaches HTML and CSS for GirlDevelopIt.</p>
+ 		<p class="speaker-bio">Jenn Lukas is a web developer working with Happy Cog in Philadelphia. She writes for The Nerdary and has a regular column in .net magazine. When she’s not crafting sites with the finest of web standards, Jenn teaches HTML and CSS for GirlDevelopIt and runs <a href="http://ladiesintech.com">ladiesintech.com</a>.</p>
  	</div>	<!-- END SPEAKER-BIO -->
 
 	<div class="speaker-more">
