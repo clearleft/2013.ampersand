@@ -196,10 +196,10 @@
 
    	<div class="speaker-copy" >
     		<h1>Web Fonts as a Progressive Enhancement</h1>
-    		<p></p>
+    		<p>Progressive enhancement attempts to ensure that content is delivered to all web users regardless of technology. How do web fonts fit into this methodology? What and where are the possible pitfalls, and how might we work around them? Andy will look at some learnings from implementing web fonts on high performance and high availability sites including the Guardian.</p>
 
    		<h2>Andy Hume</h2>
-    		<p class="speaker-bio">Andy builds web sites and web applications. He currently works for the Guardian in London as client-side architect in the Digital Development team. Over the years Andy has written code and consulted for clients including the BBC, Channel 4, NBC, Fontdeck, Mozilla, and eBay. Back in the day, he regularly wrote for the now-defunct UsableType blog.</p>
+    		<p class="speaker-bio">Andy is a frontend engineer at Twitter. He has previously been frontend architect at the Guardian and a consultant at Clearleft working on projects for the BBC, Channel 4, NBC, Fontdeck, Mozilla and eBay.</p>
     	</div>	<!-- END SPEAKER-BIO -->
 
    	<div class="speaker-more">
@@ -214,8 +214,8 @@
  <section class="speakers-container" id="jenn-lukas">
 
 	<div class="speaker-copy" >
- 		<h1>On Icon Fonts and Working with Designers</h1>
- 		<p></p>
+ 		<h1>On Icon Fonts &amp; Working with Designers</h1>
+ 		<p>Ever spent countless hours crafting a totally awesome type system for your beautiful design, only to have it lost in translation when it goes to development? Let’s examine type and icon fonts through a developer lense and see how to work together to get everyone on the same page!</p>
 
 		<h2>Jenn Lukas</h2>
  		<p class="speaker-bio">Jenn Lukas is a web developer working with Happy Cog in Philadelphia. She writes for The Nerdary and has a regular column in .net magazine. When she’s not crafting sites with the finest of web standards, Jenn teaches HTML and CSS for GirlDevelopIt.</p>
