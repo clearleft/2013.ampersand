@@ -43,25 +43,26 @@
 		</header>	
 		<div id="conf-location">
 			<div class="location-a">
-				<h2>Pre-Party <em>hosted&nbsp;by&nbsp;MyFonts</em></h2>
+				<h2><em>MyFonts</em> Pre-Party</h2>
 				<address>
-					<span class="conf-location-name">Venue tba</span>
+					<span class="conf-location-name">Brighton Music Hall</span><br />
+					127 Kings Road Arches, Brighton, <a href="https://www.google.com/maps/preview#!q=Brighton+Music+Hall%2C+BN1+2FN" title="See on Google Maps">BN1 2FN</a>
 				</address>
 			</div>
 		
 			<div class="location-b">
-				<h2 >Conference</h2>
+				<h2>Conference</h2>
 				<address>
 					<span class="conf-location-name">Brighton Dome Corn Exchange</span> <br />
-					Church Street, Brighton, BN1 1UG, UK
+					Church Street, Brighton, <a href="https://www.google.com/maps/preview#!q=Brighton+Dome+Corn+Exchange%2C+BN1+1UG" title="See on Google Maps">BN1 1UG</a>
 				</address>
 			</div>
 		
 			<div class="location-c">
-				<h2 >After Party <em>hosted&nbsp;by&nbsp;Typekit</em></h2>
+				<h2><em>Typekit</em> After Party</h2>
 				<address>
 					<span class="conf-location-name">The Loft</span><br />
-					10 Ship Street, Brighton, BN1 1AD, UK
+					10 Ship Street, Brighton, <a href="https://www.google.com/maps/preview#!q=The+Loft%2C+BN1+1AD" title="See on Google Maps">BN1 1AD</a>
 				</address>
 			</div>
 		</div><!-- END #conf-location -->

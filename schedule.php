@@ -48,10 +48,10 @@
 			<table class="schedule-table" summary="Ampersand schedule for 28 June 2013">
                 
                 <tr class="vevent">
-                    <th class="time"><time class="dtstart" title="2013-06-27T19:30:00">Thurs 19.30</time> </th>
+                    <th class="time"><time class="dtstart" title="2013-06-27T20:00:00">Thurs 20.00</time> </th>
                     <td>
                     	<h3 class="summary">Pre-Party <em>hosted by MyFonts</em></h3>
-                    	<p class="vcard"><a href="/location" class="fn" >Venue tba</a></p>
+                    	<p class="vcard"><a href="/location" class="fn" >Brighton Music Hall</a></p>
                     </td>
                 </tr>
 				

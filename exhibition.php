@@ -46,7 +46,7 @@
 		<section class="sponsorship-pack">
 
 			<a href="Student_Exhibition.pdf">
-				<div class="button">Student Exhibition Press Release<br/><small>(1.3Mb PDF)</small></div>
+				<div class="button">Student Exhibition Media Pack<br/><small>(1.3Mb PDF)</small></div>
 			</a>				
 		</section>
 		
