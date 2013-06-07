@@ -8,11 +8,11 @@
 				<div class="premiere">
 					<h2><span>Premiere Sponsors</span></h2>
 					<a href="http://fontdeck.com"><img src="images/sponsors-fontdeck.svg" alt="Fontdeck"></a>
+					<a href="http://typekit.com"><img src="images/sponsors-typekit.svg" alt="Typekit" style="position:relative; top:-7px"></a>
 				
 				</div>
 				<div class="executive">
 					<h2><span>Executive Sponsors</span></h2>
-					<a href="http://typekit.com"><img src="images/sponsors-typekit.svg" alt="Typekit" style="position:relative; top:-7px"></a>
 					<a href="http://typography.com"><img src="images/sponsors-hoefler-frere-jones.svg" alt="Hoefler &amp; Frere-Jones" style="position:relative; top:5px"></a>
 					<a href="http://gridsetapp.com/"><img src="images/sponsors-gridset.svg" alt="Gridset" style="position:relative; top:-30px"></a>	
 					<a href="http://myfonts.com"><img src="images/sponsors-myfonts.svg" alt="MyFonts Web" style="position:relative; top:-1px"></a>	
