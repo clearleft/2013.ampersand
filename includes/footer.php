@@ -27,6 +27,7 @@
 				<div class="grass-roots">
 					<h2><span>Grass Roots Sponsors</span></h2>
 					<a href="http://type-together.com"><img src="images/sponsors-type-together.png" alt="TypeTogether"></a>
+					<a href="https://workfu.com/?Ampersand"><img src="images/sponsors-workfu.png" alt="WorkFu" style="width:150px; position:relative; top:-22px"></a>
 				</div>
 			</div>
 		</section>
