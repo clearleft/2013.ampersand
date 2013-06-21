@@ -13,7 +13,7 @@
 				</div>
 				<div class="executive">
 					<h2><span>Executive Sponsors</span></h2>
-					<a href="http://typography.com"><img src="images/sponsors-hoefler-frere-jones.svg" alt="Hoefler &amp; Frere-Jones" style="position:relative; top:5px"></a>
+					<a href="http://www.typography.com/index.php?affiliateID=312"><img src="images/sponsors-hoefler-frere-jones.svg" alt="Hoefler &amp; Frere-Jones" style="position:relative; top:5px"></a>
 					<a href="http://gridsetapp.com/"><img src="images/sponsors-gridset.svg" alt="Gridset" style="position:relative; top:-30px"></a>	
 					<a href="http://myfonts.com"><img src="images/sponsors-myfonts.svg" alt="MyFonts Web" style="position:relative; top:-1px"></a>	
 				</div>
