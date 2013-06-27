@@ -27,7 +27,7 @@ if($next>$numspecimens) {$next=1;}
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta http-equiv="refresh" content="15; url=index.php?specimen=<?php echo $next ?>">
+<meta http-equiv="refresh" content="10; url=index.php?specimen=<?php echo $next ?>">
 <title>Ampersand 2013 &middot; Exhibition</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
