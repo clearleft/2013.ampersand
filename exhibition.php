@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Ampersand 2013 &middot; Exhibition</title>
+<title>Ampersand 2013 &middot; Student Typeface Exhibition</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
@@ -26,39 +26,80 @@
 
 	</script>
 <link rel="stylesheet" href="css/styles.css">
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
 </head>
 
-<body id="wrapper" class="vevent home">
+<body id="wrapper" class="vevent exhibition-page">
 
 	<?php include("includes/header.php"); ?>
 
-
+<!-- sponsors-page -->
 <div class="main-content">
 	
 	<?php include("includes/nav.php"); ?>
-    <section id="exhibition">
-	   	<img src="images/exhibition.png" alt="Exhibition">
-		<div class="exhibition-content" >
-			<h1>Student Typeface Exhibition</h1>
-    		<p>Ampersand 2013 is delighted to be announce the first international student type exhibition, showcasing the best of student type design from around the world. We&#8217;ll be presenting the diversity of emerging designers&#8217; work in both web and print specimens, along with a take-home catalogue recording the thriving landscape of design education today.</p>
+	
+	<article class="section exhibition-page clearfix">
+		<h1>Student Typeface Exhibition</h1>
+		<p class="loud">Ampersand 2013 is delighted to announce the first international student typeface exhibition, showcasing the best of student type design from around the world.</p>
 		
 		<section class="sponsorship-pack">
+		
+		
+		<a href="Student_Exhibition_Book.pdf">
+			<div class="button">Student Exhibition Book<br/><small>(24.3Mb PDF)</small></div>
+		</a>
+		<br />
 
-			<a href="Student_Exhibition.pdf">
-				<div class="button">Student Exhibition Media Pack<br/><small>(1.3Mb PDF)</small></div>
-			</a>				
+<a href="Student_Exhibition.pdf">
+	<div class="button">Student Exhibition Media Pack<br/><small>(1.3Mb PDF)</small></div>
+</a>
+
 		</section>
 		
-			<p>For all enquiries please contact Ben Mitchell at <a href="mailto:ampersand.conference@gmail.com">ampersand.conference@gmail.com</a></p>
-			</p>
-    	</div>	<!-- END SPEAKER-BIO -->
-	</section><!-- ########  END exhibition ###### -->
-   
- 
-</div>
+		<p>The conference presented the diversity of emerging designers&#8217; work in both print and web specimens, along with a bound take-home catalogue recording the thriving landscape of type design education today.</p>
 		
+<ul class="posters">		
+<li><a class="fancybox" data-title-id="title-1" href="posters/big/001.jpg"><img src="posters/th/001.jpg" alt=""/></a>
+<div id="title-1" class="hidden">
+    This is 1st title. <a href="http://google.com">Some link</a>
+</div></li>
+<li><a class="fancybox" data-title-id="title-1" href="posters/big/002.jpg"><img src="posters/th/002.jpg" alt=""/></a>
+<div id="title-1" class="hidden">
+    This is 2nd title. <a href="http://google.com">Some link</a>
+</div></li>
+</ul>
+		
+	</article>
+		
+</div><!-- END MAIN CONTENT -->	
+	
 <?php include("includes/footer.php"); ?>
+	
+<script type="text/javascript">
+$(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        beforeLoad: function() {
+            var el, id = $(this.element).data('title-id');
 
+            if (id) {
+                el = $('#' + id);
+            
+                if (el.length) {
+                    this.title = el.html();
+                }
+            }
+        }
+    });
+</script>
 </body>
 </html>

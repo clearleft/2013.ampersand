@@ -725,7 +725,7 @@ h2 em, h3 em {
 /* #############  SPONSORS PAGE ####################################################################################################### */
 /* #################################################################################################################################### */
 
-.main-content .sponsors-page .loud { 
+.main-content .sponsors-page .loud, .main-content .exhibition-page .loud { 
 	font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight: 200;
 	letter-spacing:0em; 
@@ -735,7 +735,7 @@ h2 em, h3 em {
 	font-size:1.1em;
 	padding:12px 0;
 }
-.main-content .sponsors-page  p {  
+.main-content .sponsors-page  p, .main-content .exhibition-page  p {  
 	font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; 
 	font-weight: 200; 
 	text-align: left; 
@@ -743,8 +743,8 @@ h2 em, h3 em {
 	line-height: 1.5em; 
 	padding: 11px 0 0 0; 
 }
-.main-content .sponsors-page  p span {font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
-.main-content .sponsors-page .loud span{ font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
+.main-content .sponsors-page  p span, .main-content .exhibition-page  p span {font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; font-size:1.2em;}
+.main-content .sponsors-page .loud span, .main-content .exhibition-page .loud span { font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal; color: rgba(255,255,255, 1); }
 .sponsorship-pack { margin: 32px auto; font-family:"Karmina Sans Light", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: 200; max-width: 340px}	
 
 .sponsorship-pack .button small {font-family:"Karmina Sans Semi Bold", Corbel, "Lucida Grande", "Lucida Sans Unicode", sans-serif;  font-weight:600; font-style:normal;}	
@@ -760,9 +760,9 @@ h2 em, h3 em {
 	
 	@media only screen and (min-width : 720px) {
 		.sponsorship-pack{ margin: 32px 0}
-		.sponsors-page .sponsorship-pack{ position:absolute; top:128px; right: 7%; width:30% }
-		.main-content .sponsors-page .loud { width:57%; font-size: 1.4em; }
-		.main-content .sponsors-page  p { width:57%; }
+		.sponsors-page .sponsorship-pack { position:absolute; top:128px; right: 7%; width:30% }
+		.main-content .sponsors-page .loud, .main-content .exhibition-page .loud { width:57%; font-size: 1.4em; }
+		.main-content .sponsors-page  p, .main-content .exhibition-page  p { width:57%; }
 	}
 
 /* #################################################################################################################################### */ 
@@ -803,21 +803,11 @@ h2 em, h3 em {
 /* #############  Exhibition PAGE ####################################################################################################### */
 /* #################################################################################################################################### */
 
-#exhibition { text-align: center;}
-#exhibition img { max-width: 50%;}
-#exhibition p { margin-bottom: 18px;}
-	@media only screen and (min-width : 720px) {
-			#exhibition { text-align: left; overflow: hidden; }
-			#exhibition img{ float:left; max-width: 30%; margin-right: 7%;  }
-			#exhibition .sponsorship-pack {margin-left: 37%;}
-	}
-	@media only screen and (min-width : 990px) {
-			#exhibition { margin: 6% auto;width: 75%; }
-			.exhibition-content { margin:0 0 0 37%; float: none;}	
-			#exhibition .sponsorship-pack {margin-left: 0}
-
-	}
 	
+		
+@media only screen and (min-width : 720px) {
+	.exhibition-page .sponsorship-pack { position:absolute; top:84px; right: 7%; width:30% }
+}
 
 /* #################################################################################################################################### */ 
 /* #############  Privacy Accessibility and Terms ####################################################################################################### */
