@@ -764,11 +764,13 @@ echo "</li>\n";
 
 </article>
 		
+
 </div><!-- END MAIN CONTENT -->	
 	
 <?php include("includes/footer.php"); ?>
 	
 <script type="text/javascript">
+
 $(document).ready(function() {
 	if(window.innerWidth>548) {
 		$(".fancybox")
@@ -803,6 +805,7 @@ function moveTitle() {
 	$(".fancybox-skin").addClass("clearfix");
 	$(".fancybox-title-float-wrap, .fancybox-wrap").fadeIn();
 }
+
 </script>
 </body>
 </html>

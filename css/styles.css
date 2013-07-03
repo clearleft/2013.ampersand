@@ -867,6 +867,7 @@ h2 em, h3 em {
 	.posters li:nth-of-type(5n+1), 
 	.posters li:nth-of-type(6n+1) { clear: none; padding-left: 18px;}
 	.posters li:nth-of-type(7n+1) { clear: left; padding-left: 0;}
+
 }
 
 /* #################################################################################################################################### */ 

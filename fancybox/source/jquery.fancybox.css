@@ -23,6 +23,7 @@
 	left: 0;
 	z-index: 8020;
 	display: none;
+
 }
 
 .fancybox-skin {
@@ -44,6 +45,7 @@
 	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
+
 
 .fancybox-outer {
 	float: left;
@@ -207,6 +209,7 @@
 
 .fancybox-title {
 	visibility: hidden;
+
 	position: relative;
 	text-shadow: none;
 	z-index: 8030;
@@ -252,6 +255,7 @@ position:relative; left:15px;
 	-webkit-hyphens:auto;
 	hyphens:auto;
 	margin-top: 0.75em;
+
 }
 
 .fancybox-title-outside-wrap {
