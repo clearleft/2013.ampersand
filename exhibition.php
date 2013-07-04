@@ -263,15 +263,15 @@ $posters = array(
 		),
 
 				array(
-			name=>"Hrvoje Živčić",
-			school=>"Croatian • Royal Academy of Art (KABK), The Hague, Netherlands",
-			desc=>"Mote is a utilitarian sans-serif typeface mainly for reading sizes in print, influenced by neutral gothic and grotesk designs. It is designed to work as an independent type family but also as the companion to Blanco, a serif typeface by Dave Foster. The two are connected by their proportions, text-fit and shared tastes between both designers. Their optical size, range of weights and darkness are intended to match. The project was about finding a balance between harmonising two separate designs into a useful combination while maintaining their unique characteristics. They have different influences, contrast and tone of voice to set them apart."
-		),
-
-				array(
 			name=>"Hyunho Choi",
 			school=>"South Korean • Central St Martins, London, UK",
 			desc=>"Hi&amp;ho (AKA Hi’n’Ho) typeface was designed during the TSI (Typography Special Interest group) stencil workshop with Phil Baines, and was later digitized. The idea of the original stencil version was simply to combine an italic with a super condensed width. The name came from Phil’s (incorrect!) way of pronouncing my name — Hyunho. "
+		),
+
+				array(
+			name=>"Hrvoje Živčić",
+			school=>"Croatian • Royal Academy of Art (KABK), The Hague, Netherlands",
+			desc=>"Mote is a utilitarian sans-serif typeface mainly for reading sizes in print, influenced by neutral gothic and grotesk designs. It is designed to work as an independent type family but also as the companion to Blanco, a serif typeface by Dave Foster. The two are connected by their proportions, text-fit and shared tastes between both designers. Their optical size, range of weights and darkness are intended to match. The project was about finding a balance between harmonising two separate designs into a useful combination while maintaining their unique characteristics. They have different influences, contrast and tone of voice to set them apart."
 		),
 
 				array(
@@ -747,7 +747,9 @@ $posters = array(
 <?php
 $count = count($posters);
 for ($i = 0; $i < $count; $i++) {
-$id = $i+1;
+$id = $i;
+if ($id < 43) {$id = $id+1;}
+if ($i == 42) {$id = 111;}
 settype($id, "string");
 $id = str_pad($id, 3, "0", STR_PAD_LEFT);
 echo "<li><a class=\"fancybox\" data-title-id=\"title-".$i."\" href=\"posters/big/".$id.".jpg\"><img src='/images/d.gif' data-original=\"posters/th/".$id.".jpg\" alt=\"\"/></a>\n";
