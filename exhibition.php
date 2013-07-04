@@ -740,7 +740,7 @@ $posters = array(
 
 		</section>
 
-		<p>The conference presented the diversity of emerging designers&#8217; work in both print and <a href="/web-specimens/index.php">web specimens</a>, along with a bound take-home catalogue recording the thriving landscape of type design education today.</p>
+		<p>The conference presented the diversity of emerging designers&#8217; work in both print and <a href="/specimens/index.php">web specimens</a>, along with a bound take-home catalogue recording the thriving landscape of type design education today.</p>
 
 <ul class="posters">
 
