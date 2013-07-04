@@ -79,7 +79,7 @@ $posters = array(
 				array(
 			name=>"Ángel Araujo Vicente",
 			school=>"Spanish • Guadalajara Art School, Spain",
-			desc=>"At age 23, �ngel Vicente Araujo is a digital artist from Spain. A recent graduate of the Academy of Art school in Guadalajara (Spain), Ángel is also a visual designer, branding and digital artist. Ángel loves new technology and is always curious and attentive to new trends. This allows him to develop projects consistent with the new media, not to mention the classic and traditional. Ángel brings a lot of energy and positivity."
+			desc=>"At age 23, Ángel Vicente Araujo is a digital artist from Spain. A recent graduate of the Academy of Art school in Guadalajara (Spain), Ángel is also a visual designer, branding and digital artist. Ángel loves new technology and is always curious and attentive to new trends. This allows him to develop projects consistent with the new media, not to mention the classic and traditional. Ángel brings a lot of energy and positivity."
 		),
 
 				array(
