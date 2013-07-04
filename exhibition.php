@@ -699,10 +699,9 @@ $posters = array(
         })();
 
 	</script>
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css?0407">
 <!-- Add jQuery library -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script type="text/javascript" src="/js/libs/jquery-1.7.1.js"></script>
 <script type="text/javascript" src="/js/jquery.lazyload.js"></script>
 
 <!-- Add fancyBox -->
