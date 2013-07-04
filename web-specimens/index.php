@@ -27,7 +27,6 @@ if($next>$numspecimens) {$next=1;}
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta http-equiv="refresh" content="30; url=index.php?specimen=<?php echo $next ?>">
 <title>Ampersand 2013 &middot; Exhibition</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -62,7 +61,7 @@ body {margin:0; padding:0}
     border-bottom:5px solid rgba(0,0,0,0.5);
     position:fixed;
     width:100%;
-    padding:0.125em 0 0.5em 0;
+    padding:0.75em 0 0.5em 0;
     opacity:0.9;
 }
 
@@ -82,9 +81,22 @@ body {
     top:0.25em;
 }
 
+#ampconf {
+	font-size: 14px;
+	text-align: center;
+}
+
+#amp #ampconf a {
+	padding: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	letter-spacing: 0;
+}
+
 #amp a {
     position:absolute;
-    top:0em;
+    top:1em;
     color:#fff;
     z-index:10;
     padding:0.25em 0.5em 0 0.5em;
@@ -110,6 +122,7 @@ body {
 <body id="amp">
 
 <div id="specimenheader">
+<div id="ampconf"><a href="/exhibition.php">Ampersand Conference</a></div>
 <a href="?specimen=<?php echo $prev ?>" rel="prev">&larr;</a>
 <div id="specimendesigner"><?php echo $specimens[$specimen] ?></div>
 <a href="?specimen=<?php echo $next ?>" rel="next">&rarr;</a>

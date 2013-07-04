@@ -819,6 +819,13 @@ h2 em, h3 em {
 	padding: 1.5em 0 0 18px;
 }
 
+.posters img {
+	width: 204px;
+	height: 288px;
+	max-width: 100%;
+	background: #fff url(/images/spinner.gif) no-repeat center center;
+}
+
 .posters h5 {
 	font-size: 1em;
 	line-height: 1.125;
