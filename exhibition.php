@@ -371,15 +371,15 @@ $posters = array(
 		),
 
 				array(
-			name=>"Kamil Kamysz ",
-			school=>"Polish • Academy of Fine Arts, Katowice, Poland ",
-			desc=>"Hoptype is a screen font, designed for iPad applications for children. Design factors were: low screen resolution, change of orientation of text by rotating the device and high legibility on a coloured background. <br />The design was based on Sue Walker’s research (2005) at Reading University. Inspired by onomatopoeias in comic books, I used an OpenType algorithm that makes the letters hop, which further enhances the reading experience through play by linking sound and text.<br />Result: a typeface with ascenders higher than descenders. This makes the application designer use a higher leading value. Hoptype has wide serifs, supporting the reading process. The slant of the special glyphs adds a dynamic element to the text."
-		),
-
-				array(
 			name=>"Karen Parry",
 			school=>"Australian • The Cooper Union, New York, USA",
 			desc=>"Industrial strength, bold &amp; powerful. Excellent fit at larger sizes. Saison Display (named after a French style of beer making) is a revival of a Miller &amp; Ri chard typeface called Sans Serif № 7. It has been extensively revised for contemporary use. The larger-than-normal selection of ligatures gives added versatility.<br />Saison is specially suited for book covers, posters, magazines, initial caps, CD covers — everything display!<br />In future the family will include a range of text weights, perfect companions for Saison Display."
+		),
+
+				array(
+			name=>"Kamil Kamysz ",
+			school=>"Polish • Academy of Fine Arts, Katowice, Poland ",
+			desc=>"Hoptype is a screen font, designed for iPad applications for children. Design factors were: low screen resolution, change of orientation of text by rotating the device and high legibility on a coloured background. <br />The design was based on Sue Walker’s research (2005) at Reading University. Inspired by onomatopoeias in comic books, I used an OpenType algorithm that makes the letters hop, which further enhances the reading experience through play by linking sound and text.<br />Result: a typeface with ascenders higher than descenders. This makes the application designer use a higher leading value. Hoptype has wide serifs, supporting the reading process. The slant of the special glyphs adds a dynamic element to the text."
 		),
 
 				array(
