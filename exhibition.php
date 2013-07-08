@@ -449,15 +449,15 @@ $posters = array(
 		),
 
 				array(
-			name=>"Maria Soledad Degl’innocenti ",
-			school=>"Argentinian • EINA, Barcelona, Spain ",
-			desc=>"Archigram is a dynamic and rational text face embracing Latin, Greek and Cyrillic, created in 2013 by the Argentinian graphic designer Soledad Degl’innocenti.<br />It reflects the geometrical aspects of construction as it was designed for architecture manuals (nevertheless, its considerable legibility makes it also suitable to be used in many other ways).<br />It is distinguished by rhythmic foot serifs, thick strokes, straight terminals, a vertical axis, large eyes, low contrast and a tiny aperture.<br />It proves that a face does not need to be sans serif to be contemporary."
-		),
-
-				array(
 			name=>"Mariangela Di Pinto ",
 			school=>"Italian • isia Urbino, Italy",
 			desc=>"The purpose of benevento font is to be a tribute to the Beneventan Script, one of the finest calligraphies from the Middle Ages, born under the Longobard Dukedom of Benevento, which is my hometown. The choice was to combine extremely simple forms with a quite complex system of ligatures. The result is a very easy-reading character, which can be usefully employed as a book-face and also for creative applications.<br />Ligatures and Stylistic Alternates give at every turn a different appearance to the body of text and consent to obtain a logotype from almost each word."
+		),
+
+				array(
+			name=>"Maria Soledad Degl’innocenti ",
+			school=>"Argentinian • EINA, Barcelona, Spain ",
+			desc=>"Archigram is a dynamic and rational text face embracing Latin, Greek and Cyrillic, created in 2013 by the Argentinian graphic designer Soledad Degl’innocenti.<br />It reflects the geometrical aspects of construction as it was designed for architecture manuals (nevertheless, its considerable legibility makes it also suitable to be used in many other ways).<br />It is distinguished by rhythmic foot serifs, thick strokes, straight terminals, a vertical axis, large eyes, low contrast and a tiny aperture.<br />It proves that a face does not need to be sans serif to be contemporary."
 		),
 
 				array(
