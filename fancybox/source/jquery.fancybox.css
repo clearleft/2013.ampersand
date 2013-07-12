@@ -258,6 +258,11 @@ position:relative; left:15px;
 
 }
 
+.fancybox-title br {
+	display: block;
+	margin-top: 0.625em;
+}
+
 .fancybox-title-outside-wrap {
 	position: relative;
 	margin-top: 10px;

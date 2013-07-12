@@ -573,13 +573,6 @@ $posters = array(
 			school=>"Polish • Graduate School of Humanities and Journalism, Poznań, Poland ",
 			desc=>"METRUM is the Polish word for a musical time signature. While it is an elementary and inalienable component of each melody, it is characterized by a wide variety of types. <br />The project refers to transitional and early Didone styles, with modern proportions, refined smoother contrast and a bit more calligraphic feel."
 		),
-
-				array(
-			name=>"Ruben Garcia Ali",
-			school=>"Spanish • Escuela Superior de Diseño de Madrid, Spain",
-			desc=>"Driven by the frustration of creating graphs within design applications, FF Plink is a fantastic non-traditional, non-alphabetic font family for creating infographics. So glyphs are numbers (0 – 9), comma and plus signs, ‘a’ and ‘b’ characters, and a complete modular system. OpenType code automatically transforms simple strings of numbers in different kinds of graphical charts when discretionary ligatures, stylistic alternates or fractions are activated. <br />Select one font; Plink Radius, Plink Bars, Plink Cheese, Plink Horizontal Bars, Plink Orbit or Plink Core. Using the values 0 – 100 %, type numbers using “+” to combine them into one chart. You can adjust colors if you like. Finally, turn on an OpenType feature and... you got it! "
-		),
-
 				array(
 			name=>"Sabina Chipară",
 			school=>"Romanian • EINA, Barcelona, Spain",
@@ -657,7 +650,7 @@ $posters = array(
 				array(
 			name=>"William Montrose",
 			school=>"German / us • University of Reading, UK<br /> ",
-			desc=>"Onim™is a punch-cutting fantasy turned into Bézier curves. A tribute to craftsmanship sans nostalgia. Chunky elegant curves deriving from a broad scuffed nib, worked into metal with gravers and files. Angular calligraphic strokes cast into typographic solutions for modern day book setting. "
+			desc=>"Onim™ is a punch-cutting fantasy turned into Bézier curves. A tribute to craftsmanship sans nostalgia. Chunky elegant curves deriving from a broad scuffed nib, worked into metal with gravers and files. Angular calligraphic strokes cast into typographic solutions for modern day book setting. "
 		),
 
 				array(
@@ -750,6 +743,7 @@ for ($i = 0; $i < $count; $i++) {
 $id = $i;
 if ($id < 43) {$id = $id+1;}
 if ($i == 42) {$id = 111;}
+if ($id > 94) {$id = $id+1;}
 settype($id, "string");
 $id = str_pad($id, 3, "0", STR_PAD_LEFT);
 echo "<li><a class=\"fancybox\" data-title-id=\"title-".$i."\" href=\"posters/big/".$id.".jpg\"><img src='/images/d.gif' data-original=\"posters/th/".$id.".jpg\" alt=\"\"/></a>\n";
