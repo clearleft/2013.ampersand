@@ -77,12 +77,6 @@ $posters = array(
 		),
 
 				array(
-			name=>"Ángel Araujo Vicente",
-			school=>"Spanish • Guadalajara Art School, Spain",
-			desc=>"At age 23, Ángel Vicente Araujo is a digital artist from Spain. A recent graduate of the Academy of Art school in Guadalajara (Spain), Ángel is also a visual designer, branding and digital artist. Ángel loves new technology and is always curious and attentive to new trends. This allows him to develop projects consistent with the new media, not to mention the classic and traditional. Ángel brings a lot of energy and positivity."
-		),
-
-				array(
 			name=>"Anna Czuz",
 			school=>"Polish • University of Arts, Poznań, Poland",
 			desc=>"Tramal is a blackletter, display typeface with high contrast and a tight letter spacing designed to be used in headlines and short texts. It is a modern interpretation of a late medieval manuscript lettering combined with graphics used in traditional printmaking (mainly woodcut and linocut). The use of the broad nib as well as the quill were a foundation of the letterforms’ design. Tramal typeface also includes graphic solutions from the other kinds of broken script, mainly fraktur and kurrentschrift."
@@ -741,9 +735,10 @@ $posters = array(
 $count = count($posters);
 for ($i = 0; $i < $count; $i++) {
 $id = $i;
-if ($id < 43) {$id = $id+1;}
-if ($i == 42) {$id = 111;}
+if ($id < 41) {$id = $id+1;}
+if ($id > 12) {$id = $id+1;}
 if ($id > 94) {$id = $id+1;}
+if ($i == 41) {$id = 111;}
 settype($id, "string");
 $id = str_pad($id, 3, "0", STR_PAD_LEFT);
 echo "<li><a class=\"fancybox\" data-title-id=\"title-".$i."\" href=\"posters/big/".$id.".jpg\"><img src='/images/d.gif' data-original=\"posters/th/".$id.".jpg\" alt=\"\"/></a>\n";
