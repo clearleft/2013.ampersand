@@ -197,6 +197,8 @@
    	<div class="speaker-copy" >
     		<h1>Web Fonts as a Progressive Enhancement</h1>
     		<p>Progressive enhancement attempts to ensure that content is delivered to all web users regardless of technology. How do web fonts fit into this methodology? What and where are the possible pitfalls, and how might we work around them? Andy will look at some learnings from implementing web fonts on high performance and high availability sites including the Guardian.</p>
+    		
+    		<p><a href="http://ampersand.s3.amazonaws.com/2013/ampersand2013-hume.mp3">Audio (20.8Mb)</a></p>
 
    		<h2>Andy Hume</h2>
     		<p class="speaker-bio">Andy is a frontend engineer at Twitter. He has previously been frontend architect at the Guardian and a consultant at Clearleft working on projects for the BBC, Channel 4, NBC, Fontdeck, Mozilla and eBay.</p>
