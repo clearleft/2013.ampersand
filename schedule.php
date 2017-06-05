@@ -1,52 +1,23 @@
-<!DOCTYPE html>
-<?php $thisPage="schedulepage"; ?>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<title>Ampersand 2013 &middot; Schedule</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<?php $thisPage     = 'schedulepage'; ?>
+<?php $pageTitle    = 'Schedule'; ?>
 
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-	<script type="text/javascript">
-		var html = document.getElementsByTagName('html')[0];
-        html.className = 'js wf-loading';
-        setTimeout(function() {
-            html.className = html.className.replace(' wf-loading', '');
-        }, 3000)
-        WebFontConfig = { fontdeck: { id: 29643 } };
-        (function() {
-            var wf = document.createElement('script');
-            wf.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-            wf.async = 'true';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(wf, s);
-        })();
-
-	</script>
-<link rel="stylesheet" href="css/styles.css">
-
-
-
-</head>
+<?php include("includes/pageHeader.php"); ?>
 
 <body id="wrapper" class="vevent home">
 
-	<?php include("includes/header.php"); ?>
+    <?php include("includes/header.php"); ?>
 
-	
-<!-- SCHEDULE -->
+    <!-- SCHEDULE -->
 
 <div class="main-content">
-	
+
 	<?php include("includes/nav.php"); ?>
 	<article class="section schedule">
-		<h1>Schedule</h1>	
+		<h1>Schedule</h1>
 		<p>Ampersand 2013 will be a fabulous day of nitty gritty details in all aspects of web typography, presented by experts in typeface design, layout, typesetting, performance &amp; optimisation and front-end development.</p>
-			
+
 			<table class="schedule-table" summary="Ampersand schedule for 28 June 2013">
-                
+
                 <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2013-06-27T20:00:00">Thurs 20.00</time> </th>
                     <td>
@@ -54,7 +25,7 @@
                     	<p class="vcard"><a href="/location.php" class="fn" >Brighton Music Hall</a></p>
                     </td>
                 </tr>
-				
+
 				<tr class="vevent break">
                     <th class="time"><time class="dtstart" title="2013-06-28T09:00:00">Friday 09.00</time></th>
                     <td>
@@ -68,7 +39,7 @@
                    		<h3 class="summary">Opening Remarks</h3>
                    	</td>
                 </tr>
-				
+
                 <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2013-06-28T10:00:00">10.00</time> &ndash; <time class="dtend" title="2013-06-28T10:45:00">10.45</time></th>
                     <td>
@@ -76,14 +47,14 @@
                     	<p class="vcard"><a href="/speakers.php#erik-spiekermann" class="fn" >Erik Spiekermann</a></p>
                     </td>
                 </tr>
-				
+
                 <tr class="vevent break">
                     <th class="time"><time class="dtstart" title="2013-06-28T10:45:00">10.45</time> &ndash; <time class="dtend" title="2013-06-28T11:15:00">11.15</time></th>
                     <td>
                			<h3 class="summary">Break <em>sponsored by Hoefler &amp; Frere-Jones</em></h3>
                    	</td>
                 </tr>
-				
+
                <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2013-06-28T11:15:00">11.15</time> &ndash; <time class="dtend" title="2013-06-28T12:00:00">12.00</time></th>
                     <td>
@@ -143,7 +114,7 @@
                			<h3 class="summary">Break <em>sponsored by Hoefler &amp; Frere-Jones</em></h3>
                    	</td>
                 </tr>
-                
+
                 <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2013-06-28T16:15:00">16.15</time> &ndash; <time class="dtend" title="2013-06-28T17:00:00">17.00</time></th>
                     <td>
@@ -172,14 +143,14 @@
                    	</td>
                 </tr>
             </table>
-			
+
             <p class="schedule-change">Schedule is subject to change.</p>
-		
+
 	</article>
-	
+
 </div><!-- END MAIN CONTENT -->
-	
-		
+
+
 	<?php include("includes/footer.php"); ?>
 
 </body>

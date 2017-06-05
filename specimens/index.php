@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $specimens = array(
     1 => "José María Román Gálvez",
@@ -11,42 +11,24 @@ $specimens = array(
     8 => "Rebekka Marleaux"
 );
 
-$numspecimens = count($specimens);
-$specimen = (isset($_REQUEST["specimen"]))?$_REQUEST["specimen"]:1; 
+$numspecimens   = count($specimens);
+$specimen       = (isset($_REQUEST["specimen"]))?$_REQUEST["specimen"]:1;
 
 $next = $specimen + 1;
 $prev = $specimen - 1;
 
-
 if($prev<1) {$prev=$numspecimens;}
 if($next>$numspecimens) {$next=1;}
 ?>
-
 <!DOCTYPE html>
 <?php $thisPage="exhibitionpage"; ?>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>Ampersand 2013 &middot; Exhibition</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-<script type="text/javascript">
-		var html = document.getElementsByTagName('html')[0];
-        html.className = 'js wf-loading';
-        setTimeout(function() {
-            html.className = html.className.replace(' wf-loading', '');
-        }, 3000)
-        WebFontConfig = { fontdeck: { id: 29643 } };
-        (function() {
-            var wf = document.createElement('script');
-            wf.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-            wf.async = 'true';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(wf, s);
-        })();
-
-	</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ampersand 2013 &middot; Exhibition</title>
 <style>
+
 body {margin:0; padding:0}
 #amp #specimenheader {
 	background: #1a6259; /* Old browsers */
@@ -118,25 +100,18 @@ body {
 </style>
 
 </head>
-
 <body id="amp">
 
-<div id="specimenheader">
-<div id="ampconf"><a href="/exhibition.php">Ampersand Conference</a></div>
-<a href="?specimen=<?php echo $prev ?>" rel="prev">&larr;</a>
-<div id="specimendesigner"><?php echo $specimens[$specimen] ?></div>
-<a href="?specimen=<?php echo $next ?>" rel="next">&rarr;</a>
-</div>
+    <div id="specimenheader">
+        <div id="ampconf"><a href="/exhibition.php">Ampersand Conference</a></div>
+        <a href="?specimen=<?php echo $prev ?>" rel="prev">&larr;</a>
+        <div id="specimendesigner"><?php echo $specimens[$specimen] ?></div>
+        <a href="?specimen=<?php echo $next ?>" rel="next">&rarr;</a>
+    </div>
 
-<div id="sample">
+    <div id="sample">
+        <?php include("$specimen/index.html"); ?>
+    </div>
 
-<?php
-
-include("$specimen/index.html");
-
-?>
-   
-</div>
-		
 </body>
 </html>
